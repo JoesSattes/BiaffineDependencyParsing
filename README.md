@@ -1,5 +1,5 @@
 # Biaffine dependency parser
-A PyTorch implementation of the neural dependency parser described in [Deep Biaffine Attention for Neural Dependency Parsing](https://arxiv.org/abs/1611.01734).
+A PyTorch reimplementation of the neural dependency parser described in [Deep Biaffine Attention for Neural Dependency Parsing](https://arxiv.org/abs/1611.01734).
 
 ## Data
 You can train on the Penn Treebank, converted to [Stanford Dependencies](https://nlp.stanford.edu/software/stanford-dependencies.shtml). We assume you have the PTB in standard train/dev/test splits in conll-format, stored somewhere in one directory, and that they are named `train.conll`, `dev.conll`, `test.conll`.
