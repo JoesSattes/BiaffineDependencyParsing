@@ -1,0 +1,14 @@
+### Sattaya Singkul
+
+#Preprocess
+python preprocess.py --data data/ud/UD_Thai-PUD --out vocab/ud/UD_thai-PUD
+python preprocess.py --data data/ud/PR_Thai --out vocab/ud/PR_Thai
+
+#Train
+python main.py train --data data/ud/UD_Thai-PUD --vocab vocab/ud/UD_thai-PUD/train --epochs 1
+python main.py train --data data/ud/UD_Thai-PUD --epochs 13 --print-every 25
+python main.py train --data data/ud/PR_Thai --vocab vocab/ud/PR_Thai/train --epochs 13 --print-every 25 --checkpoints checkpoints/prmodel.pt
+
+#Predict
+python main.py predict --data data/ud/UD_Thai-PUD
+python main.py predict --data data/ud/UD_Thai-PUD --vocab vocab/ud/UD_thai/train --checkpoints checkpoints/thmodel.pt
