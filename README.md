@@ -1,5 +1,5 @@
 # Biaffine dependency parser
-A PyTorch reimplementation of the neural dependency parser described as follow below:
+A PyTorch reimplementation from [daandouwe](https://github.com/daandouwe/biaffine-dependency-parser) of the neural dependency parser described as follow below:
 1. [Deep Biaffine Attention for Neural Dependency Parsing](https://arxiv.org/abs/1611.01734)
 2. [Parsing Thai Social Data: A New Challenge for Thai NLP](https://ieeexplore.ieee.org/abstract/document/9045639)
 
