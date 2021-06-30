@@ -1,0 +1,10 @@
+_ 117
+advmod 4
+nsubj 2
+acl 2
+xcomp 2
+aux 1
+root 1
+obj 1
+cc 1
+conj 1
