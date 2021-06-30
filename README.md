@@ -1,5 +1,7 @@
 # Biaffine dependency parser
-A PyTorch reimplementation of the neural dependency parser described in [Deep Biaffine Attention for Neural Dependency Parsing](https://arxiv.org/abs/1611.01734).
+A PyTorch reimplementation of the neural dependency parser described as follow below:
+1. [Deep Biaffine Attention for Neural Dependency Parsing](https://arxiv.org/abs/1611.01734)
+2. [Parsing Thai Social Data: A New Challenge for Thai NLP](https://ieeexplore.ieee.org/abstract/document/9045639)
 
 ## Data
 You can train on the Penn Treebank, converted to [Stanford Dependencies](https://nlp.stanford.edu/software/stanford-dependencies.shtml). We assume you have the PTB in standard train/dev/test splits in conll-format, stored somewhere in one directory, and that they are named `train.conll`, `dev.conll`, `test.conll`.
@@ -118,7 +120,7 @@ torch>=0.3.0
 numpy
 ```
 
-## TODO
+## List of Implementation
 - [x] Add MST algorithm for decoding.
 - [x] Write predicted parses to conll file.
 - [x] A couple of full runs of the model for results.
@@ -129,7 +131,3 @@ numpy
 - [x] Character level word embeddings: RNN
 - [x] Different encoder: [Transformer](http://nlp.seas.harvard.edu/2018/04/03/attention.html).
 - [x] Different encoder: CNN (again see [spaCy's parser](https://spacy.io/api/)).
-- [ ] Label loss converges very fast, which maybe hurts the arc accuracy?
-- [ ] Perform some ablation experiments.
-- [ ] Disable input POS-tags at prediction time but train with them using mutli-task learning. See [spaCy's parser](https://spacy.io/api/) and these papers that it is based on: [Stack-propagation: Improved Representation Learning for Syntax](https://arxiv.org/pdf/1603.06598.pdf) and [Deep multi-task learning with low level tasks supervised at lower layers](http://anthology.aclweb.org/P16-2038).
-- [ ] Load pretrained GloVe embeddings.
