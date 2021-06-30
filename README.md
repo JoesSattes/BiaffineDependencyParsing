@@ -2,6 +2,7 @@
 A PyTorch reimplementation from [daandouwe](https://github.com/daandouwe/biaffine-dependency-parser) of the neural dependency parser described as follow below:
 1. [Deep Biaffine Attention for Neural Dependency Parsing](https://arxiv.org/abs/1611.01734)
 2. [Parsing Thai Social Data: A New Challenge for Thai NLP](https://ieeexplore.ieee.org/abstract/document/9045639)
+3. [KITTHAI: Thai Elementary Discourse Unit Segmentation](https://aiforthai.in.th/)
 
 ## Data
 You can train on the Penn Treebank, converted to [Stanford Dependencies](https://nlp.stanford.edu/software/stanford-dependencies.shtml). We assume you have the PTB in standard train/dev/test splits in conll-format, stored somewhere in one directory, and that they are named `train.conll`, `dev.conll`, `test.conll`.
@@ -131,3 +132,25 @@ numpy
 - [x] Character level word embeddings: RNN
 - [x] Different encoder: [Transformer](http://nlp.seas.harvard.edu/2018/04/03/attention.html).
 - [x] Different encoder: CNN (again see [spaCy's parser](https://spacy.io/api/)).
+
+## Citation
+```
+@misc{dozat2017deep,
+      title={Deep Biaffine Attention for Neural Dependency Parsing}, 
+      author={Timothy Dozat and Christopher D. Manning},
+      year={2017},
+      eprint={1611.01734},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+
+@INPROCEEDINGS{9045639,
+  author={Singkul, Sattaya and Khampingyot, Borirat and Maharattamalai, Nattasit and Taerungruang, Supawat and Chalothorn, Tawunrat},
+  booktitle={2019 14th International Joint Symposium on Artificial Intelligence and Natural Language Processing (iSAI-NLP)}, 
+  title={Parsing Thai Social Data: A New Challenge for Thai NLP}, 
+  year={2019},
+  volume={},
+  number={},
+  pages={1-7},
+  doi={10.1109/iSAI-NLP48611.2019.9045639}}
+```
