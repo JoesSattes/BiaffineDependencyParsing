@@ -1,0 +1,5 @@
+dataset,nwords,ntokens
+train,3530,17863
+dev,847,2027
+test,106,132
+unseen,241,255
