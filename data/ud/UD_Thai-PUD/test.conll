@@ -1,0 +1,238 @@
+# sent_id = w02011012
+# text = เพลงสดุดีได้รับการตอบรับอย่างดีและผู้ฟังก็ขอให้แสดงซ้ำอีก
+# text_en = The hymn was well received and the audience demanded an encore.
+1	เพลง	_	NOUN	NN	_	4	nsubj	_	SpaceAfter=No
+2	สดุดี	_	VERB	VV	_	1	acl	_	SpaceAfter=No
+3	ได้	_	PART	AS	Aspect=Perf	4	aux	_	SpaceAfter=No
+4	รับ	_	VERB	VV	_	0	root	_	SpaceAfter=No
+5	การตอบรับ	_	VERB	VV	_	4	obj	_	SpaceAfter=No
+6	อย่างดี	_	ADJ	JJ	_	5	advmod	_	SpaceAfter=No
+7	และ	_	CCONJ	CC	_	11	cc	_	SpaceAfter=No
+8	ผู้	_	NOUN	NN	_	11	nsubj	_	SpaceAfter=No
+9	ฟัง	_	VERB	VV	_	8	acl	_	SpaceAfter=No
+10	ก็	_	ADV	RB	_	11	advmod	_	SpaceAfter=No
+11	ขอ	_	VERB	VV	_	4	conj	_	SpaceAfter=No
+12	ให้	_	VERB	VV	_	11	xcomp	_	SpaceAfter=No
+13	แสดง	_	VERB	VV	_	12	xcomp	_	SpaceAfter=No
+14	ซ้ำ	_	ADV	RB	_	13	advmod	_	SpaceAfter=No
+15	อีก	_	ADV	RB	_	13	advmod	_	_
+
+# sent_id = 140682298019152
+# text = ใช้ผ่านe-bankingตลอด
+1	ใช้	_	VERB	_	_	0	_	_	_
+2	ผ่าน	_	ADP	_	_	3	_	_	_
+3	e-banking	_	NOUN	_	_	1	_	_	_
+4	ตลอด	_	ADV	_	_	1	_	_	_
+
+# sent_id = 140682297092000
+# text = ต้องรออีกนานมัยคะ
+1	ต้อง	_	AUX	_	_	2	_	_	_
+2	รอ	_	VERB	_	_	0	_	_	_
+3	อีก	_	ADV	_	_	2	_	_	_
+4	นาน	_	ADV	_	_	2	_	_	_
+5	มัย	_	PART	_	_	2	_	_	_
+6	คะ	_	PART	_	_	2	_	_	_
+
+# sent_id = 140682304908288
+# text = แผนงานแห่งอนาคต...
+1	แผนงาน	_	NOUN	_	_	0	_	_	_
+2	แห่ง	_	ADP	_	_	3	_	_	_
+3	อนาคต	_	NOUN	_	_	1	_	_	_
+
+# sent_id = 140682285576016
+# text = มันอาย
+1	มัน	_	PRON	_	_	2	_	_	_
+2	อาย	_	VERB	_	_	0	_	_	_
+
+# sent_id = 140682291860024
+# text = ไม่มีเลยครับ
+1	ไม่	_	PART	_	_	2	_	_	_
+2	มี	_	VERB	_	_	0	_	_	_
+3	เลย	_	ADV	_	_	2	_	_	_
+4	ครับ	_	PART	_	_	2	_	_	_
+
+# sent_id = 140682288147504
+# text = ระบบล่มหรอ
+1	ระบบ	_	NOUN	_	_	2	_	_	_
+2	ล่ม	_	VERB	_	_	0	_	_	_
+3	หรอ	_	PART	_	_	2	_	_	_
+
+# sent_id = 140682303059216
+# text = ข่าวเมื่อวาน
+1	ข่าว	_	NOUN	_	_	0	_	_	_
+2	เมื่อวาน	_	NOUN	_	_	1	_	_	_
+
+# sent_id = 140682311710904
+# text = ขอโทษด้วยค่ะ
+1	ขอโทษ	_	VERB	_	_	0	_	_	_
+2	ด้วย	_	ADV	_	_	1	_	_	_
+3	ค่ะ	_	PART	_	_	1	_	_	_
+
+# sent_id = 140682289340208
+# text = ผ่านง่ายมาก
+1	ผ่าน	_	VERB	_	_	0	_	_	_
+2	ง่าย	_	ADV	_	_	1	_	_	_
+3	มาก	_	ADV	_	_	1	_	_	_
+
+# sent_id = 140682312135056
+# text = นะคะ
+1	นะ	_	PART	_	_	0	_	_	_
+2	คะ	_	PART	_	_	1	_	_	_
+
+# sent_id = 140682298173792
+# text = เกี่ยวกันใช่มั้ยค่ะ
+1	เกี่ยว	_	VERB	_	_	3	_	_	_
+2	กัน	_	PRON	_	_	1	_	_	_
+3	ใช่	_	VERB	_	_	0	_	_	_
+4	มั้ย	_	PART	_	_	3	_	_	_
+5	ค่ะ	_	PART	_	_	3	_	_	_
+
+# sent_id = 140682312937640
+# text = ต้องรับรหัสอย่างไรค่ะ
+1	ต้อง	_	AUX	_	_	2	_	_	_
+2	รับ	_	VERB	_	_	0	_	_	_
+3	รหัส	_	NOUN	_	_	2	_	_	_
+4	อย่างไร	_	ADV	_	_	2	_	_	_
+5	ค่ะ	_	PART	_	_	2	_	_	_
+
+# sent_id = 140682288742656
+# text = คุณหนกขราาาา
+1	คุณ	_	NOUN	_	_	0	_	_	_
+2	หนกขราาาา	_	PROPN	_	_	1	_	_	_
+
+# sent_id = 140682309188944
+# text = แล้วต่อใหม่
+1	แล้ว	_	CCONJ	_	_	2	_	_	_
+2	ต่อ	_	VERB	_	_	0	_	_	_
+3	ใหม่	_	ADV	_	_	2	_	_	_
+
+# sent_id = 140682287955168
+# text = ที่เพื่อนๆใช้งาน
+1	ที่	_	ADP	_	_	2	_	_	_
+2	เพื่อน	_	NOUN	_	_	0	_	_	_
+3	ๆ	_	NUM	_	_	2	_	_	_
+4	ใช้งาน	_	VERB	_	_	2	_	_	_
+
+# sent_id = 140682293965568
+# text = เก๊าส่าไดเอ็ทแล้วน้~า
+1	เก๊าส่า	_	VERB	_	_	4	_	_	_
+2	ไดเอ็ท	_	VERB	_	_	1	_	_	_
+3	แล้ว	_	AUX	_	_	4	_	_	_
+4	น้	_	VERB	_	_	0	_	_	_
+5	~	_	X	_	_	4	_	_	_
+6	า	_	X	_	_	4	_	_	_
+
+# sent_id = 140682288575216
+# text = หรือผิด
+1	หรือ	_	CCONJ	_	_	2	_	_	_
+2	ผิด	_	VERB	_	_	0	_	_	_
+
+# sent_id = 140682291004936
+# text = มันขึ้น
+1	มัน	_	PRON	_	_	2	_	_	_
+2	ขึ้น	_	VERB	_	_	0	_	_	_
+
+# sent_id = 140682308582624
+# text = สามารถขึ้นได้ค่ะ
+1	สามารถ	_	AUX	_	_	2	_	_	_
+2	ขึ้น	_	VERB	_	_	0	_	_	_
+3	ได้	_	ADV	_	_	2	_	_	_
+4	ค่ะ	_	PART	_	_	2	_	_	_
+
+# sent_id = 140682307562056
+# text = ก็กด atm จากถนน thamel ไปเลย
+1	ก็	_	AUX	_	_	2	_	_	_
+2	กด	_	VERB	_	_	0	_	_	_
+3	atm	_	NOUN	_	_	2	_	_	_
+4	จาก	_	ADP	_	_	5	_	_	_
+5	ถนน	_	NOUN	_	_	2	_	_	_
+6	thamel	_	PROPN	_	_	5	_	_	_
+7	ไป	_	VERB	_	_	5	_	_	_
+8	เลย	_	ADV	_	_	2	_	_	_
+
+# sent_id = 140682302920160
+# text = ถีงจะดำเนินการได้
+1	ถีง	_	SCONJ	_	_	3	_	_	_
+2	จะ	_	AUX	_	_	3	_	_	_
+3	ดำเนิน	_	VERB	_	_	0	_	_	_
+4	การ	_	NOUN	_	_	3	_	_	_
+5	ได้	_	ADV	_	_	3	_	_	_
+
+# sent_id = 140682312266256
+# text = cop แบรนด์
+1	cop	_	VERB	_	_	0	_	_	_
+2	แบรนด์	_	NOUN	_	_	1	_	_	_
+
+# sent_id = 140682190504656
+# text = ใครแต่งครับ
+1	ใคร	_	PRON	_	_	2	_	_	_
+2	แต่ง	_	VERB	_	_	0	_	_	_
+3	ครับ	_	PART	_	_	2	_	_	_
+
+# sent_id = 140682300837088
+# text = ขอสิบถามหน่อยค่ะ
+1	ขอ	_	VERB	_	_	0	_	_	_
+2	สิบถาม	_	NOUN	_	_	1	_	_	_
+3	หน่อย	_	PART	_	_	1	_	_	_
+4	ค่ะ	_	PART	_	_	1	_	_	_
+
+# sent_id = 140682190097744
+# text = คาดการณ์
+1	คาด	_	VERB	_	_	0	_	_	_
+2	การณ์	_	NOUN	_	_	1	_	_	_
+
+# sent_id = 140682296243376
+# text = ตกใจนะเลย
+1	ตกใจ	_	VERB	_	_	0	_	_	_
+2	นะ	_	PART	_	_	1	_	_	_
+3	เลย	_	ADV	_	_	1	_	_	_
+
+# sent_id = 140682298612976
+# text = รวมถึงมอง
+1	รวม	_	VERB	_	_	0	_	_	_
+2	ถึง	_	ADP	_	_	3	_	_	_
+3	มอง	_	VERB	_	_	1	_	_	_
+
+# sent_id = 140682298084976
+# text = ดังนี้ค่ะ
+1	ดังนี้	_	SCONJ	_	_	0	_	_	_
+2	ค่ะ	_	PART	_	_	1	_	_	_
+
+# sent_id = 140682303554552
+# text = นะคะ
+1	นะ	_	PART	_	_	0	_	_	_
+2	คะ	_	PART	_	_	1	_	_	_
+
+# sent_id = 140682308646160
+# text = ลองดูนะจ๊ะ
+1	ลอง	_	VERB	_	_	0	_	_	_
+2	ดู	_	ADV	_	_	1	_	_	_
+3	นะ	_	PART	_	_	1	_	_	_
+4	จ๊ะ	_	PART	_	_	1	_	_	_
+
+# sent_id = 140682305838800
+# text = พวกแมงลือเขา
+1	พวกแมง	_	PROPN	_	_	2	_	_	_
+2	ลือ	_	VERB	_	_	0	_	_	_
+3	เขา	_	PRON	_	_	2	_	_	_
+
+# sent_id = 140682308560432
+# text = แต่ยังคงแกว่งในกรอบ sideway
+1	แต่	_	CCONJ	_	_	3	_	_	_
+2	ยังคง	_	AUX	_	_	3	_	_	_
+3	แกว่ง	_	VERB	_	_	0	_	_	_
+4	ใน	_	ADP	_	_	5	_	_	_
+5	กรอบ	_	NOUN	_	_	3	_	_	_
+6	sideway	_	PROPN	_	_	5	_	_	_
+
+# sent_id = 140682283557168
+# text = PERM-AMC-PAP-CSP ส้มหล่น
+1	PERM-AMC-PAP	_	NOUN	_	_	0	_	_	_
+2	-CSP	_	PROPN	_	_	1	_	_	_
+3	ส้มหล่น	_	NOUN	_	_	1	_	_	_
+
+# sent_id = 140682288691224
+# text = นะคะ
+1	นะ	_	PART	_	_	0	_	_	_
+2	คะ	_	PART	_	_	1	_	_	_
+

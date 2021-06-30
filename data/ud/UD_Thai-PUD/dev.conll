@@ -1,0 +1,2427 @@
+# sent_id = n03001007
+# text = ไม่เหมือนเมื่อครั้ง 28 ตุลาคม จดหมายของนายโคมีย์แทบไม่ได้รับการเอ่ยถึง
+# text_en = Unlike that of the 28th of October, Mr. Comey's letter has hardly been commented upon.
+1	ไม่	_	PART	NEG	Polarity=Neg	2	advmod	_	SpaceAfter=No
+2	เหมือน	_	VERB	VC	_	0	root	_	SpaceAfter=No
+3	เมื่อ	_	ADP	IN	_	4	case	_	SpaceAfter=No
+4	ครั้ง	_	NOUN	NN	_	2	obl	_	_
+5	28	_	NUM	CD	_	4	obl:tmod	_	_
+6	ตุลาคม	_	NOUN	NN	_	5	obl:tmod	_	_
+7	จดหมาย	_	NOUN	NN	_	14	obj	_	SpaceAfter=No
+8	ของ	_	ADP	IN	_	9	case	_	SpaceAfter=No
+9	นาย	_	NOUN	NN	_	7	nmod:poss	_	SpaceAfter=No
+10	โคมีย์	_	PROPN	NNP	_	9	appos	_	SpaceAfter=No
+11	แทบ	_	ADV	RB	_	14	advmod	_	SpaceAfter=No
+12	ไม่	_	PART	NEG	Polarity=Neg	13	advmod	_	SpaceAfter=No
+13	ได้	_	PART	AS	Aspect=Perf	14	aux	_	SpaceAfter=No
+14	รับ	_	VERB	VV	_	2	acl	_	SpaceAfter=No
+15	การเอ่ย	_	VERB	VV	_	14	obj	_	SpaceAfter=No
+16	ถึง	_	ADP	IN	_	15	case	_	_
+
+# sent_id = n03001019
+# text = หากคู่แข่งของเขาจากพรรคเดโมแครตได้รับเลือกตั้ง เขายืนยันว่าเธอจะต้อง ‘ถูกสืบสวนเป็นปีๆ’
+# text_en = If his Democrat opponent were to be elected, he assured that she would be 'under investigation for years'.
+1	หาก	_	ADP	IN	_	10	mark	_	SpaceAfter=No
+2	คู่	_	NOUN	NN	_	10	nsubj:pass	_	SpaceAfter=No
+3	แข่ง	_	VERB	VV	_	2	acl	_	SpaceAfter=No
+4	ของ	_	ADP	IN	_	5	case	_	SpaceAfter=No
+5	เขา	_	PRON	PRP	Person=3	2	nmod:poss	_	SpaceAfter=No
+6	จาก	_	ADP	IN	_	7	case	_	SpaceAfter=No
+7	พรรค	_	NOUN	NN	_	2	nmod	_	Proper=True|SpaceAfter=No
+8	เดโมแครต	_	PROPN	NNP	_	7	flat:name	_	SpaceAfter=No
+9	ได้รับ	_	VERB	MD	Voice=Pass	10	aux:pass	_	SpaceAfter=No
+10	เลือกตั้ง	_	VERB	VV	_	12	advcl	_	_
+11	เขา	_	PRON	PRP	Person=3	12	nsubj	_	SpaceAfter=No
+12	ยืนยัน	_	VERB	VV	_	0	root	_	SpaceAfter=No
+13	ว่า	_	ADP	IN	_	19	mark	_	SpaceAfter=No
+14	เธอ	_	PRON	PRP	Person=3	19	nsubj:pass	_	SpaceAfter=No
+15	จะ	_	VERB	MD	_	19	aux	_	SpaceAfter=No
+16	ต้อง	_	VERB	MD	_	19	aux	_	_
+17	‘	_	PUNCT	``	_	16	punct	_	SpaceAfter=No
+18	ถูก	_	VERB	MD	Voice=Pass	19	aux:pass	_	SpaceAfter=No
+19	สืบสวน	_	VERB	VV	_	12	ccomp	_	SpaceAfter=No
+20	เป็น	_	AUX	VC	_	21	cop	_	SpaceAfter=No
+21	ปี	_	NOUN	NN	_	19	xcomp	_	SpaceAfter=No
+22	ๆ	_	SYM	SYM	_	21	dep	_	SpaceAfter=No
+23	’	_	PUNCT	''	_	19	punct	_	_
+
+# sent_id = n03001023
+# text = “คนที่จัดการบัญชีทวิตเตอร์ยังไม่ได้ ก็จัดการโค้ดนิวเคลียร์ไม่ได้หรอก” โอบามาถากถาง
+# text_en = "If somebody can't handle a Twitter account, they can't handle the nuclear codes," Obama mocked.
+1	“	_	PUNCT	``	_	11	punct	_	SpaceAfter=No
+2	คน	_	NOUN	NN	_	11	advmod	_	SpaceAfter=No
+3	ที่	_	DET	WDT	_	4	nsubj	_	SpaceAfter=No
+4	จัดการ	_	VERB	VV	_	2	acl:relcl	_	SpaceAfter=No
+5	บัญชี	_	NOUN	NN	_	4	obj	_	SpaceAfter=No
+6	ทวิตเตอร์	_	PROPN	NNP	_	5	compound	_	SpaceAfter=No
+7	ยัง	_	PART	AS	Aspect=Prog	9	aux	_	SpaceAfter=No
+8	ไม่	_	PART	NEG	Polarity=Neg	9	advmod	_	SpaceAfter=No
+9	ได้	_	VERB	MD	_	4	aux	_	_
+10	ก็	_	ADV	RB	_	11	advmod	_	SpaceAfter=No
+11	จัดการ	_	VERB	VV	_	19	ccomp	_	SpaceAfter=No
+12	โค้ด	_	NOUN	NN	_	11	obj	_	SpaceAfter=No
+13	นิวเคลียร์	_	NOUN	NN	_	12	compound	_	SpaceAfter=No
+14	ไม่	_	PART	NEG	Polarity=Neg	15	advmod	_	SpaceAfter=No
+15	ได้	_	VERB	MD	_	11	aux	_	SpaceAfter=No
+16	หรอก	_	PART	EP	_	11	discourse	_	SpaceAfter=No
+17	”	_	PUNCT	''	_	11	punct	_	_
+18	โอบามา	_	PROPN	NNP	_	19	nsubj	_	SpaceAfter=No
+19	ถากถาง	_	VERB	VV	_	0	root	_	_
+
+# sent_id = n03001030
+# text = ตามกำหนดการ เธอจะพูดเวลา 23.45 น.
+# text_en = According to the programme, she will speak at 23.45.
+1	ตาม	_	ADP	IN	_	2	case	_	SpaceAfter=No
+2	กำหนดการ	_	NOUN	NN	_	5	obl	_	_
+3	เธอ	_	PRON	PRP	Person=3	5	nsubj	_	SpaceAfter=No
+4	จะ	_	VERB	MD	_	5	aux	_	SpaceAfter=No
+5	พูด	_	VERB	VV	_	0	root	_	SpaceAfter=No
+6	เวลา	_	NOUN	NN	_	5	obl:tmod	_	_
+7	23.45	_	NUM	CD	_	8	nummod	_	_
+8	น.	_	NOUN	NNB	_	6	clf	_	_
+
+# sent_id = n03002003
+# text = ในวันอังคาร สหรัฐอเมริกาอาจเลือกประธานาธิบดีหญิงคนแรกในประวัติศาสตร์ชาติ
+# text_en = On Tuesday, the United States of America could elect the first female president in its history.
+1	ใน	_	ADP	IN	_	2	case	_	SpaceAfter=No
+2	วัน	_	NOUN	NN	_	7	obl	_	SpaceAfter=No
+3	อังคาร	_	NOUN	NN	_	2	appos	_	_
+4	สหรัฐ	_	NOUN	NN	_	7	nsubj	_	Proper=True|SpaceAfter=No
+5	อเมริกา	_	PROPN	NNP	_	4	flat:name	_	SpaceAfter=No
+6	อาจ	_	VERB	MD	_	7	aux	_	SpaceAfter=No
+7	เลือก	_	VERB	VV	_	0	root	_	SpaceAfter=No
+8	ประธานาธิบดี	_	NOUN	NN	_	7	obj	_	SpaceAfter=No
+9	หญิง	_	NOUN	NN	_	8	compound	_	SpaceAfter=No
+10	คน	_	NOUN	NNB	_	8	clf	_	SpaceAfter=No
+11	แรก	_	ADJ	JJ	_	10	amod	_	SpaceAfter=No
+12	ใน	_	ADP	IN	_	13	case	_	SpaceAfter=No
+13	ประวัติศาสตร์	_	NOUN	NN	_	8	nmod	_	SpaceAfter=No
+14	ชาติ	_	NOUN	NN	_	13	compound	_	_
+
+# sent_id = n03002010
+# text = ในทางกลับกัน ความสัมพันธ์ของนางคลินตันกับภาคพื้นทวีปในช่วงยี่สิบปีให้หลังนั้นไม่ค่อยเป็นที่น่าพอใจ
+# text_en = On the other hand, Ms. Clinton's relations with the continent over the past twenty years leave much to be desired.
+1	ใน	_	CCONJ	CC	_	24	cc	_	SpaceAfter=No
+2	ทาง	_	NOUN	NN	_	1	fixed	_	SpaceAfter=No
+3	กลับ	_	VERB	VV	_	1	fixed	_	SpaceAfter=No
+4	กัน	_	PRON	PRP	_	1	fixed	_	_
+5	ความสัมพันธ์	_	VERB	VV	_	24	nsubj	_	SpaceAfter=No
+6	ของ	_	ADP	IN	_	7	case	_	SpaceAfter=No
+7	นาง	_	NOUN	NN	_	5	obl:poss	_	SpaceAfter=No
+8	คลินตัน	_	PROPN	NNP	_	7	appos	_	SpaceAfter=No
+9	กับ	_	CCONJ	CC	_	10	cc	_	SpaceAfter=No
+10	ภาค	_	NOUN	NN	_	7	conj	_	SpaceAfter=No
+11	พื้น	_	NOUN	NN	_	10	compound	_	SpaceAfter=No
+12	ทวีป	_	NOUN	NN	_	10	compound	_	SpaceAfter=No
+13	ใน	_	ADP	IN	_	14	case	_	SpaceAfter=No
+14	ช่วง	_	NOUN	NN	_	5	obl	_	SpaceAfter=No
+15	ยี่	_	NUM	CD	_	16	nummod	_	Proper=True|SpaceAfter=No
+16	สิบ	_	NUM	CD	_	17	nummod	_	SpaceAfter=No
+17	ปี	_	NOUN	NNB	_	14	obl:tmod	_	SpaceAfter=No
+18	ให้	_	VERB	VV	_	14	acl	_	SpaceAfter=No
+19	หลัง	_	ADV	RB	_	18	advmod	_	SpaceAfter=No
+20	นั้น	_	DET	DT	_	5	det	_	SpaceAfter=No
+21	ไม่	_	PART	NEG	Polarity=Neg	22	advmod	_	SpaceAfter=No
+22	ค่อย	_	ADV	RB	_	24	advmod	_	SpaceAfter=No
+23	เป็น	_	AUX	VC	_	24	cop	_	SpaceAfter=No
+24	ที่	_	PRON	PRP	_	0	root	_	SpaceAfter=No
+25	น่าพอใจ	_	VERB	VV	_	24	amod	_	_
+
+# sent_id = n03003025
+# text = ฝ่ายอนุรักษนิยมอิสลามจากพรรค AKP ได้ถือการปฏิเสธนี้เป็นข้ออ้างในการตั้งคำถาม
+# text_en = The AKP's Islamic conservatives have taken this refusal as justification for the questionings.
+1	ฝ่าย	_	NOUN	NN	_	8	nsubj	_	SpaceAfter=No
+2	อนุรักษนิยม	_	NOUN	NN	_	1	compound	_	SpaceAfter=No
+3	อิสลาม	_	PROPN	NNP	_	1	compound	_	SpaceAfter=No
+4	จาก	_	ADP	IN	_	5	case	_	SpaceAfter=No
+5	พรรค	_	NOUN	NN	_	1	nmod	_	Proper=True
+6	AKP	_	PROPN	NNP	_	5	flat:name	_	_
+7	ได้	_	PART	AS	Aspect=Perf	8	aux	_	SpaceAfter=No
+8	ถือ	_	VERB	VV	_	0	root	_	SpaceAfter=No
+9	การปฏิเสธ	_	VERB	VV	_	8	obj	_	SpaceAfter=No
+10	นี้	_	DET	DT	_	9	det	_	SpaceAfter=No
+11	เป็น	_	AUX	VC	_	12	cop	_	SpaceAfter=No
+12	ข้อ	_	NOUN	NN	_	8	xcomp	_	SpaceAfter=No
+13	อ้าง	_	VERB	VV	_	12	acl	_	SpaceAfter=No
+14	ใน	_	ADP	IN	_	15	case	_	SpaceAfter=No
+15	การตั้ง	_	VERB	VV	_	12	xcomp	_	SpaceAfter=No
+16	คำ	_	NOUN	NN	_	15	obj	_	SpaceAfter=No
+17	ถาม	_	VERB	VV	_	16	acl	_	_
+
+# sent_id = n03003036
+# text = ต้องใช้เสียงข้างมากจากพรรคที่สาม โดยเจาะจงคือต้องได้คะแนนเสียงจากรัฐมนตรี 367 คะแนน (จาก 550) ในขณะที่การจัดทำประชามติจะต้องใช้คะแนนเสียง 330 คะแนน
+# text_en = A third-party majority is needed, specifically the votes of 367 MPs (out of 550), whereas 330 votes are required in order to trigger a referendum.
+1	ต้อง	_	VERB	MD	_	2	aux	_	SpaceAfter=No
+2	ใช้	_	VERB	VV	_	0	root	_	SpaceAfter=No
+3	เสียง	_	NOUN	NN	_	2	obj	_	SpaceAfter=No
+4	ข้าง	_	NOUN	NNB	_	3	clf	_	SpaceAfter=No
+5	มาก	_	ADJ	JJ	_	4	amod	_	SpaceAfter=No
+6	จาก	_	ADP	IN	_	7	case	_	SpaceAfter=No
+7	พรรค	_	NOUN	NN	_	3	nmod	_	SpaceAfter=No
+8	ที่	_	NOUN	NN	_	7	compound	_	SpaceAfter=No
+9	สาม	_	NUM	CD	_	8	nummod	_	_
+10	โดยเจาะจง	_	VERB	VV	_	11	advmod	_	Proper=True|SpaceAfter=No
+11	คือ	_	VERB	VC	_	2	acl	_	SpaceAfter=No
+12	ต้อง	_	VERB	MD	_	13	aux	_	SpaceAfter=No
+13	ได้	_	VERB	VV	_	11	ccomp	_	SpaceAfter=No
+14	คะแนน	_	NOUN	NN	_	13	obj	_	SpaceAfter=No
+15	เสียง	_	NOUN	NN	_	14	compound	_	SpaceAfter=No
+16	จาก	_	ADP	IN	_	17	case	_	SpaceAfter=No
+17	รัฐมนตรี	_	NOUN	NN	_	14	nmod	_	_
+18	367	_	NUM	CD	_	19	nummod	_	_
+19	คะแนน	_	NOUN	NNB	_	14	clf	_	_
+20	(	_	PUNCT	(	_	22	punct	_	SpaceAfter=No
+21	จาก	_	ADP	IN	_	22	case	_	_
+22	550	_	NUM	CD	_	19	nmod	_	SpaceAfter=No
+23	)	_	PUNCT	)	_	22	punct	_	_
+24	ใน	_	ADP	IN	_	25	case	_	SpaceAfter=No
+25	ขณะ	_	NOUN	NN	_	13	obl	_	SpaceAfter=No
+26	ที่	_	DET	WDT	_	32	obl:tmod	_	SpaceAfter=No
+27	การจัด	_	VERB	VV	_	32	csubj	_	SpaceAfter=No
+28	ทำ	_	VERB	VV	_	27	xcomp	_	SpaceAfter=No
+29	ประชามติ	_	NOUN	NN	_	28	obj	_	SpaceAfter=No
+30	จะ	_	VERB	MD	_	32	aux	_	SpaceAfter=No
+31	ต้อง	_	VERB	MD	_	32	aux	_	SpaceAfter=No
+32	ใช้	_	VERB	VV	_	25	acl:relcl	_	SpaceAfter=No
+33	คะแนน	_	NOUN	NN	_	32	obj	_	SpaceAfter=No
+34	เสียง	_	NOUN	NN	_	33	compound	_	_
+35	330	_	NUM	CD	_	36	nummod	_	_
+36	คะแนน	_	NOUN	NNB	_	33	clf	_	_
+
+# sent_id = n03004003
+# text = ในวันพฤหัสบดีที่ 3 พฤศจิกายน นายกเทศมนตรีของแซงต์-โกดองส์ (ในแคว้นโอต์-การอนน์) ตัดสินใจระงับข้อตกลงการพัฒนาเมืองที่ได้ทำไว้กับรัฐบาลเมื่อปี 2014
+# text_en = On Thursday, the 3rd of November, the mayor of Saint-Gaudens (in the Haute-Garonne region) decided to suspend the urban development agreement with the government formed in 2014.
+1	ใน	_	ADP	IN	_	2	case	_	SpaceAfter=No
+2	วัน	_	NOUN	NN	_	16	obl	_	SpaceAfter=No
+3	พฤหัสบดี	_	NOUN	NN	_	2	appos	_	SpaceAfter=No
+4	ที่	_	NOUN	NN	_	2	compound	_	_
+5	3	_	NUM	CD	_	2	appos	_	_
+6	พฤศจิกายน	_	NOUN	NN	_	5	obl:tmod	_	_
+7	นายก	_	NOUN	NN	_	16	nsubj	_	SpaceAfter=No
+8	เทศมนตรี	_	NOUN	NN	_	7	compound	_	SpaceAfter=No
+9	ของ	_	ADP	IN	_	10	case	_	SpaceAfter=No
+10	แซงต์-โกดองส์	_	PROPN	NNP	_	7	nmod:poss	_	_
+11	(	_	PUNCT	(	_	13	punct	_	SpaceAfter=No
+12	ใน	_	ADP	IN	_	13	case	_	SpaceAfter=No
+13	แคว้น	_	NOUN	NN	_	10	nmod	_	Proper=True|SpaceAfter=No
+14	โอต์-การอนน์	_	PROPN	NNP	_	13	flat:name	_	SpaceAfter=No
+15	)	_	PUNCT	)	_	13	punct	_	_
+16	ตัดสินใจ	_	VERB	VV	_	0	root	_	SpaceAfter=No
+17	ระงับ	_	VERB	VV	_	16	xcomp	_	SpaceAfter=No
+18	ข้อ	_	NOUN	NN	_	17	obj	_	SpaceAfter=No
+19	ตกลง	_	VERB	VV	_	18	acl	_	SpaceAfter=No
+20	การพัฒนา	_	VERB	VV	_	18	compound	_	SpaceAfter=No
+21	เมือง	_	NOUN	NN	_	20	obj	_	SpaceAfter=No
+22	ที่	_	DET	WDT	_	24	obj	_	SpaceAfter=No
+23	ได้	_	PART	AS	Aspect=Perf	24	aux	_	SpaceAfter=No
+24	ทำ	_	VERB	VV	_	18	acl:relcl	_	SpaceAfter=No
+25	ไว้	_	ADV	RB	_	24	advmod	_	SpaceAfter=No
+26	กับ	_	ADP	IN	_	27	case	_	SpaceAfter=No
+27	รัฐบาล	_	NOUN	NN	_	24	obl	_	SpaceAfter=No
+28	เมื่อ	_	ADP	IN	_	29	case	_	SpaceAfter=No
+29	ปี	_	NOUN	NN	_	24	obl	_	_
+30	2014	_	NUM	CD	_	29	appos	_	_
+
+# sent_id = n03005007
+# text = ฝ่ายหลังดูแลการเลือกตั้งขั้นต้นของพรรครีพับลิกัน ซึ่งราชิดา ดาติสนับสนุนนิโคลาส์ ซาร์โกซีให้เป็นผู้สมัครรับเลือกตั้ง
+# text_en = The latter is overseeing the Republican primaries, in which Rachida Dati supports Nicolas Sarkozy's candidacy.
+1	ฝ่าย	_	NOUN	NN	_	3	nsubj	_	SpaceAfter=No
+2	หลัง	_	ADJ	JJ	_	1	amod	_	SpaceAfter=No
+3	ดูแล	_	VERB	VV	_	0	root	_	SpaceAfter=No
+4	การเลือกตั้ง	_	VERB	VV	_	3	obj	_	SpaceAfter=No
+5	ขั้น	_	NOUN	NN	_	4	compound	_	SpaceAfter=No
+6	ต้น	_	ADJ	JJ	_	5	amod	_	SpaceAfter=No
+7	ของ	_	ADP	IN	_	8	case	_	SpaceAfter=No
+8	พรรค	_	NOUN	NN	_	4	obl:poss	_	Proper=True|SpaceAfter=No
+9	รีพับลิกัน	_	PROPN	NNP	_	8	flat:name	_	_
+10	ซึ่ง	_	DET	WDT	_	13	advmod	_	SpaceAfter=No
+11	ราชิดา	_	PROPN	NNP	_	13	nsubj	_	_
+12	ดาติ	_	PROPN	NNP	_	11	flat:name	_	SpaceAfter=No
+13	สนับสนุน	_	VERB	VV	_	4	acl:relcl	_	SpaceAfter=No
+14	นิโคลาส์	_	PROPN	NNP	_	13	obj	_	_
+15	ซาร์โกซี	_	PROPN	NNP	_	14	flat:name	_	SpaceAfter=No
+16	ให้	_	VERB	VV	_	13	acl	_	SpaceAfter=No
+17	เป็น	_	AUX	VC	_	18	cop	_	SpaceAfter=No
+18	ผู้	_	NOUN	NN	_	16	xcomp	_	SpaceAfter=No
+19	สมัคร	_	VERB	VV	_	18	acl	_	SpaceAfter=No
+20	รับ	_	VERB	VV	_	19	xcomp	_	SpaceAfter=No
+21	เลือกตั้ง	_	VERB	VV	_	20	xcomp	_	_
+
+# sent_id = n03005025
+# text = ในข้อความ อดีตรัฐมนตรีกระทรวงยุติธรรมได้กล่าวหาบริซ ออร์เตเฟอส์ว่าเป็น ‘ฟาสซิสต์’ ‘รัฐมนตรี (โง่เง่า) ของกระทรวงมหาดไทย’ และ ‘อันธพาล’
+# text_en = In the message, the former Minister for Justice accused Brice Hortefeux of being a 'fascist', 'Minister (moron) of the Interior' and a 'thug'.
+1	ใน	_	ADP	IN	_	2	case	_	SpaceAfter=No
+2	ข้อความ	_	NOUN	NN	_	8	obl	_	_
+3	อดีต	_	ADJ	JJ	_	4	amod	_	SpaceAfter=No
+4	รัฐมนตรี	_	NOUN	NN	_	8	nsubj	_	SpaceAfter=No
+5	กระทรวง	_	NOUN	NN	_	4	compound	_	Proper=True|SpaceAfter=No
+6	ยุติธรรม	_	NOUN	NN	_	4	compound	_	Proper=True|SpaceAfter=No
+7	ได้	_	PART	AS	Aspect=Perf	8	aux	_	SpaceAfter=No
+8	กล่าวหา	_	VERB	VV	_	0	root	_	SpaceAfter=No
+9	บริซ	_	PROPN	NNP	_	8	obj	_	_
+10	ออร์เตเฟอส์	_	PROPN	NNP	_	9	flat:name	_	SpaceAfter=No
+11	ว่า	_	ADP	IN	_	14	mark	_	SpaceAfter=No
+12	เป็น	_	AUX	VC	_	14	cop	_	Proper=True
+13	‘	_	PUNCT	``	_	12	punct	_	SpaceAfter=No
+14	ฟาสซิสต์	_	NOUN	NN	_	8	ccomp	_	SpaceAfter=No
+15	’	_	PUNCT	''	_	17	punct	_	Proper=True
+16	‘	_	PUNCT	``	_	17	punct	_	SpaceAfter=No
+17	รัฐมนตรี	_	NOUN	NN	_	14	conj	_	_
+18	(	_	PUNCT	(	_	19	punct	_	SpaceAfter=No
+19	โง่เง่า	_	ADJ	JJ	_	17	amod	_	Proper=True|SpaceAfter=No
+20	)	_	PUNCT	)	_	19	punct	_	_
+21	ของ	_	ADP	IN	_	22	case	_	SpaceAfter=No
+22	กระทรวง	_	NOUN	NN	_	17	nmod:poss	_	Proper=True|SpaceAfter=No
+23	มหาดไทย	_	PROPN	NNP	_	22	flat:name	_	SpaceAfter=No
+24	’	_	PUNCT	''	_	17	punct	_	_
+25	และ	_	CCONJ	CC	_	27	cc	_	Proper=True
+26	‘	_	PUNCT	``	_	25	punct	_	SpaceAfter=No
+27	อันธพาล	_	NOUN	NN	_	14	conj	_	Proper=True|SpaceAfter=No
+28	’	_	PUNCT	''	_	27	punct	_	_
+
+# sent_id = n03006003
+# text = ขอบเขตในการห้ามการแสดงออกด้านความเชื่อทางศาสนาในบริษัทเอกชนคืออะไร
+# text_en = What are the limits that could inhibit the expression of religious beliefs in private companies?
+1	ขอบเขต	_	NOUN	NN	_	14	nsubj	_	SpaceAfter=No
+2	ใน	_	ADP	IN	_	3	case	_	SpaceAfter=No
+3	การห้าม	_	VERB	VV	_	1	xcomp	_	SpaceAfter=No
+4	การแสดง	_	VERB	VV	_	3	obj	_	SpaceAfter=No
+5	ออก	_	PART	RP	_	4	compound:prt	_	SpaceAfter=No
+6	ด้าน	_	NOUN	NN	_	4	obj	_	SpaceAfter=No
+7	ความเชื่อ	_	VERB	VV	_	6	compound	_	SpaceAfter=No
+8	ทาง	_	ADP	IN	_	9	case	_	SpaceAfter=No
+9	ศาสนา	_	NOUN	NN	_	7	obl	_	SpaceAfter=No
+10	ใน	_	ADP	IN	_	11	case	_	SpaceAfter=No
+11	บริษัท	_	NOUN	NN	_	1	nmod	_	SpaceAfter=No
+12	เอกชน	_	ADJ	JJ	_	11	amod	_	SpaceAfter=No
+13	คือ	_	AUX	VC	_	14	cop	_	SpaceAfter=No
+14	อะไร	_	PRON	WP	PronType=Int	0	root	_	_
+
+# sent_id = n03006008
+# text = ถึงแม้ว่าสถานการณ์ส่วนใหญ่ที่เกิดขึ้นในที่ทำงานจะแก้ไขได้โดยไม่มีความขัดแย้ง
+# text_en = Even if the majority of situations that arise in the workplace can be resolved without conflict.
+1	ถึง	_	CCONJ	CC	_	15	cc	_	SpaceAfter=No
+2	แม้	_	ADP	IN	_	1	fixed	_	SpaceAfter=No
+3	ว่า	_	ADP	IN	_	1	fixed	_	SpaceAfter=No
+4	สถานการณ์	_	NOUN	NN	_	15	obj	_	SpaceAfter=No
+5	ส่วน	_	NOUN	NN	_	4	compound	_	SpaceAfter=No
+6	ใหญ่	_	ADJ	JJ	_	5	amod	_	SpaceAfter=No
+7	ที่	_	DET	WDT	_	8	nsubj	_	SpaceAfter=No
+8	เกิด	_	VERB	VV	_	4	acl:relcl	_	SpaceAfter=No
+9	ขึ้น	_	PART	RP	_	8	compound:prt	_	SpaceAfter=No
+10	ใน	_	ADP	IN	_	11	case	_	SpaceAfter=No
+11	ที่	_	NOUN	NN	_	8	obl	_	SpaceAfter=No
+12	ทำ	_	VERB	VV	_	11	acl	_	SpaceAfter=No
+13	งาน	_	NOUN	NN	_	12	obj	_	SpaceAfter=No
+14	จะ	_	VERB	MD	_	15	aux	_	SpaceAfter=No
+15	แก้ไข	_	VERB	VV	_	0	root	_	SpaceAfter=No
+16	ได้	_	VERB	MD	_	15	aux	_	SpaceAfter=No
+17	โดย	_	ADP	IN	_	19	mark	_	SpaceAfter=No
+18	ไม่	_	PART	NEG	Polarity=Neg	19	advmod	_	SpaceAfter=No
+19	มี	_	VERB	VV	_	15	advcl	_	SpaceAfter=No
+20	ความขัดแย้ง	_	VERB	VV	_	19	obj	_	_
+
+# sent_id = n03006016
+# text = คนงานได้รับอนุญาตให้วางวัตถุมงคลไว้บนโต๊ะทำงานหรือไม่
+# text_en = Are workers allowed to keep religious objects on their desks?
+1	คน	_	NOUN	NN	_	4	nsubj:pass	_	SpaceAfter=No
+2	งาน	_	NOUN	NN	_	1	compound	_	SpaceAfter=No
+3	ได้รับ	_	VERB	MD	Voice=Pass	4	aux:pass	_	SpaceAfter=No
+4	อนุญาต	_	VERB	VV	_	0	root	_	SpaceAfter=No
+5	ให้	_	VERB	VV	_	4	xcomp	_	SpaceAfter=No
+6	วาง	_	VERB	VV	_	5	xcomp	_	SpaceAfter=No
+7	วัตถุ	_	NOUN	NN	_	6	obj	_	SpaceAfter=No
+8	มงคล	_	NOUN	NN	_	7	compound	_	SpaceAfter=No
+9	ไว้	_	ADV	RB	_	6	advmod	_	SpaceAfter=No
+10	บน	_	ADP	IN	_	11	case	_	SpaceAfter=No
+11	โต๊ะ	_	NOUN	NN	_	6	obl	_	SpaceAfter=No
+12	ทำ	_	VERB	VV	_	11	acl	_	SpaceAfter=No
+13	งาน	_	NOUN	NN	_	12	obj	_	SpaceAfter=No
+14	หรือไม่	_	PART	EP	PronType=Int	4	discourse	_	_
+
+# sent_id = n03006028
+# text = สหภาพฟอร์ซ อูฟริแยร์เสียดายที่คำพูดของกลุ่มเกี่ยวกับเนื้อหาของคู่มือไม่ได้รวมอยู่ด้วย “จริง ๆ แล้วไม่ได้มีการปรึกษาอะไรกันเลย” นางกิลลาร์ดพูด
+# text_en = The Force Ouvrière union regrets that its remarks on the content of the guide were not included: "There wasn't really any consultation," said Ms. Gillard.
+1	สหภาพ	_	NOUN	NN	_	4	nsubj	_	Proper=True|SpaceAfter=No
+2	ฟอร์ซ	_	PROPN	NNP	_	1	flat:name	_	_
+3	อูฟริแยร์	_	PROPN	NNP	_	1	flat:name	_	SpaceAfter=No
+4	เสียดาย	_	VERB	VV	_	0	root	_	SpaceAfter=No
+5	ที่	_	ADP	IN	_	17	mark	_	SpaceAfter=No
+6	คำ	_	NOUN	NN	_	17	nsubj	_	SpaceAfter=No
+7	พูด	_	VERB	VV	_	6	acl	_	SpaceAfter=No
+8	ของ	_	ADP	IN	_	9	case	_	SpaceAfter=No
+9	กลุ่ม	_	NOUN	NN	_	6	nmod:poss	_	SpaceAfter=No
+10	เกี่ยว	_	VERB	VV	_	12	case	_	SpaceAfter=No
+11	กับ	_	ADP	IN	_	10	fixed	_	SpaceAfter=No
+12	เนื้อหา	_	NOUN	NN	_	6	nmod	_	SpaceAfter=No
+13	ของ	_	ADP	IN	_	14	case	_	SpaceAfter=No
+14	คู่มือ	_	NOUN	NN	_	12	nmod:poss	_	SpaceAfter=No
+15	ไม่	_	PART	NEG	Polarity=Neg	16	advmod	_	SpaceAfter=No
+16	ได้	_	PART	AS	Aspect=Perf	17	aux	_	SpaceAfter=No
+17	รวม	_	VERB	VV	_	4	advcl	_	SpaceAfter=No
+18	อยู่	_	PART	AS	Aspect=Prog	17	aux	_	SpaceAfter=No
+19	ด้วย	_	ADV	RB	_	17	advmod	_	_
+20	“	_	PUNCT	``	_	26	punct	_	SpaceAfter=No
+21	จริง	_	ADV	RB	_	26	advmod	_	_
+22	ๆ	_	SYM	SYM	_	21	dep	_	_
+23	แล้ว	_	ADV	RB	_	21	advmod	_	SpaceAfter=No
+24	ไม่	_	PART	NEG	Polarity=Neg	25	advmod	_	SpaceAfter=No
+25	ได้	_	PART	AS	Aspect=Perf	26	aux	_	SpaceAfter=No
+26	มี	_	VERB	VV	_	34	ccomp	_	SpaceAfter=No
+27	การปรึกษา	_	VERB	VV	_	26	obj	_	SpaceAfter=No
+28	อะไร	_	PRON	WP	_	27	obj	_	SpaceAfter=No
+29	กัน	_	PRON	PRP	_	27	advmod	_	SpaceAfter=No
+30	เลย	_	ADV	RB	_	26	advmod	_	SpaceAfter=No
+31	”	_	PUNCT	''	_	26	punct	_	_
+32	นาง	_	NOUN	NN	_	34	nsubj	_	SpaceAfter=No
+33	กิลลาร์ด	_	PROPN	NNP	_	32	appos	_	SpaceAfter=No
+34	พูด	_	VERB	VV	_	4	acl	_	_
+
+# sent_id = n03006034
+# text = คู่มือนี้มีปัญหา เพราะอย่างแรกเลยคือเขียนขึ้นมา “ในบริบทของสภาวะฉุกเฉิน”
+# text_en = The guide is problematic, firstly because it has been developed "in the context of a state of emergency".
+1	คู่มือ	_	NOUN	NN	_	3	nsubj	_	SpaceAfter=No
+2	นี้	_	DET	DT	_	1	det	_	SpaceAfter=No
+3	มี	_	VERB	VV	_	0	root	_	SpaceAfter=No
+4	ปัญหา	_	NOUN	NN	_	3	obj	_	_
+5	เพราะ	_	ADP	IN	_	9	mark	_	SpaceAfter=No
+6	อย่าง	_	NOUN	NN	_	9	nsubj	_	SpaceAfter=No
+7	แรก	_	ADJ	JJ	_	6	amod	_	SpaceAfter=No
+8	เลย	_	ADV	RB	_	9	advmod	_	SpaceAfter=No
+9	คือ	_	VERB	VC	_	3	advcl	_	SpaceAfter=No
+10	เขียน	_	VERB	VV	_	9	ccomp	_	SpaceAfter=No
+11	ขึ้น	_	PART	RP	_	10	compound:prt	_	SpaceAfter=No
+12	มา	_	PART	RP	_	10	compound:prt	_	Proper=True
+13	“	_	PUNCT	``	_	15	punct	_	SpaceAfter=No
+14	ใน	_	ADP	IN	_	15	case	_	SpaceAfter=No
+15	บริบท	_	NOUN	NN	_	10	obl	_	SpaceAfter=No
+16	ของ	_	ADP	IN	_	17	case	_	SpaceAfter=No
+17	สภาวะ	_	NOUN	NN	_	15	nmod:poss	_	SpaceAfter=No
+18	ฉุกเฉิน	_	ADJ	JJ	_	17	amod	_	Proper=True|SpaceAfter=No
+19	”	_	PUNCT	''	_	15	punct	_	_
+
+# sent_id = n03007003
+# text = บทนี้รวมถึงเวลาที่ใช้ในการเดินทางไปบ้านของลูกค้าในเวลาทำงานด้วย
+# text_en = This clause included the time taken to travel to clients' homes in working hours.
+1	บท	_	NOUN	NN	_	3	nsubj	_	SpaceAfter=No
+2	นี้	_	DET	DT	_	1	det	_	SpaceAfter=No
+3	รวม	_	VERB	VV	_	0	root	_	SpaceAfter=No
+4	ถึง	_	ADP	IN	_	5	case	_	SpaceAfter=No
+5	เวลา	_	NOUN	NN	_	3	obl	_	SpaceAfter=No
+6	ที่	_	DET	WDT	_	7	obl:tmod	_	SpaceAfter=No
+7	ใช้	_	VERB	VV	_	5	acl:relcl	_	SpaceAfter=No
+8	ใน	_	ADP	IN	_	9	case	_	SpaceAfter=No
+9	การเดินทาง	_	VERB	VV	_	7	xcomp	_	SpaceAfter=No
+10	ไป	_	VERB	VV	_	9	acl	_	SpaceAfter=No
+11	บ้าน	_	NOUN	NN	_	10	obj	_	SpaceAfter=No
+12	ของ	_	ADP	IN	_	13	case	_	SpaceAfter=No
+13	ลูกค้า	_	NOUN	NN	_	11	nmod:poss	_	SpaceAfter=No
+14	ใน	_	ADP	IN	_	15	case	_	SpaceAfter=No
+15	เวลา	_	NOUN	NN	_	5	nmod	_	SpaceAfter=No
+16	ทำ	_	VERB	VV	_	15	acl	_	SpaceAfter=No
+17	งาน	_	NOUN	NN	_	16	obj	_	SpaceAfter=No
+18	ด้วย	_	ADV	RB	_	3	advmod	_	_
+
+# sent_id = n03007006
+# text = องค์กรทั้งสองยื่นอุทธรณ์ซึ่งศาลยุติธรรมสูงสุดไม่รับเมื่อวันที่ 12 ตุลาคม
+# text_en = The two organisations launched an appeal which was thrown out by the Court of Cassation on the 12th of October.
+1	องค์กร	_	NOUN	NN	_	4	nsubj	_	SpaceAfter=No
+2	ทั้ง	_	DET	DT	_	3	det	_	SpaceAfter=No
+3	สอง	_	NUM	CD	_	1	nummod	_	SpaceAfter=No
+4	ยื่น	_	VERB	VV	_	0	root	_	SpaceAfter=No
+5	อุทธรณ์	_	NOUN	NN	_	4	obj	_	SpaceAfter=No
+6	ซึ่ง	_	DET	WDT	_	12	obj	_	SpaceAfter=No
+7	ศาล	_	NOUN	NN	_	12	nsubj	_	Proper=True|SpaceAfter=No
+8	ยุติธรรม	_	NOUN	NN	_	7	flat:name	_	Proper=True|SpaceAfter=No
+9	สูง	_	ADJ	JJ	_	7	amod	_	Proper=True|SpaceAfter=No
+10	สุด	_	ADV	RB	_	9	advmod	_	Proper=True|SpaceAfter=No
+11	ไม่	_	PART	NEG	Polarity=Neg	12	advmod	_	SpaceAfter=No
+12	รับ	_	VERB	VV	_	5	acl:relcl	_	SpaceAfter=No
+13	เมื่อ	_	ADP	IN	_	14	case	_	SpaceAfter=No
+14	วันที่	_	NOUN	NN	_	12	obl	_	_
+15	12	_	NUM	CD	_	14	appos	_	_
+16	ตุลาคม	_	NOUN	NN	_	15	obl:tmod	_	_
+
+# sent_id = n03007009
+# text = มีจุดประสงค์ให้นับรวมเวลาเดินทางเข้าไปด้วย หลังจากหักออกจากเวลาทำงานที่ทำเสร็จจริง โดยไม่จำเป็นต้องวัดเวลาเดินทางจริง
+# text_en = It aims to take the journey time into account after deducting this from the working hours actually completed, without being able to measure the real journey time.
+1	มี	_	VERB	VV	_	0	root	_	SpaceAfter=No
+2	จุดประสงค์	_	NOUN	NN	_	1	obj	_	SpaceAfter=No
+3	ให้	_	VERB	VV	_	1	acl	_	SpaceAfter=No
+4	นับ	_	VERB	VV	_	3	xcomp	_	SpaceAfter=No
+5	รวม	_	VERB	VV	_	4	xcomp	_	SpaceAfter=No
+6	เวลา	_	NOUN	NN	_	5	obj	_	SpaceAfter=No
+7	เดินทาง	_	VERB	VV	_	6	acl	_	SpaceAfter=No
+8	เข้า	_	PART	RP	_	4	compound:prt	_	SpaceAfter=No
+9	ไป	_	PART	RP	_	4	compound:prt	_	SpaceAfter=No
+10	ด้วย	_	ADV	RB	_	4	advmod	_	_
+11	หลัง	_	ADP	IN	_	13	mark	_	SpaceAfter=No
+12	จาก	_	ADP	IN	_	11	fixed	_	SpaceAfter=No
+13	หัก	_	VERB	VV	_	1	advcl	_	SpaceAfter=No
+14	ออก	_	PART	RP	_	13	compound:prt	_	SpaceAfter=No
+15	จาก	_	ADP	IN	_	16	case	_	SpaceAfter=No
+16	เวลา	_	NOUN	NN	_	13	obl	_	SpaceAfter=No
+17	ทำ	_	VERB	VV	_	16	acl	_	SpaceAfter=No
+18	งาน	_	NOUN	NN	_	17	obj	_	SpaceAfter=No
+19	ที่	_	DET	WDT	_	20	obj	_	SpaceAfter=No
+20	ทำ	_	VERB	VV	_	16	acl:relcl	_	SpaceAfter=No
+21	เสร็จ	_	VERB	VV	_	20	xcomp	_	SpaceAfter=No
+22	จริง	_	ADV	RB	_	21	advmod	_	_
+23	โดย	_	ADP	IN	_	27	mark	_	SpaceAfter=No
+24	ไม่	_	PART	NEG	Polarity=Neg	25	advmod	_	SpaceAfter=No
+25	จำเป็น	_	ADV	RB	_	27	advmod	_	SpaceAfter=No
+26	ต้อง	_	VERB	MD	_	27	aux	_	SpaceAfter=No
+27	วัด	_	VERB	VV	_	13	advcl	_	SpaceAfter=No
+28	เวลา	_	NOUN	NN	_	27	obj	_	SpaceAfter=No
+29	เดินทาง	_	VERB	VV	_	28	acl	_	SpaceAfter=No
+30	จริง	_	ADJ	JJ	_	28	amod	_	_
+
+# sent_id = n03007011
+# text = เวลาทำงานในชั่วโมงแรกนี้อยู่ที่ราวๆ 45 นาที
+# text_en = The working time undertaken in this first hour is more or less equal to 45 minutes.
+1	เวลา	_	NOUN	NN	_	8	nsubj	_	SpaceAfter=No
+2	ทำ	_	VERB	VV	_	1	acl	_	SpaceAfter=No
+3	งาน	_	NOUN	NN	_	2	obj	_	SpaceAfter=No
+4	ใน	_	ADP	IN	_	5	case	_	SpaceAfter=No
+5	ชั่วโมง	_	NOUN	NN	_	1	nmod	_	SpaceAfter=No
+6	แรก	_	ADJ	JJ	_	5	amod	_	SpaceAfter=No
+7	นี้	_	DET	DT	_	5	det	_	SpaceAfter=No
+8	อยู่	_	VERB	VV	_	0	root	_	SpaceAfter=No
+9	ที่	_	ADP	IN	_	13	case	_	SpaceAfter=No
+10	ราว	_	ADV	RB	_	12	advmod	_	SpaceAfter=No
+11	ๆ	_	SYM	SYM	_	10	dep	_	_
+12	45	_	NUM	CD	_	13	nummod	_	_
+13	นาที	_	NOUN	NNB	_	8	obl	_	_
+
+# sent_id = n03008011
+# text = “ETA กำลังจะออกไปแล้ว” ตัวแทนชาวฝรั่งเศสเผย
+# text_en = "ETA is on its way out," the French contingent revealed.
+1	“	_	PUNCT	``	_	5	punct	_	Proper=True|SpaceAfter=No
+2	ETA	_	PROPN	NNP	_	5	nsubj	_	_
+3	กำลัง	_	PART	AS	Aspect=Prog	5	aux	_	SpaceAfter=No
+4	จะ	_	VERB	MD	_	5	aux	_	SpaceAfter=No
+5	ออก	_	VERB	VV	_	13	ccomp	_	SpaceAfter=No
+6	ไป	_	PART	RP	_	5	compound:prt	_	SpaceAfter=No
+7	แล้ว	_	PART	AS	Aspect=Perf	5	aux	_	SpaceAfter=No
+8	”	_	PUNCT	''	_	5	punct	_	_
+9	ตัว	_	NOUN	NN	_	13	nsubj	_	SpaceAfter=No
+10	แทน	_	VERB	VV	_	9	acl	_	SpaceAfter=No
+11	ชาว	_	NOUN	NN	_	9	compound	_	SpaceAfter=No
+12	ฝรั่งเศส	_	PROPN	NNP	_	11	compound	_	SpaceAfter=No
+13	เผย	_	VERB	VV	_	0	root	_	_
+
+# sent_id = n03009006
+# text = เขายังให้ความเห็นอีกด้วยว่า “การมีเอกสารแบบนี้อาจนำไปสู่ผลที่ทั้งเป็นไปได้และยอมรับไม่ได้”
+# text_en = He also remarked that "the existence of such a document could lead to consequences that are as likely as they are unacceptable".
+1	เขา	_	PRON	PRP	Person=3	3	nsubj	_	SpaceAfter=No
+2	ยัง	_	ADV	RB	_	3	advmod	_	SpaceAfter=No
+3	ให้	_	VERB	VV	_	0	root	_	SpaceAfter=No
+4	ความเห็น	_	VERB	VV	_	3	obj	_	SpaceAfter=No
+5	อีก	_	ADV	RB	_	3	advmod	_	SpaceAfter=No
+6	ด้วย	_	ADV	RB	_	3	advmod	_	SpaceAfter=No
+7	ว่า	_	ADP	IN	_	14	mark	_	_
+8	“	_	PUNCT	``	_	14	punct	_	SpaceAfter=No
+9	การมี	_	VERB	VV	_	14	csubj	_	SpaceAfter=No
+10	เอกสาร	_	NOUN	NN	_	9	obj	_	SpaceAfter=No
+11	แบบ	_	NOUN	NNB	_	10	clf	_	SpaceAfter=No
+12	นี้	_	DET	DT	_	11	det	_	SpaceAfter=No
+13	อาจ	_	VERB	MD	_	14	aux	_	SpaceAfter=No
+14	นำ	_	VERB	VV	_	3	ccomp	_	SpaceAfter=No
+15	ไป	_	PART	RP	_	14	compound:prt	_	SpaceAfter=No
+16	สู่	_	ADP	IN	_	17	case	_	SpaceAfter=No
+17	ผล	_	NOUN	NN	_	14	obl	_	SpaceAfter=No
+18	ที่	_	DET	WDT	_	20	nsubj	_	SpaceAfter=No
+19	ทั้ง	_	DET	DT	_	20	cc:preconj	_	SpaceAfter=No
+20	เป็นไป	_	VERB	VV	_	17	acl:relcl	_	SpaceAfter=No
+21	ได้	_	VERB	MD	_	20	aux	_	SpaceAfter=No
+22	และ	_	CCONJ	CC	_	23	cc	_	SpaceAfter=No
+23	ยอมรับ	_	VERB	VV	_	20	conj	_	SpaceAfter=No
+24	ไม่	_	PART	NEG	Polarity=Neg	25	advmod	_	SpaceAfter=No
+25	ได้	_	VERB	MD	_	23	aux	_	SpaceAfter=No
+26	”	_	PUNCT	''	_	14	punct	_	_
+
+# sent_id = n03009011
+# text = สภาดิจิทัลฝรั่งเศสซึ่งให้คำแนะนำในการร่างกฎหมายที่สอดคล้องกับคำถามเกี่ยวกับเทคโนโลยีดิจิทัล ก็สามารถตรวจสอบได้เช่นกัน
+# text_en = The French Digital Council, which advises on bills in line with questions of digital technology, could also scrutinise it.
+1	สภา	_	NOUN	NN	_	22	nsubj	_	Proper=True|SpaceAfter=No
+2	ดิจิทัล	_	ADJ	JJ	_	1	amod	_	Proper=True|SpaceAfter=No
+3	ฝรั่งเศส	_	PROPN	NNP	_	1	flat:name	_	SpaceAfter=No
+4	ซึ่ง	_	DET	WDT	_	5	nsubj	_	SpaceAfter=No
+5	ให้	_	VERB	VV	_	1	acl:relcl	_	SpaceAfter=No
+6	คำ	_	NOUN	NN	_	5	obj	_	SpaceAfter=No
+7	แนะนำ	_	VERB	VV	_	6	acl	_	SpaceAfter=No
+8	ใน	_	ADP	IN	_	9	case	_	SpaceAfter=No
+9	การร่าง	_	VERB	VV	_	5	xcomp	_	SpaceAfter=No
+10	กฎหมาย	_	NOUN	NN	_	9	obj	_	SpaceAfter=No
+11	ที่	_	DET	WDT	_	12	nsubj	_	SpaceAfter=No
+12	สอดคล้อง	_	VERB	VV	_	10	acl:relcl	_	SpaceAfter=No
+13	กับ	_	ADP	IN	_	14	case	_	SpaceAfter=No
+14	คำ	_	NOUN	NN	_	12	obl	_	SpaceAfter=No
+15	ถาม	_	VERB	VV	_	14	acl	_	SpaceAfter=No
+16	เกี่ยว	_	VERB	VV	_	18	case	_	SpaceAfter=No
+17	กับ	_	ADP	IN	_	16	fixed	_	SpaceAfter=No
+18	เทคโนโลยี	_	NOUN	NN	_	14	nmod	_	SpaceAfter=No
+19	ดิจิทัล	_	ADJ	JJ	_	18	amod	_	_
+20	ก็	_	ADV	RB	_	22	advmod	_	SpaceAfter=No
+21	สามารถ	_	VERB	MD	_	22	aux	_	SpaceAfter=No
+22	ตรวจสอบ	_	VERB	VV	_	0	root	_	SpaceAfter=No
+23	ได้	_	VERB	MD	_	22	aux	_	SpaceAfter=No
+24	เช่น	_	AUX	VC	_	25	cop	_	SpaceAfter=No
+25	กัน	_	PRON	PRP	_	22	xcomp	_	_
+
+# sent_id = n03010012
+# text = จากข้อมูลใน Le Figaro แผนรัฐบาลนี้จะช่วยประหยัดไปกว่า 42 ล้านยูโร ซึ่งจากจำนวนดังกล่าวจะใช้ 15.5 ล้าน เพื่อความมั่นคง
+# text_en = According to Le Figaro, this government plan could free up 42 million euros, of which 15.5 million would go towards security.
+1	จาก	_	ADP	IN	_	2	case	_	SpaceAfter=No
+2	ข้อมูล	_	NOUN	NN	_	10	obl	_	SpaceAfter=No
+3	ใน	_	ADP	IN	_	4	case	_	_
+4	Le	_	PROPN	NNP	_	2	nmod	_	_
+5	Figaro	_	PROPN	NNP	_	4	flat:name	_	_
+6	แผน	_	NOUN	NN	_	10	nsubj	_	SpaceAfter=No
+7	รัฐบาล	_	NOUN	NN	_	6	compound	_	SpaceAfter=No
+8	นี้	_	DET	DT	_	6	det	_	SpaceAfter=No
+9	จะ	_	VERB	MD	_	10	aux	_	SpaceAfter=No
+10	ช่วย	_	VERB	VV	_	0	root	_	SpaceAfter=No
+11	ประหยัด	_	VERB	VV	_	10	xcomp	_	SpaceAfter=No
+12	ไป	_	PART	RP	_	11	compound:prt	_	SpaceAfter=No
+13	กว่า	_	ADV	RB	_	15	advmod	_	_
+14	42	_	NUM	CD	_	15	nummod	_	_
+15	ล้าน	_	NUM	CD	_	16	nummod	_	SpaceAfter=No
+16	ยูโร	_	NOUN	NNB	_	11	obj	_	_
+17	ซึ่ง	_	ADP	IN	_	22	mark	_	SpaceAfter=No
+18	จาก	_	ADP	IN	_	19	case	_	SpaceAfter=No
+19	จำนวน	_	NOUN	NN	_	22	obl	_	SpaceAfter=No
+20	ดังกล่าว	_	DET	DT	_	19	det	_	SpaceAfter=No
+21	จะ	_	VERB	MD	_	22	aux	_	SpaceAfter=No
+22	ใช้	_	VERB	VV	_	10	advcl	_	_
+23	15.5	_	NUM	CD	_	24	nummod	_	_
+24	ล้าน	_	NUM	CD	_	22	obj	_	_
+25	เพื่อ	_	ADP	IN	_	26	case	_	SpaceAfter=No
+26	ความมั่นคง	_	ADJ	JJ	_	22	obl	_	_
+
+# sent_id = n03010019
+# text = ฝรั่งเศสมีชื่อเสียงไม่สู้ดีนัก
+# text_en = France doesn't have a good reputation.
+1	ฝรั่งเศส	_	PROPN	NNP	_	2	nsubj	_	SpaceAfter=No
+2	มี	_	VERB	VV	_	0	root	_	SpaceAfter=No
+3	ชื่อเสียง	_	NOUN	NN	_	2	obj	_	SpaceAfter=No
+4	ไม่	_	PART	NEG	Polarity=Neg	5	advmod	_	SpaceAfter=No
+5	สู้	_	ADV	RB	_	6	advmod	_	SpaceAfter=No
+6	ดี	_	ADJ	JJ	_	3	amod	_	SpaceAfter=No
+7	นัก	_	ADV	RB	_	6	advmod	_	_
+
+# sent_id = n04001002
+# text = ทีนา อันเซลมี เกิดเมื่อวันที่ 25 มีนาคม 1927 ในคาสเทลฟรังโกเวเนโต เธอเติบโตมาในครอบครัวคาทอลิกต่อต้านลัทธิฟาสซิสม์ที่ถูกหมายหัวเนื่องจากพ่อของเธอเป็นนักสังคมนิยมแบบทหาร
+# text_en = Tina Anselmi was born on the 25th of March, 1927 in Castelfranco Veneto; she grew up in an anti-fascist Catholic family, which was marked by the persecution of her militant socialist father.
+1	ทีนา	_	PROPN	NNP	_	3	nsubj	_	_
+2	อันเซลมี	_	PROPN	NNP	_	1	flat:name	_	_
+3	เกิด	_	VERB	VV	_	0	root	_	SpaceAfter=No
+4	เมื่อ	_	ADP	IN	_	5	case	_	SpaceAfter=No
+5	วันที่	_	NOUN	NN	_	3	obl	_	_
+6	25	_	NUM	CD	_	5	appos	_	_
+7	มีนาคม	_	NOUN	NN	_	6	obl:tmod	_	_
+8	1927	_	NUM	CD	_	7	obl:tmod	_	_
+9	ใน	_	ADP	IN	_	10	case	_	SpaceAfter=No
+10	คาสเทลฟรังโกเวเนโต	_	PROPN	NNP	_	3	obl	_	_
+11	เธอ	_	PRON	PRP	Person=3	12	nsubj	_	SpaceAfter=No
+12	เติบโต	_	VERB	VV	_	3	parataxis	_	SpaceAfter=No
+13	มา	_	PART	RP	_	12	compound:prt	_	SpaceAfter=No
+14	ใน	_	ADP	IN	_	15	case	_	SpaceAfter=No
+15	ครอบครัว	_	NOUN	NN	_	12	obl	_	SpaceAfter=No
+16	คาทอลิก	_	PROPN	NNP	_	15	compound	_	SpaceAfter=No
+17	ต่อต้าน	_	VERB	VV	_	16	acl	_	SpaceAfter=No
+18	ลัทธิ	_	NOUN	NN	_	17	obj	_	Proper=True|SpaceAfter=No
+19	ฟาสซิสม์	_	PROPN	NNP	_	18	flat:name	_	SpaceAfter=No
+20	ที่	_	DET	WDT	_	22	nsubj:pass	_	SpaceAfter=No
+21	ถูก	_	VERB	MD	Voice=Pass	22	aux:pass	_	SpaceAfter=No
+22	หมายหัว	_	VERB	VV	_	15	acl:relcl	_	SpaceAfter=No
+23	เนื่อง	_	ADP	IN	_	29	mark	_	SpaceAfter=No
+24	จาก	_	ADP	IN	_	23	fixed	_	SpaceAfter=No
+25	พ่อ	_	NOUN	NN	_	29	nsubj	_	SpaceAfter=No
+26	ของ	_	ADP	IN	_	27	case	_	SpaceAfter=No
+27	เธอ	_	PRON	PRP	Person=3	25	nmod:poss	_	SpaceAfter=No
+28	เป็น	_	AUX	VC	_	29	cop	_	SpaceAfter=No
+29	นัก	_	NOUN	NN	_	22	advcl	_	SpaceAfter=No
+30	สังคมนิยม	_	NOUN	NN	_	29	compound	_	SpaceAfter=No
+31	แบบ	_	NOUN	NN	_	29	compound	_	SpaceAfter=No
+32	ทหาร	_	NOUN	NN	_	29	compound	_	_
+
+# sent_id = n04001013
+# text = จากการที่มักได้ใกล้ชิดกับสภาคาทอลิก ทีนา อันเซลมีเข้าร่วมในสิทธิของคนงานสิ่งทอและครูอย่างเจาะจง
+# text_en = Having always been close to the Catholic Union, Tina Anselmi attended particularly to the rights of textile workers and teachers.
+1	จาก	_	ADP	IN	_	2	case	_	SpaceAfter=No
+2	การ	_	NOUN	NN	_	12	obl	_	SpaceAfter=No
+3	ที่	_	DET	WDT	_	6	nsubj	_	SpaceAfter=No
+4	มัก	_	ADV	RB	_	6	advmod	_	SpaceAfter=No
+5	ได้	_	PART	AS	Aspect=Perf	6	aux	_	SpaceAfter=No
+6	ใกล้ชิด	_	ADJ	JJ	_	2	acl:relcl	_	SpaceAfter=No
+7	กับ	_	ADP	IN	_	8	case	_	SpaceAfter=No
+8	สภา	_	NOUN	NN	_	6	obl	_	Proper=True|SpaceAfter=No
+9	คาทอลิก	_	PROPN	NNP	_	8	flat:name	_	_
+10	ทีนา	_	PROPN	NNP	_	12	nsubj	_	_
+11	อันเซลมี	_	PROPN	NNP	_	10	flat:name	_	SpaceAfter=No
+12	เข้าร่วม	_	VERB	VV	_	0	root	_	SpaceAfter=No
+13	ใน	_	ADP	IN	_	14	case	_	SpaceAfter=No
+14	สิทธิ	_	NOUN	NN	_	12	obl	_	SpaceAfter=No
+15	ของ	_	ADP	IN	_	16	case	_	SpaceAfter=No
+16	คน	_	NOUN	NN	_	14	nmod:poss	_	SpaceAfter=No
+17	งาน	_	NOUN	NN	_	16	compound	_	SpaceAfter=No
+18	สิ่ง	_	NOUN	NN	_	16	compound	_	SpaceAfter=No
+19	ทอ	_	VERB	VV	_	18	acl	_	SpaceAfter=No
+20	และ	_	CCONJ	CC	_	21	cc	_	SpaceAfter=No
+21	ครู	_	NOUN	NN	_	16	conj	_	SpaceAfter=No
+22	อย่างเจาะจง	_	VERB	VV	_	12	advmod	_	_
+
+# sent_id = n04002020
+# text = เป็นเรื่องยากที่จะคิดว่าอิตาลีมีจำนวนกิโลเมตรของเส้นทางรถไฟใต้ดินสั้นกว่าในมาดริด
+# text_en = It is difficult to think that Italy has fewer km of underground line than Madrid.
+1	เป็น	_	AUX	VC	_	2	cop	_	SpaceAfter=No
+2	เรื่อง	_	NOUN	NN	_	0	root	_	SpaceAfter=No
+3	ยาก	_	ADJ	JJ	_	2	amod	_	SpaceAfter=No
+4	ที่	_	DET	WDT	_	6	advmod	_	SpaceAfter=No
+5	จะ	_	VERB	MD	_	6	aux	_	SpaceAfter=No
+6	คิด	_	VERB	VV	_	2	acl:relcl	_	SpaceAfter=No
+7	ว่า	_	ADP	IN	_	9	mark	_	SpaceAfter=No
+8	อิตาลี	_	PROPN	NNP	_	9	nsubj	_	SpaceAfter=No
+9	มี	_	VERB	VV	_	6	ccomp	_	SpaceAfter=No
+10	จำนวน	_	NOUN	NN	_	9	obj	_	SpaceAfter=No
+11	กิโลเมตร	_	NOUN	NN	_	10	compound	_	SpaceAfter=No
+12	ของ	_	ADP	IN	_	13	case	_	SpaceAfter=No
+13	เส้น	_	NOUN	NN	_	10	nmod:poss	_	SpaceAfter=No
+14	ทาง	_	NOUN	NN	_	13	compound	_	SpaceAfter=No
+15	รถไฟ	_	NOUN	NN	_	13	compound	_	SpaceAfter=No
+16	ใต้	_	ADP	IN	_	17	case	_	SpaceAfter=No
+17	ดิน	_	NOUN	NN	_	13	nmod	_	SpaceAfter=No
+18	สั้น	_	ADJ	JJ	_	9	xcomp	_	SpaceAfter=No
+19	กว่า	_	ADP	IN	_	18	case	_	SpaceAfter=No
+20	ใน	_	ADP	IN	_	21	case	_	SpaceAfter=No
+21	มาดริด	_	PROPN	NNP	_	19	nmod	_	ToDo=nmod
+
+# sent_id = n04002027
+# text = เป็นการเน้นย้ำว่าเราไม่สามารถดำเนินการต่อกับกลุ่มคนที่ต่อต้านอิตาลีโดยสิ้นเชิงได้อย่างแน่นอน
+# text_en = It has been emphasised that we absolutely cannot continue with those who are completely against Italy.
+1	เป็น	_	AUX	VC	_	2	cop	_	SpaceAfter=No
+2	การเน้นย้ำ	_	VERB	VV	_	0	root	_	SpaceAfter=No
+3	ว่า	_	ADP	IN	_	7	mark	_	SpaceAfter=No
+4	เรา	_	PRON	PRP	Person=1	7	nsubj	_	SpaceAfter=No
+5	ไม่	_	PART	NEG	Polarity=Neg	6	advmod	_	SpaceAfter=No
+6	สามารถ	_	VERB	MD	_	7	aux	_	SpaceAfter=No
+7	ดำเนินการ	_	VERB	VV	_	2	ccomp	_	SpaceAfter=No
+8	ต่อ	_	ADV	RB	_	7	advmod	_	SpaceAfter=No
+9	กับ	_	ADP	IN	_	10	case	_	SpaceAfter=No
+10	กลุ่ม	_	NOUN	NN	_	7	obl	_	SpaceAfter=No
+11	คน	_	NOUN	NN	_	10	compound	_	SpaceAfter=No
+12	ที่	_	DET	WDT	_	13	nsubj	_	SpaceAfter=No
+13	ต่อต้าน	_	VERB	VV	_	10	acl:relcl	_	SpaceAfter=No
+14	อิตาลี	_	PROPN	NNP	_	13	obj	_	SpaceAfter=No
+15	โดยสิ้นเชิง	_	VERB	VV	_	13	advmod	_	SpaceAfter=No
+16	ได้	_	VERB	MD	_	7	aux	_	SpaceAfter=No
+17	อย่างแน่นอน	_	ADV	RB	_	7	advmod	_	_
+
+# sent_id = n04002029
+# text = เราจะประเมินว่าจะดำเนินการต่อไปยังส่วนถัดไปได้หรือไม่ อย่างไร
+# text_en = We will evaluate whether and how to continue onto the next section.
+1	เรา	_	PRON	PRP	Person=1	3	nsubj	_	SpaceAfter=No
+2	จะ	_	VERB	MD	_	3	aux	_	SpaceAfter=No
+3	ประเมิน	_	VERB	VV	_	0	root	_	SpaceAfter=No
+4	ว่า	_	ADP	IN	_	6	mark	_	SpaceAfter=No
+5	จะ	_	VERB	MD	_	6	aux	_	SpaceAfter=No
+6	ดำเนินการ	_	VERB	VV	_	3	ccomp	_	SpaceAfter=No
+7	ต่อไป	_	ADV	RB	_	6	advmod	_	SpaceAfter=No
+8	ยัง	_	ADP	IN	_	9	case	_	SpaceAfter=No
+9	ส่วน	_	NOUN	NN	_	6	obl	_	SpaceAfter=No
+10	ถัดไป	_	ADJ	JJ	_	9	amod	_	SpaceAfter=No
+11	ได้	_	VERB	MD	_	6	aux	_	SpaceAfter=No
+12	หรือไม่	_	PART	EP	_	3	discourse	_	_
+13	อย่างไร	_	ADV	WRB	_	3	advmod	_	_
+
+# sent_id = n04003043
+# text = เพลงฮิตคือ “เจอโรนิโม” โดยเชพเพิร์ด
+# text_en = The hit song is "Geronimo" by Sheppard.
+1	เพลง	_	NOUN	NN	_	5	nsubj	_	SpaceAfter=No
+2	ฮิต	_	ADJ	JJ	_	1	amod	_	SpaceAfter=No
+3	คือ	_	AUX	VC	_	5	cop	_	_
+4	“	_	PUNCT	``	_	5	punct	_	SpaceAfter=No
+5	เจอโรนิโม	_	PROPN	NNP	_	0	root	_	SpaceAfter=No
+6	”	_	PUNCT	''	_	5	punct	_	_
+7	โดย	_	ADP	IN	_	8	case	_	SpaceAfter=No
+8	เชพเพิร์ด	_	PROPN	NNP	_	5	nmod	_	ToDo=nmod
+
+# sent_id = n04005003
+# text = ผู้มีอายุตามนั้นจะได้รับ 500 ยูโรจากรัฐ เพื่อให้ใช้จ่ายภายในวันที่ 31 ธันวาคม 2017
+# text_en = Those of age will be offered 500 euros by the state, to be spent by 31st December 2017.
+1	ผู้	_	NOUN	NN	_	8	nsubj	_	SpaceAfter=No
+2	มี	_	VERB	VV	_	1	acl	_	SpaceAfter=No
+3	อายุ	_	NOUN	NN	_	2	obj	_	SpaceAfter=No
+4	ตาม	_	ADP	IN	_	5	case	_	SpaceAfter=No
+5	นั้น	_	PRON	PRD	_	2	obl	_	SpaceAfter=No
+6	จะ	_	VERB	MD	_	8	aux	_	SpaceAfter=No
+7	ได้	_	PART	AS	Aspect=Perf	8	aux	_	SpaceAfter=No
+8	รับ	_	VERB	VV	_	0	root	_	_
+9	500	_	NUM	CD	_	10	nummod	_	_
+10	ยูโร	_	NOUN	NNB	_	8	obj	_	SpaceAfter=No
+11	จาก	_	ADP	IN	_	12	case	_	SpaceAfter=No
+12	รัฐ	_	NOUN	NN	_	8	obl	_	_
+13	เพื่อ	_	ADP	IN	_	14	mark	_	SpaceAfter=No
+14	ให้	_	VERB	VV	_	8	advcl	_	SpaceAfter=No
+15	ใช้จ่าย	_	VERB	VV	_	14	xcomp	_	SpaceAfter=No
+16	ภาย	_	NOUN	NN	_	18	case	_	SpaceAfter=No
+17	ใน	_	ADP	IN	_	16	fixed	_	SpaceAfter=No
+18	วันที่	_	NOUN	NN	_	15	obl	_	_
+19	31	_	NUM	CD	_	18	appos	_	_
+20	ธันวาคม	_	NOUN	NN	_	19	obl:tmod	_	_
+21	2017	_	NUM	CD	_	20	obl:tmod	_	_
+
+# sent_id = n04005016
+# text = บัตรกำนัลจะถูกสร้างขึ้นซึ่งสามารถบันทึกในสมาร์ทโฟนหรือแสดงที่เครื่องชำระเงิน
+# text_en = A voucher is generated that can be saved on your smartphone, or presented at the till.
+1	บัตร	_	NOUN	NN	_	5	nsubj:pass	_	SpaceAfter=No
+2	กำนัล	_	NOUN	NN	_	1	compound	_	SpaceAfter=No
+3	จะ	_	VERB	MD	_	5	aux	_	SpaceAfter=No
+4	ถูก	_	VERB	MD	Voice=Pass	5	aux:pass	_	SpaceAfter=No
+5	สร้าง	_	VERB	VV	_	0	root	_	SpaceAfter=No
+6	ขึ้น	_	PART	RP	_	5	compound:prt	_	SpaceAfter=No
+7	ซึ่ง	_	ADP	IN	_	9	mark	_	SpaceAfter=No
+8	สามารถ	_	VERB	MD	_	9	aux	_	SpaceAfter=No
+9	บันทึก	_	VERB	VV	_	5	advcl	_	SpaceAfter=No
+10	ใน	_	ADP	IN	_	11	case	_	SpaceAfter=No
+11	สมาร์ทโฟน	_	NOUN	NN	_	9	obl	_	SpaceAfter=No
+12	หรือ	_	CCONJ	CC	_	13	cc	_	SpaceAfter=No
+13	แสดง	_	VERB	VV	_	9	conj	_	SpaceAfter=No
+14	ที่	_	ADP	IN	_	15	case	_	SpaceAfter=No
+15	เครื่อง	_	NOUN	NN	_	13	obl	_	SpaceAfter=No
+16	ชำระ	_	VERB	VV	_	15	acl	_	SpaceAfter=No
+17	เงิน	_	NOUN	NN	_	16	obj	_	_
+
+# sent_id = n04006003
+# text = ตั้งแต่วันที่ 1 มกราคมจะมีการขึ้นราคาน้ำมันเบนซินและดีเซล
+# text_en = From the 1st of January there will be an increase in petrol and diesel.
+1	ตั้ง	_	VERB	VV	_	3	case	_	SpaceAfter=No
+2	แต่	_	ADP	IN	_	1	fixed	_	SpaceAfter=No
+3	วันที่	_	NOUN	NN	_	7	obl	_	_
+4	1	_	NUM	CD	_	3	appos	_	_
+5	มกราคม	_	NOUN	NN	_	4	obl:tmod	_	SpaceAfter=No
+6	จะ	_	VERB	MD	_	7	aux	_	SpaceAfter=No
+7	มี	_	VERB	VV	_	0	root	_	SpaceAfter=No
+8	การขึ้น	_	VERB	VV	_	7	obj	_	SpaceAfter=No
+9	ราคา	_	NOUN	NN	_	8	obj	_	SpaceAfter=No
+10	น้ำมัน	_	NOUN	NN	_	9	compound	_	SpaceAfter=No
+11	เบนซิน	_	NOUN	NN	_	9	compound	_	SpaceAfter=No
+12	และ	_	CCONJ	CC	_	13	cc	_	SpaceAfter=No
+13	ดีเซล	_	NOUN	NN	_	11	conj	_	_
+
+# sent_id = n04006004
+# text = CGI Mestre ได้ระบุไว้ในบันทึกว่าจะไม่ขึ้นภาษีมูลค่าเพิ่ม อย่างน้อยก็ในปี 2017
+# text_en = The CGI Mestre have stated in a note, that there will be no rise in VAT, for 2017 at least.
+1	CGI	_	PROPN	NNP	_	4	nsubj	_	_
+2	Mestre	_	PROPN	NNP	_	1	flat:name	_	_
+3	ได้	_	PART	AS	Aspect=Perf	4	aux	_	SpaceAfter=No
+4	ระบุ	_	VERB	VV	_	0	root	_	SpaceAfter=No
+5	ไว้	_	ADV	RB	_	4	advmod	_	SpaceAfter=No
+6	ใน	_	ADP	IN	_	7	case	_	SpaceAfter=No
+7	บันทึก	_	NOUN	NN	_	4	obl	_	SpaceAfter=No
+8	ว่า	_	ADP	IN	_	11	mark	_	SpaceAfter=No
+9	จะ	_	VERB	MD	_	11	aux	_	SpaceAfter=No
+10	ไม่	_	PART	NEG	Polarity=Neg	11	advmod	_	SpaceAfter=No
+11	ขึ้น	_	VERB	VV	_	4	ccomp	_	SpaceAfter=No
+12	ภาษี	_	NOUN	NN	_	11	obj	_	SpaceAfter=No
+13	มูลค่า	_	NOUN	NN	_	12	compound	_	SpaceAfter=No
+14	เพิ่ม	_	VERB	VV	_	13	acl	_	_
+15	อย่างน้อย	_	ADJ	JJ	_	18	advmod	_	SpaceAfter=No|ToDo=ex-adp-child
+16	ก็	_	ADV	RB	_	18	advmod	_	SpaceAfter=No|ToDo=ex-adp-child
+17	ใน	_	ADP	IN	_	18	case	_	SpaceAfter=No
+18	ปี	_	NOUN	NN	_	11	obl	_	_
+19	2017	_	NUM	CD	_	18	appos	_	_
+
+# sent_id = n04006010
+# text = ระดับของทั้งสองกรณีเป็นขั้นสูงสุดของสหภาพยุโรป
+# text_en = A level that in both cases is at the top of the EU.
+1	ระดับ	_	NOUN	NN	_	7	nsubj	_	SpaceAfter=No
+2	ของ	_	ADP	IN	_	5	case	_	SpaceAfter=No
+3	ทั้ง	_	DET	DT	_	5	det	_	SpaceAfter=No
+4	สอง	_	NUM	CD	_	5	nummod	_	SpaceAfter=No
+5	กรณี	_	NOUN	NNB	_	1	nmod:poss	_	SpaceAfter=No
+6	เป็น	_	AUX	VC	_	7	cop	_	SpaceAfter=No
+7	ขั้น	_	NOUN	NN	_	0	root	_	SpaceAfter=No
+8	สูง	_	ADJ	JJ	_	7	amod	_	SpaceAfter=No
+9	สุด	_	ADV	RB	_	8	advmod	_	SpaceAfter=No
+10	ของ	_	ADP	IN	_	11	case	_	SpaceAfter=No
+11	สหภาพ	_	NOUN	NN	_	7	nmod:poss	_	Proper=True|SpaceAfter=No
+12	ยุโรป	_	PROPN	NNP	_	11	flat:name	_	_
+
+# sent_id = n04006014
+# text = ตัวเลขล่าสุดเกี่ยวโยงกับวันที่ 24 ตุลาคมปีที่แล้ว และบอกให้เรารู้ว่าน้ำมันดีเซลของเรามีราคา 1.335 ยูโรต่อลิตร เทียบกับราคาเฉลี่ยในยูโรโซนที่ 1.165 ยูโร
+# text_en = The latest figures relate to the 24th of October last year, and tell us that our diesel costs 1,335 euros per litre, compared with the eurozone average of 1,165 euros.
+1	ตัว	_	NOUN	NN	_	4	nsubj	_	SpaceAfter=No
+2	เลข	_	NOUN	NN	_	1	compound	_	SpaceAfter=No
+3	ล่าสุด	_	ADJ	JJ	_	1	amod	_	SpaceAfter=No
+4	เกี่ยวโยง	_	VERB	VV	_	0	root	_	SpaceAfter=No
+5	กับ	_	ADP	IN	_	6	case	_	SpaceAfter=No
+6	วันที่	_	NOUN	NN	_	4	obl	_	_
+7	24	_	NUM	CD	_	6	appos	_	_
+8	ตุลาคม	_	NOUN	NN	_	7	obl:tmod	_	SpaceAfter=No
+9	ปี	_	NOUN	NN	_	6	obl:tmod	_	SpaceAfter=No
+10	ที่แล้ว	_	ADJ	JJ	_	9	amod	_	_
+11	และ	_	CCONJ	CC	_	12	cc	_	SpaceAfter=No
+12	บอก	_	VERB	VV	_	4	conj	_	SpaceAfter=No
+13	ให้	_	VERB	VV	_	12	xcomp	_	SpaceAfter=No
+14	เรา	_	PRON	PRP	Person=1	13	obj	_	SpaceAfter=No
+15	รู้	_	VERB	VV	_	13	xcomp	_	SpaceAfter=No
+16	ว่า	_	ADP	IN	_	21	mark	_	SpaceAfter=No
+17	น้ำมัน	_	NOUN	NN	_	21	nsubj	_	SpaceAfter=No
+18	ดีเซล	_	NOUN	NN	_	17	compound	_	SpaceAfter=No
+19	ของ	_	ADP	IN	_	20	case	_	SpaceAfter=No
+20	เรา	_	PRON	PRP	Person=1	17	nmod:poss	_	SpaceAfter=No
+21	มี	_	VERB	VV	_	15	ccomp	_	SpaceAfter=No
+22	ราคา	_	NOUN	NN	_	21	obj	_	_
+23	1.335	_	NUM	CD	_	24	nummod	_	_
+24	ยูโร	_	NOUN	NNB	_	22	clf	_	SpaceAfter=No
+25	ต่อ	_	ADP	IN	_	26	case	_	SpaceAfter=No
+26	ลิตร	_	NOUN	NN	_	24	nmod	_	_
+27	เทียบ	_	VERB	VV	_	21	xcomp	_	SpaceAfter=No
+28	กับ	_	ADP	IN	_	29	case	_	SpaceAfter=No
+29	ราคา	_	NOUN	NN	_	27	obl	_	SpaceAfter=No
+30	เฉลี่ย	_	ADJ	JJ	_	29	amod	_	SpaceAfter=No
+31	ใน	_	ADP	IN	_	32	case	_	SpaceAfter=No
+32	ยูโรโซน	_	PROPN	NNP	_	29	nmod	_	SpaceAfter=No
+33	ที่	_	ADP	IN	_	35	case	_	_
+34	1.165	_	NUM	CD	_	35	nummod	_	_
+35	ยูโร	_	NOUN	NNB	_	29	nmod	_	_
+
+# sent_id = n04006016
+# text = ต้นทุนที่สูงกว่ามากซึ่งเกินค่าเฉลี่ยของประเทศที่ใช้ค่าเงินเดียวกันอย่างชัดเจน ซึ่งเท่ากับ 1.365 ยูโรต่อลิตร
+# text_en = A significantly higher cost which clearly exceeds the average of the countries that adopt the single currency, which is equal to 1,365 euros per litre.
+1	ต้น	_	NOUN	NN	_	0	root	_	SpaceAfter=No
+2	ทุน	_	NOUN	NN	_	1	compound	_	SpaceAfter=No
+3	ที่	_	DET	WDT	_	4	nsubj	_	SpaceAfter=No
+4	สูง	_	ADJ	JJ	_	1	acl:relcl	_	SpaceAfter=No
+5	กว่า	_	ADV	RB	_	4	advmod	_	SpaceAfter=No
+6	มาก	_	ADV	RB	_	4	advmod	_	SpaceAfter=No
+7	ซึ่ง	_	DET	WDT	_	8	nsubj	_	SpaceAfter=No
+8	เกิน	_	ADJ	JJ	_	1	acl:relcl	_	SpaceAfter=No
+9	ค่า	_	NOUN	NN	_	8	obj	_	SpaceAfter=No
+10	เฉลี่ย	_	ADJ	JJ	_	9	amod	_	SpaceAfter=No
+11	ของ	_	ADP	IN	_	12	case	_	SpaceAfter=No
+12	ประเทศ	_	NOUN	NN	_	9	nmod:poss	_	SpaceAfter=No
+13	ที่	_	DET	WDT	_	14	nsubj	_	SpaceAfter=No
+14	ใช้	_	VERB	VV	_	12	acl:relcl	_	SpaceAfter=No
+15	ค่า	_	NOUN	NN	_	14	obj	_	SpaceAfter=No
+16	เงิน	_	NOUN	NN	_	15	compound	_	SpaceAfter=No
+17	เดียว	_	ADJ	JJ	_	15	amod	_	SpaceAfter=No
+18	กัน	_	PRON	PRP	_	17	advmod	_	SpaceAfter=No
+19	อย่างชัดเจน	_	ADJ	JJ	_	8	advmod	_	_
+20	ซึ่ง	_	DET	WDT	_	21	nsubj	_	SpaceAfter=No
+21	เท่า	_	VERB	VV	_	9	acl:relcl	_	SpaceAfter=No
+22	กับ	_	ADP	IN	_	24	case	_	_
+23	1.365	_	NUM	CD	_	24	nummod	_	_
+24	ยูโร	_	NOUN	NNB	_	21	obl	_	SpaceAfter=No
+25	ต่อ	_	ADP	IN	_	26	case	_	SpaceAfter=No
+26	ลิตร	_	NOUN	NN	_	24	nmod	_	_
+
+# sent_id = n04007002
+# text = คอร์ราโด พาเซอร์รา ถอนความช่วยเหลือสมาชิกรัฐสภาเนื่องจาก “ทัศนคติของการปิดอภิปรายโดยรวมที่ธนาคารได้แสดงให้เราเห็น”
+# text_en = Corrado Passera withdraws the offer for Mps due to "the attitude of total closure that the Bank has shown to us".
+1	คอร์ราโด	_	PROPN	NNP	_	3	nsubj	_	_
+2	พาเซอร์รา	_	PROPN	NNP	_	1	flat:name	_	_
+3	ถอน	_	VERB	VV	_	0	root	_	SpaceAfter=No
+4	ความช่วยเหลือ	_	VERB	VV	_	3	obj	_	SpaceAfter=No
+5	สมาชิก	_	NOUN	NN	_	4	obj	_	SpaceAfter=No
+6	รัฐสภา	_	NOUN	NN	_	5	compound	_	SpaceAfter=No
+7	เนื่อง	_	ADP	IN	_	10	case	_	SpaceAfter=No
+8	จาก	_	ADP	IN	_	7	fixed	_	_
+9	“	_	PUNCT	``	_	10	punct	_	SpaceAfter=No
+10	ทัศนคติ	_	NOUN	NN	_	3	obl	_	SpaceAfter=No
+11	ของ	_	ADP	IN	_	12	case	_	SpaceAfter=No
+12	การปิด	_	VERB	VV	_	10	nmod:poss	_	SpaceAfter=No
+13	อภิปราย	_	VERB	VV	_	12	xcomp	_	SpaceAfter=No
+14	โดยรวม	_	VERB	VV	_	12	advmod	_	SpaceAfter=No
+15	ที่	_	DET	WDT	_	18	obj	_	SpaceAfter=No
+16	ธนาคาร	_	NOUN	NN	_	18	nsubj	_	SpaceAfter=No
+17	ได้	_	PART	AS	Aspect=Perf	18	aux	_	SpaceAfter=No
+18	แสดง	_	VERB	VV	_	10	acl:relcl	_	SpaceAfter=No
+19	ให้	_	VERB	VV	_	18	xcomp	_	SpaceAfter=No
+20	เรา	_	PRON	PRP	Person=1	19	obj	_	SpaceAfter=No
+21	เห็น	_	VERB	VV	_	19	xcomp	_	SpaceAfter=No
+22	”	_	PUNCT	''	_	10	punct	_	_
+
+# sent_id = n04007015
+# text = จากที่กล่าวมา การตัดสินใจเป็นอำนาจพิเศษของธนาคารกลางยุโรปและคงจะดูไม่เหมาะสมหากธนาคารจะกล่าวถึงเรื่องนั้นในนามของตนเองโดยตัดความเป็นไปได้ในการมองหาทางเลือกอื่น
+# text_en = As stated, the decision is the prerogative of the ECB and would appear inappropriate for the Bank to speak on its behalf by excluding the possibility of looking at other alternatives.
+1	จาก	_	ADP	IN	_	3	case	_	SpaceAfter=No
+2	ที่	_	PRON	PRP	_	3	obj	_	SpaceAfter=No
+3	กล่าว	_	VERB	VV	_	7	xcomp	_	SpaceAfter=No
+4	มา	_	PART	RP	_	3	compound:prt	_	_
+5	การตัดสินใจ	_	VERB	VV	_	7	nsubj	_	SpaceAfter=No
+6	เป็น	_	AUX	VC	_	7	cop	_	SpaceAfter=No
+7	อำนาจ	_	NOUN	NN	_	0	root	_	SpaceAfter=No
+8	พิเศษ	_	ADJ	JJ	_	7	amod	_	SpaceAfter=No
+9	ของ	_	ADP	IN	_	10	case	_	SpaceAfter=No
+10	ธนาคาร	_	NOUN	NN	_	7	nmod:poss	_	Proper=True|SpaceAfter=No
+11	กลาง	_	NOUN	NN	_	10	flat:name	_	Proper=True|SpaceAfter=No
+12	ยุโรป	_	PROPN	NNP	_	10	flat:name	_	SpaceAfter=No
+13	และ	_	CCONJ	CC	_	16	cc	_	SpaceAfter=No
+14	คง	_	VERB	MD	_	16	aux	_	SpaceAfter=No
+15	จะ	_	VERB	MD	_	16	aux	_	SpaceAfter=No
+16	ดู	_	VERB	VV	_	7	conj	_	SpaceAfter=No
+17	ไม่	_	PART	NEG	Polarity=Neg	18	advmod	_	SpaceAfter=No
+18	เหมาะสม	_	ADJ	JJ	_	16	xcomp	_	SpaceAfter=No
+19	หาก	_	ADP	IN	_	22	mark	_	SpaceAfter=No
+20	ธนาคาร	_	NOUN	NN	_	22	nsubj	_	SpaceAfter=No
+21	จะ	_	VERB	MD	_	22	aux	_	SpaceAfter=No
+22	กล่าว	_	VERB	VV	_	18	advcl	_	SpaceAfter=No
+23	ถึง	_	ADP	IN	_	24	case	_	SpaceAfter=No
+24	เรื่อง	_	NOUN	NN	_	22	obl	_	SpaceAfter=No
+25	นั้น	_	DET	DT	_	24	det	_	SpaceAfter=No
+26	ใน	_	ADP	IN	_	27	case	_	SpaceAfter=No
+27	นาม	_	NOUN	NN	_	22	obl	_	SpaceAfter=No
+28	ของ	_	ADP	IN	_	29	case	_	SpaceAfter=No
+29	ตนเอง	_	PRON	PRP	Person=3	27	nmod:poss	_	SpaceAfter=No
+30	โดย	_	ADP	IN	_	31	mark	_	SpaceAfter=No
+31	ตัด	_	VERB	VV	_	22	advcl	_	SpaceAfter=No
+32	ความเป็นไป	_	VERB	VV	_	31	obj	_	SpaceAfter=No
+33	ได้	_	VERB	MD	_	32	aux	_	SpaceAfter=No
+34	ใน	_	ADP	IN	_	35	case	_	SpaceAfter=No
+35	การมองหา	_	VERB	VV	_	32	xcomp	_	SpaceAfter=No
+36	ทาง	_	NOUN	NN	_	35	obj	_	SpaceAfter=No
+37	เลือก	_	VERB	VV	_	36	acl	_	SpaceAfter=No
+38	อื่น	_	ADJ	JJ	_	36	amod	_	_
+
+# sent_id = n04007018
+# text = นี่เป็นสิ่งที่มีการเขียนในบันทึกถึงสมาชิกรัฐสภาภายหลังจากการตัดสินใจของอดีตรัฐมนตรีที่จะออกจากพรรค
+# text_en = This is what has been written in a note to Mps after the decision of the ex-minister to leave the party.
+1	นี่	_	PRON	PRD	_	3	nsubj	_	SpaceAfter=No
+2	เป็น	_	AUX	VC	_	3	cop	_	SpaceAfter=No
+3	สิ่ง	_	NOUN	NN	_	0	root	_	SpaceAfter=No
+4	ที่	_	DET	WDT	_	5	nsubj	_	SpaceAfter=No
+5	มี	_	VERB	VV	_	3	acl:relcl	_	SpaceAfter=No
+6	การเขียน	_	VERB	VV	_	5	obj	_	SpaceAfter=No
+7	ใน	_	ADP	IN	_	8	case	_	SpaceAfter=No
+8	บันทึก	_	NOUN	NN	_	6	obl	_	SpaceAfter=No
+9	ถึง	_	ADP	IN	_	10	case	_	SpaceAfter=No
+10	สมาชิก	_	NOUN	NN	_	8	nmod	_	SpaceAfter=No
+11	รัฐสภา	_	NOUN	NN	_	10	compound	_	SpaceAfter=No
+12	ภาย	_	NOUN	NN	_	3	case	_	SpaceAfter=No
+13	หลัง	_	ADP	IN	_	12	fixed	_	SpaceAfter=No
+14	จาก	_	ADP	IN	_	15	case	_	SpaceAfter=No
+15	การตัดสินใจ	_	VERB	VV	_	12	nmod	_	SpaceAfter=No
+16	ของ	_	ADP	IN	_	18	case	_	SpaceAfter=No
+17	อดีต	_	ADJ	JJ	_	18	amod	_	SpaceAfter=No
+18	รัฐมนตรี	_	NOUN	NN	_	15	obl:poss	_	SpaceAfter=No
+19	ที่	_	DET	WDT	_	21	nsubj	_	SpaceAfter=No
+20	จะ	_	VERB	MD	_	21	aux	_	SpaceAfter=No
+21	ออก	_	VERB	VV	_	18	acl:relcl	_	SpaceAfter=No
+22	จาก	_	ADP	IN	_	23	case	_	SpaceAfter=No
+23	พรรค	_	NOUN	NN	_	21	obl	_	_
+
+# sent_id = n04007023
+# text = สิ่งนี้จะนำไปประเมินผล
+# text_en = It will go for assessment.
+1	สิ่ง	_	NOUN	NN	_	4	dislocated	_	SpaceAfter=No
+2	นี้	_	DET	DT	_	1	det	_	SpaceAfter=No
+3	จะ	_	VERB	MD	_	4	aux	_	SpaceAfter=No
+4	นำ	_	VERB	VV	_	0	root	_	SpaceAfter=No
+5	ไป	_	PART	RP	_	4	compound:prt	_	SpaceAfter=No
+6	ประเมิน	_	VERB	VV	_	4	xcomp	_	SpaceAfter=No
+7	ผล	_	NOUN	NN	_	6	obj	_	_
+
+# sent_id = n04008007
+# text = นักศึกษาจากมหาวิทยาลัย LUISS ได้รับทราบระหว่างการประชุมที่จัดขึ้นในโรม
+# text_en = Students at LUISS University were told during the course of a meeting which took place in Rome.
+1	นัก	_	NOUN	NN	_	7	nsubj	_	SpaceAfter=No
+2	ศึกษา	_	VERB	VV	_	1	acl	_	SpaceAfter=No
+3	จาก	_	ADP	IN	_	4	case	_	SpaceAfter=No
+4	มหาวิทยาลัย	_	NOUN	NN	_	1	nmod	_	Proper=True
+5	LUISS	_	PROPN	NNP	_	4	flat:name	_	_
+6	ได้	_	PART	AS	Aspect=Perf	7	aux	_	SpaceAfter=No
+7	รับทราบ	_	VERB	VV	_	0	root	_	SpaceAfter=No
+8	ระหว่าง	_	ADP	IN	_	9	case	_	SpaceAfter=No
+9	การประชุม	_	VERB	VV	_	7	obl	_	SpaceAfter=No
+10	ที่	_	DET	WDT	_	11	obj	_	SpaceAfter=No
+11	จัด	_	VERB	VV	_	9	acl:relcl	_	SpaceAfter=No
+12	ขึ้น	_	PART	RP	_	11	compound:prt	_	SpaceAfter=No
+13	ใน	_	ADP	IN	_	14	case	_	SpaceAfter=No
+14	โรม	_	PROPN	NNP	_	11	obl	_	_
+
+# sent_id = n04008016
+# text = เมื่อเช้านี้พระสันตะปาปาฟรานซิสได้พบกับมาร์ก ซักเคอร์เบิร์กและภรรยาของเขาที่คาซ่า ซานตา มาร์ทา
+# text_en = This morning, Pope Francis met Mark Zuckerberg and his wife at Casa Santa Marta.
+1	เมื่อ	_	ADP	IN	_	2	case	_	SpaceAfter=No
+2	เช้า	_	NOUN	NN	_	8	obl	_	SpaceAfter=No
+3	นี้	_	DET	DT	_	2	det	_	SpaceAfter=No
+4	พระ	_	NOUN	NN	_	8	nsubj	_	SpaceAfter=No
+5	สันตะปาปา	_	NOUN	NN	_	4	compound	_	SpaceAfter=No
+6	ฟรานซิส	_	PROPN	NNP	_	4	appos	_	SpaceAfter=No
+7	ได้	_	PART	AS	Aspect=Perf	8	aux	_	SpaceAfter=No
+8	พบ	_	VERB	VV	_	0	root	_	SpaceAfter=No
+9	กับ	_	ADP	IN	_	10	case	_	SpaceAfter=No
+10	มาร์ก	_	PROPN	NNP	_	8	obl	_	_
+11	ซักเคอร์เบิร์ก	_	PROPN	NNP	_	10	flat:name	_	SpaceAfter=No
+12	และ	_	CCONJ	CC	_	13	cc	_	SpaceAfter=No
+13	ภรรยา	_	NOUN	NN	_	10	conj	_	SpaceAfter=No
+14	ของ	_	ADP	IN	_	15	case	_	SpaceAfter=No
+15	เขา	_	PRON	PRP	Person=3	13	nmod:poss	_	SpaceAfter=No
+16	ที่	_	ADP	IN	_	17	case	_	SpaceAfter=No
+17	คาซ่า	_	PROPN	NNP	_	8	obl	_	_
+18	ซานตา	_	PROPN	NNP	_	17	flat:name	_	_
+19	มาร์ทา	_	PROPN	NNP	_	17	flat:name	_	_
+
+# sent_id = n04009002
+# text = นักศึกษาสี่คนจากมหาวิทยาลัยโรม่าเตรได้พัฒนาหมวกกันน็อกสำหรับมอเตอร์ไซค์ที่สามารถ 'อ่านความคิด' ได้โดยช่วยคาดคะเนพฤติกรรมของผู้ขับขี่
+# text_en = Four students at Roma Tre University have developed a motorcycle helmet that can 'read thoughts' by helping to anticipate drivers' actions.
+1	นัก	_	NOUN	NN	_	10	nsubj	_	SpaceAfter=No
+2	ศึกษา	_	VERB	VV	_	1	acl	_	SpaceAfter=No
+3	สี่	_	NUM	CD	_	4	nummod	_	SpaceAfter=No
+4	คน	_	NOUN	NNB	_	1	clf	_	SpaceAfter=No
+5	จาก	_	ADP	IN	_	6	case	_	SpaceAfter=No
+6	มหาวิทยาลัย	_	NOUN	NN	_	1	nmod	_	Proper=True|SpaceAfter=No
+7	โรม่า	_	PROPN	NNP	_	6	flat:name	_	SpaceAfter=No
+8	เตร	_	PROPN	NNP	_	7	flat:name	_	SpaceAfter=No
+9	ได้	_	PART	AS	Aspect=Perf	10	aux	_	SpaceAfter=No
+10	พัฒนา	_	VERB	VV	_	0	root	_	SpaceAfter=No
+11	หมวก	_	NOUN	NN	_	10	obj	_	SpaceAfter=No
+12	กัน	_	VERB	VV	_	11	acl	_	SpaceAfter=No
+13	น็อก	_	VERB	VV	_	12	xcomp	_	SpaceAfter=No
+14	สำหรับ	_	ADP	IN	_	15	case	_	SpaceAfter=No
+15	มอเตอร์ไซค์	_	NOUN	NN	_	11	nmod	_	SpaceAfter=No
+16	ที่	_	DET	WDT	_	19	nsubj	_	SpaceAfter=No
+17	สามารถ	_	VERB	MD	_	19	aux	_	_
+18	'	_	PUNCT	``	_	19	punct	_	SpaceAfter=No
+19	อ่าน	_	VERB	VV	_	11	acl:relcl	_	SpaceAfter=No
+20	ความคิด	_	VERB	VV	_	19	obj	_	SpaceAfter=No
+21	'	_	PUNCT	''	_	19	punct	_	_
+22	ได้	_	VERB	MD	_	19	aux	_	SpaceAfter=No
+23	โดย	_	ADP	IN	_	24	mark	_	SpaceAfter=No
+24	ช่วย	_	VERB	VV	_	19	advcl	_	SpaceAfter=No
+25	คาดคะเน	_	VERB	VV	_	24	xcomp	_	SpaceAfter=No
+26	พฤติกรรม	_	NOUN	NN	_	25	compound	_	SpaceAfter=No
+27	ของ	_	ADP	IN	_	28	case	_	SpaceAfter=No
+28	ผู้	_	NOUN	NN	_	26	nmod:poss	_	SpaceAfter=No
+29	ขับขี่	_	VERB	VV	_	28	acl	_	_
+
+# sent_id = n04009003
+# text = หนึ่งในตัวอย่างของงานวิจัยที่นำไปใช้ภายใต้มาตรฐานความปลอดภัยก็ได้ผลิตหุ่นยนต์เหมือนมนุษย์เพื่อแข่งกับวาเลนติโน รอสซี
+# text_en = One of the examples of research applied under safety measures has also produced a humanoid robot to compete with Valentino Rossi.
+1	หนึ่ง	_	NUM	CD	_	18	nsubj	_	SpaceAfter=No
+2	ใน	_	ADP	IN	_	3	case	_	SpaceAfter=No
+3	ตัวอย่าง	_	NOUN	NN	_	1	nmod	_	SpaceAfter=No
+4	ของ	_	ADP	IN	_	5	case	_	SpaceAfter=No
+5	งาน	_	NOUN	NN	_	3	nmod:poss	_	SpaceAfter=No
+6	วิจัย	_	VERB	VV	_	5	acl	_	SpaceAfter=No
+7	ที่	_	DET	WDT	_	8	obj	_	SpaceAfter=No
+8	นำ	_	VERB	VV	_	3	acl:relcl	_	SpaceAfter=No
+9	ไป	_	PART	RP	_	8	compound:prt	_	SpaceAfter=No
+10	ใช้	_	VERB	VV	_	8	xcomp	_	SpaceAfter=No
+11	ภาย	_	NOUN	NN	_	13	case	_	SpaceAfter=No
+12	ใต้	_	ADP	IN	_	11	fixed	_	SpaceAfter=No
+13	มาตรฐาน	_	NOUN	NN	_	10	obl	_	SpaceAfter=No
+14	ความปลอด	_	VERB	VV	_	13	compound	_	SpaceAfter=No
+15	ภัย	_	NOUN	NN	_	14	obj	_	SpaceAfter=No
+16	ก็	_	ADV	RB	_	18	advmod	_	SpaceAfter=No
+17	ได้	_	PART	AS	Aspect=Perf	18	aux	_	SpaceAfter=No
+18	ผลิต	_	VERB	VV	_	0	root	_	SpaceAfter=No
+19	หุ่นยนต์	_	NOUN	NN	_	18	obj	_	SpaceAfter=No
+20	เหมือน	_	AUX	VC	_	21	cop	_	SpaceAfter=No
+21	มนุษย์	_	NOUN	NN	_	19	acl	_	SpaceAfter=No
+22	เพื่อ	_	ADP	IN	_	23	mark	_	SpaceAfter=No
+23	แข่ง	_	VERB	VV	_	18	advcl	_	SpaceAfter=No
+24	กับ	_	ADP	IN	_	25	case	_	SpaceAfter=No
+25	วาเลนติโน	_	PROPN	NNP	_	23	obl	_	_
+26	รอสซี	_	PROPN	NNP	_	25	flat:name	_	_
+
+# sent_id = n04010006
+# text = อูเบอร์จะได้รับเงินลงทุนหนึ่งพันล้านดอลลาร์และตำแหน่งในคณะกรรมการบริษัทของบริษัทจีนเป็นการแลกเปลี่ยน
+# text_en = In return, Uber will receive a billion dollar investment and a seat on the board of directors of the Chinese company.
+1	อูเบอร์	_	PROPN	NNP	_	4	nsubj	_	SpaceAfter=No
+2	จะ	_	VERB	MD	_	4	aux	_	SpaceAfter=No
+3	ได้	_	PART	AS	Aspect=Perf	4	aux	_	SpaceAfter=No
+4	รับ	_	VERB	VV	_	0	root	_	SpaceAfter=No
+5	เงิน	_	NOUN	NN	_	4	obj	_	SpaceAfter=No
+6	ลง	_	VERB	VV	_	5	acl	_	SpaceAfter=No
+7	ทุน	_	NOUN	NN	_	6	obj	_	SpaceAfter=No
+8	หนึ่ง	_	NUM	CD	_	9	nummod	_	SpaceAfter=No
+9	พัน	_	NUM	CD	_	10	nummod	_	SpaceAfter=No
+10	ล้าน	_	NUM	CD	_	11	nummod	_	SpaceAfter=No
+11	ดอลลาร์	_	NOUN	NNB	_	5	clf	_	SpaceAfter=No
+12	และ	_	CCONJ	CC	_	13	cc	_	SpaceAfter=No
+13	ตำแหน่ง	_	NOUN	NN	_	5	conj	_	SpaceAfter=No
+14	ใน	_	ADP	IN	_	15	case	_	SpaceAfter=No
+15	คณะ	_	NOUN	NN	_	13	nmod	_	SpaceAfter=No
+16	กรรมการ	_	NOUN	NN	_	15	compound	_	SpaceAfter=No
+17	บริษัท	_	NOUN	NN	_	15	compound	_	SpaceAfter=No
+18	ของ	_	ADP	IN	_	19	case	_	SpaceAfter=No
+19	บริษัท	_	NOUN	NN	_	15	nmod:poss	_	SpaceAfter=No
+20	จีน	_	PROPN	NNP	_	19	compound	_	SpaceAfter=No
+21	เป็น	_	AUX	VC	_	22	cop	_	SpaceAfter=No
+22	การแลกเปลี่ยน	_	VERB	VV	_	4	xcomp	_	_
+
+# sent_id = n04010016
+# text = บริษัทเทคโนโลยีจำนวนมากขึ้นเรื่อยๆ กำลังมีบทบาทสำคัญในการตัดสินใจในวอลสตรีทยิ่งกว่าที่เคย และมากกว่าที่ซิลิคอนวัลเลย์ด้วยซ้ำไป
+# text_en = More and more tech companies are calling the shots more than ever before on Wall Street, even more than in Silicon Valley.
+1	บริษัท	_	NOUN	NN	_	9	nsubj	_	SpaceAfter=No
+2	เทคโนโลยี	_	NOUN	NN	_	1	compound	_	SpaceAfter=No
+3	จำนวน	_	NOUN	NN	_	1	compound	_	SpaceAfter=No
+4	มาก	_	ADJ	JJ	_	3	amod	_	SpaceAfter=No
+5	ขึ้น	_	ADV	RB	_	4	advmod	_	SpaceAfter=No
+6	เรื่อย	_	ADV	RB	_	5	advmod	_	SpaceAfter=No
+7	ๆ	_	SYM	SYM	_	6	dep	_	_
+8	กำลัง	_	PART	AS	Aspect=Prog	9	aux	_	SpaceAfter=No
+9	มี	_	VERB	VV	_	0	root	_	SpaceAfter=No
+10	บทบาท	_	NOUN	NN	_	9	obj	_	SpaceAfter=No
+11	สำคัญ	_	ADJ	JJ	_	10	amod	_	SpaceAfter=No
+12	ใน	_	ADP	IN	_	13	case	_	SpaceAfter=No
+13	การตัดสินใจ	_	VERB	VV	_	9	obl	_	SpaceAfter=No
+14	ใน	_	ADP	IN	_	15	case	_	SpaceAfter=No
+15	วอลสตรีท	_	PROPN	NNP	_	13	obl	_	SpaceAfter=No
+16	ยิ่ง	_	ADV	RB	_	9	advmod	_	SpaceAfter=No
+17	กว่า	_	ADP	IN	_	19	case	_	SpaceAfter=No
+18	ที่	_	PRON	PRP	_	19	nsubj	_	SpaceAfter=No
+19	เคย	_	PART	AS	Aspect=Perf	16	xcomp	_	_
+20	และ	_	CCONJ	CC	_	21	cc	_	SpaceAfter=No
+21	มาก	_	ADV	RB	_	9	conj	_	SpaceAfter=No
+22	กว่า	_	ADP	IN	_	21	case	_	SpaceAfter=No
+23	ที่	_	ADP	IN	_	24	case	_	SpaceAfter=No
+24	ซิลิคอนวัลเลย์	_	PROPN	NNP	_	22	nmod	_	SpaceAfter=No|ToDo=nmod
+25	ด้วยซ้ำ	_	ADV	RB	_	21	advmod	_	SpaceAfter=No
+26	ไป	_	ADV	RB	_	25	advmod	_	_
+
+# sent_id = n04010017
+# text = แอมะซอนจะกลายเป็นบริษัทอเมริกันอันดับสี่ที่มีมูลค่าตามราคาตลาดสูงที่สุด แซงหน้าเอ็กซอนโมบิล
+# text_en = Amazon has become the fourth American company with the largest market capitalisation, surpassing ExxonMobil.
+1	แอมะซอน	_	PROPN	NNP	_	3	nsubj	_	SpaceAfter=No
+2	จะ	_	VERB	MD	_	3	aux	_	SpaceAfter=No
+3	กลาย	_	VERB	VV	_	0	root	_	SpaceAfter=No
+4	เป็น	_	AUX	VC	_	5	cop	_	SpaceAfter=No
+5	บริษัท	_	NOUN	NN	_	3	xcomp	_	SpaceAfter=No
+6	อเมริกัน	_	PROPN	NNP	_	5	compound	_	SpaceAfter=No
+7	อันดับ	_	NOUN	NNB	_	5	clf	_	SpaceAfter=No
+8	สี่	_	NUM	CD	_	7	nummod	_	SpaceAfter=No
+9	ที่	_	DET	WDT	_	10	nsubj	_	SpaceAfter=No
+10	มี	_	VERB	VV	_	5	acl:relcl	_	SpaceAfter=No
+11	มูลค่า	_	NOUN	NN	_	10	obj	_	SpaceAfter=No
+12	ตาม	_	ADP	IN	_	13	case	_	SpaceAfter=No
+13	ราคา	_	NOUN	NN	_	10	obl	_	SpaceAfter=No
+14	ตลาด	_	NOUN	NN	_	13	compound	_	SpaceAfter=No
+15	สูง	_	ADV	RB	_	10	advmod	_	SpaceAfter=No
+16	ที่สุด	_	ADV	RB	_	15	advmod	_	_
+17	แซงหน้า	_	VERB	VV	_	10	acl	_	SpaceAfter=No
+18	เอ็กซอนโมบิล	_	PROPN	NNP	_	17	obj	_	_
+
+# sent_id = n04010021
+# text = บรรดาผู้นำของบริษัทต่างๆ อาทิ สปอติฟาย เทสลา อูเบอร์ และสแนปแชท จะเข้าร่วมงานส่วนตัวนอกเหนือจากเมาเทนวิวซัมมิท
+# text_en = Leaders of companies such as Spotify, Tesla, Uber and Snapchat will attend a private event in addition to the Mountain View Summit.
+1	บรรดา	_	ADJ	JJ	_	2	amod	_	SpaceAfter=No
+2	ผู้	_	NOUN	NN	_	15	nsubj	_	SpaceAfter=No
+3	นำ	_	VERB	VV	_	2	acl	_	SpaceAfter=No
+4	ของ	_	ADP	IN	_	5	case	_	SpaceAfter=No
+5	บริษัท	_	NOUN	NN	_	2	nmod:poss	_	SpaceAfter=No
+6	ต่าง	_	ADJ	JJ	_	5	amod	_	SpaceAfter=No
+7	ๆ	_	SYM	SYM	_	6	dep	_	_
+8	อาทิ	_	ADP	IN	_	9	case	_	_
+9	สปอติฟาย	_	PROPN	NNP	_	5	nmod	_	_
+10	เทสลา	_	PROPN	NNP	_	9	conj	_	_
+11	อูเบอร์	_	PROPN	NNP	_	9	conj	_	_
+12	และ	_	CCONJ	CC	_	13	cc	_	SpaceAfter=No
+13	สแนปแชท	_	PROPN	NNP	_	9	conj	_	_
+14	จะ	_	VERB	MD	_	15	aux	_	SpaceAfter=No
+15	เข้าร่วม	_	VERB	VV	_	0	root	_	SpaceAfter=No
+16	งาน	_	NOUN	NN	_	15	obj	_	SpaceAfter=No
+17	ส่วนตัว	_	ADJ	JJ	_	16	amod	_	SpaceAfter=No
+18	นอก	_	ADP	IN	_	21	case	_	SpaceAfter=No
+19	เหนือ	_	ADP	IN	_	18	fixed	_	SpaceAfter=No
+20	จาก	_	ADP	IN	_	18	fixed	_	SpaceAfter=No
+21	เมาเทนวิว	_	PROPN	NNP	_	16	nmod	_	SpaceAfter=No
+22	ซัมมิท	_	NOUN	NN	_	21	flat:name	_	Proper=True
+
+# sent_id = n05001005
+# text = คริสตินา ซิฟูเอ็นเตส ประธานของชุมชนมาดริด เป็นตัวแทนความอนุรักษ์นิยมอย่างที่สุด ในขณะที่บรรดาผู้นำของพรรคอย่างรองปลัดกระทรวง คาเบียร์ มาโรโต เป็นตัวแทนหัวก้าวหน้าอย่างที่สุด
+# text_en = The president of the Community of Madrid, Cristina Cifuentes, represents the most conservative, while leaders of the party, such as the Sectorial Under-Secretary, Javier Maroto, represent the most progressive.
+1	คริสตินา	_	PROPN	NNP	_	8	nsubj	_	_
+2	ซิฟูเอ็นเตส	_	PROPN	NNP	_	1	flat:name	_	_
+3	ประธาน	_	NOUN	NN	_	1	appos	_	SpaceAfter=No
+4	ของ	_	ADP	IN	_	5	case	_	SpaceAfter=No
+5	ชุมชน	_	NOUN	NN	_	3	nmod:poss	_	Proper=True|SpaceAfter=No
+6	มาดริด	_	PROPN	NNP	_	5	flat:name	_	_
+7	เป็น	_	AUX	VC	_	8	cop	_	SpaceAfter=No
+8	ตัว	_	NOUN	NN	_	0	root	_	SpaceAfter=No
+9	แทน	_	VERB	VV	_	8	acl	_	SpaceAfter=No
+10	ความอนุรักษ์นิยม	_	ADJ	JJ	_	8	compound	_	SpaceAfter=No
+11	อย่างที่สุด	_	ADJ	JJ	_	10	advmod	_	_
+12	ใน	_	ADP	IN	_	13	case	_	SpaceAfter=No
+13	ขณะ	_	NOUN	NN	_	8	nmod	_	SpaceAfter=No|ToDo=nmod
+14	ที่	_	DET	WDT	_	27	obl:tmod	_	SpaceAfter=No
+15	บรรดา	_	ADJ	JJ	_	16	amod	_	SpaceAfter=No
+16	ผู้	_	NOUN	NN	_	27	nsubj	_	SpaceAfter=No
+17	นำ	_	VERB	VV	_	16	acl	_	SpaceAfter=No
+18	ของ	_	ADP	IN	_	19	case	_	SpaceAfter=No
+19	พรรค	_	NOUN	NN	_	16	nmod:poss	_	SpaceAfter=No
+20	อย่าง	_	ADP	IN	_	22	case	_	SpaceAfter=No
+21	รอง	_	ADJ	JJ	_	22	amod	_	SpaceAfter=No
+22	ปลัด	_	NOUN	NN	_	16	nmod	_	SpaceAfter=No
+23	กระทรวง	_	NOUN	NN	_	22	compound	_	_
+24	คาเบียร์	_	PROPN	NNP	_	22	appos	_	_
+25	มาโรโต	_	PROPN	NNP	_	22	flat:name	_	_
+26	เป็น	_	AUX	VC	_	27	cop	_	SpaceAfter=No
+27	ตัว	_	NOUN	NN	_	13	acl:relcl	_	SpaceAfter=No
+28	แทน	_	VERB	VV	_	27	acl	_	SpaceAfter=No
+29	หัว	_	NOUN	NN	_	27	compound	_	SpaceAfter=No
+30	ก้าวหน้า	_	VERB	VV	_	29	acl	_	SpaceAfter=No
+31	อย่างที่สุด	_	ADJ	JJ	_	30	advmod	_	_
+
+# sent_id = n05001008
+# text = ดูรันทำหน้าที่เป็นโฆษก และอังเคล ปินตาโดเป็นเหรัญญิก
+# text_en = Durán acts as spokesman and Ángel Pintado as treasurer.
+1	ดูรัน	_	PROPN	NNP	_	2	nsubj	_	SpaceAfter=No
+2	ทำ	_	VERB	VV	_	0	root	_	SpaceAfter=No
+3	หน้าที่	_	NOUN	NN	_	2	obj	_	SpaceAfter=No
+4	เป็น	_	AUX	VC	_	5	cop	_	SpaceAfter=No
+5	โฆษก	_	NOUN	NN	_	2	xcomp	_	_
+6	และ	_	CCONJ	CC	_	10	cc	_	SpaceAfter=No
+7	อังเคล	_	PROPN	NNP	_	10	nsubj	_	_
+8	ปินตาโด	_	PROPN	NNP	_	7	flat:name	_	SpaceAfter=No
+9	เป็น	_	AUX	VC	_	10	cop	_	SpaceAfter=No
+10	เหรัญญิก	_	NOUN	NN	_	2	conj	_	_
+
+# sent_id = n05002004
+# text = เป็นครั้งแรกในรอบหกปีที่ผ่านมาที่อัตราการเลิกจ้างงานลดลงต่ำกว่า 20% และมีคนที่ได้รับการว่าจ้างมากกว่าปีที่แล้ว 600,000 คน
+# text_en = For the first time in the last six years the rate of unemployment has dropped below 20%, and there are already 600,000 more people employed than there were a year ago.
+1	เป็น	_	AUX	VC	_	2	cop	_	SpaceAfter=No
+2	ครั้ง	_	NOUN	NN	_	0	root	_	SpaceAfter=No
+3	แรก	_	ADJ	JJ	_	2	amod	_	SpaceAfter=No
+4	ใน	_	ADP	IN	_	5	case	_	SpaceAfter=No
+5	รอบ	_	NOUN	NN	_	2	nmod	_	SpaceAfter=No|ToDo=nmod
+6	หก	_	NUM	CD	_	7	nummod	_	SpaceAfter=No
+7	ปี	_	NOUN	NNB	_	5	clf	_	SpaceAfter=No
+8	ที่	_	DET	WDT	_	9	obl:tmod	_	SpaceAfter=No
+9	ผ่าน	_	VERB	VV	_	7	acl:relcl	_	SpaceAfter=No
+10	มา	_	PART	RP	_	9	compound:prt	_	SpaceAfter=No
+11	ที่	_	DET	WDT	_	16	obl:tmod	_	SpaceAfter=No
+12	อัตรา	_	NOUN	NN	_	16	nsubj	_	SpaceAfter=No
+13	การเลิก	_	VERB	VV	_	12	compound	_	SpaceAfter=No
+14	จ้าง	_	VERB	VV	_	13	xcomp	_	SpaceAfter=No
+15	งาน	_	NOUN	NN	_	14	obj	_	SpaceAfter=No
+16	ลด	_	VERB	VV	_	2	acl:relcl	_	SpaceAfter=No
+17	ลง	_	PART	RP	_	16	compound:prt	_	SpaceAfter=No
+18	ต่ำ	_	ADV	RB	_	16	advmod	_	SpaceAfter=No
+19	กว่า	_	ADP	IN	_	21	case	_	_
+20	20	_	NUM	CD	_	21	nummod	_	SpaceAfter=No
+21	%	_	SYM	SYM	_	18	obl	_	_
+22	และ	_	CCONJ	CC	_	23	cc	_	SpaceAfter=No
+23	มี	_	VERB	VV	_	16	conj	_	SpaceAfter=No
+24	คน	_	NOUN	NN	_	23	obj	_	SpaceAfter=No
+25	ที่	_	DET	WDT	_	27	nsubj	_	SpaceAfter=No
+26	ได้	_	PART	AS	Aspect=Perf	27	aux	_	SpaceAfter=No
+27	รับ	_	VERB	VV	_	24	acl:relcl	_	SpaceAfter=No
+28	การว่าจ้าง	_	VERB	VV	_	27	obj	_	SpaceAfter=No
+29	มาก	_	ADV	RB	_	27	advmod	_	SpaceAfter=No
+30	กว่า	_	ADP	IN	_	31	case	_	SpaceAfter=No
+31	ปี	_	NOUN	NN	_	29	obl	_	SpaceAfter=No
+32	ที่แล้ว	_	ADJ	JJ	_	31	acl:relcl	_	_
+33	600,000	_	NUM	CD	_	34	nummod	_	_
+34	คน	_	NOUN	NNB	_	24	clf	_	_
+
+# sent_id = n05002015
+# text = อย่างไรก็ตาม การจัดการของมันก็ไม่ได้ปราศจากคำวิจารณ์
+# text_en = Its management, however, hasn't been devoid of criticism.
+1	อย่าง	_	CCONJ	CC	_	11	cc	_	SpaceAfter=No
+2	ไร	_	ADV	WRB	_	1	fixed	_	SpaceAfter=No
+3	ก็	_	ADV	RB	_	1	fixed	_	SpaceAfter=No
+4	ตาม	_	ADV	WRB	_	1	fixed	_	_
+5	การจัดการ	_	VERB	VV	_	11	nsubj	_	SpaceAfter=No
+6	ของ	_	ADP	IN	_	7	case	_	SpaceAfter=No
+7	มัน	_	PRON	PRP	Person=3	5	obl:poss	_	SpaceAfter=No
+8	ก็	_	ADV	RB	_	11	advmod	_	SpaceAfter=No
+9	ไม่	_	PART	NEG	Polarity=Neg	10	advmod	_	SpaceAfter=No
+10	ได้	_	PART	AS	Aspect=Perf	11	aux	_	SpaceAfter=No
+11	ปราศจาก	_	VERB	VV	_	0	root	_	SpaceAfter=No
+12	คำ	_	NOUN	NN	_	11	obj	_	SpaceAfter=No
+13	วิจารณ์	_	VERB	VV	_	12	acl	_	_
+
+# sent_id = n05002017
+# text = สหภาพต่างๆ ได้ต่อสู้อย่างหนัก และหลายครั้งก็เรียกร้องการยกเลิกการออกกฎหมายที่ฟาติมา บาเยซมีความภูมิใจเป็นที่สุด
+# text_en = The unions have been very combative and on several occasions have called for the repeal of the legislation that Fátima Báñez is proudest of.
+1	สหภาพ	_	NOUN	NN	_	5	nsubj	_	Proper=True|SpaceAfter=No
+2	ต่าง	_	ADJ	JJ	_	1	amod	_	SpaceAfter=No
+3	ๆ	_	SYM	SYM	_	2	dep	_	_
+4	ได้	_	PART	AS	Aspect=Perf	5	aux	_	SpaceAfter=No
+5	ต่อสู้	_	VERB	VV	_	0	root	_	SpaceAfter=No
+6	อย่างหนัก	_	ADJ	JJ	_	5	advmod	_	_
+7	และ	_	CCONJ	CC	_	11	cc	_	SpaceAfter=No
+8	หลาย	_	DET	DT	_	9	det	_	SpaceAfter=No
+9	ครั้ง	_	NOUN	NNB	_	11	advmod	_	SpaceAfter=No
+10	ก็	_	ADV	RB	_	11	advmod	_	SpaceAfter=No
+11	เรียกร้อง	_	VERB	VV	_	5	conj	_	SpaceAfter=No
+12	การยกเลิก	_	VERB	VV	_	11	obj	_	SpaceAfter=No
+13	การออก	_	VERB	VV	_	12	obj	_	SpaceAfter=No
+14	กฎหมาย	_	NOUN	NN	_	13	obj	_	SpaceAfter=No
+15	ที่	_	DET	WDT	_	18	advmod	_	SpaceAfter=No
+16	ฟาติมา	_	PROPN	NNP	_	18	nsubj	_	_
+17	บาเยซ	_	PROPN	NNP	_	16	flat:name	_	SpaceAfter=No
+18	มี	_	VERB	VV	_	14	acl:relcl	_	SpaceAfter=No
+19	ความภูมิใจ	_	VERB	VV	_	18	obj	_	SpaceAfter=No
+20	เป็น	_	VERB	VC	_	18	xcomp	_	SpaceAfter=No
+21	ที่สุด	_	ADV	RB	_	20	advmod	_	_
+
+# sent_id = n05002020
+# text = แผนกนี้กำลังเผชิญกับความท้าทายใหม่
+# text_en = This department now faces new challenges.
+1	แผนก	_	NOUN	NN	_	4	nsubj	_	SpaceAfter=No
+2	นี้	_	DET	DT	_	1	det	_	SpaceAfter=No
+3	กำลัง	_	PART	AS	Aspect=Prog	4	aux	_	SpaceAfter=No
+4	เผชิญ	_	VERB	VV	_	0	root	_	SpaceAfter=No
+5	กับ	_	ADP	IN	_	6	case	_	SpaceAfter=No
+6	ความท้าทาย	_	VERB	VV	_	4	obl	_	SpaceAfter=No
+7	ใหม่	_	ADJ	JJ	_	6	amod	_	_
+
+# sent_id = n05002023
+# text = นอกจากนี้ รัฐบาลจะต้องจัดการกับ "เรื่องร้อนๆ" อื่นๆ อีก
+# text_en = Furthermore, the Government will have to deal with another "hot potato".
+1	นอก	_	CCONJ	CC	_	7	cc	_	SpaceAfter=No
+2	จาก	_	ADP	IN	_	1	fixed	_	SpaceAfter=No
+3	นี้	_	PRON	PRD	_	1	fixed	_	_
+4	รัฐบาล	_	NOUN	NN	_	7	nsubj	_	SpaceAfter=No
+5	จะ	_	VERB	MD	_	7	aux	_	SpaceAfter=No
+6	ต้อง	_	VERB	MD	_	7	aux	_	SpaceAfter=No
+7	จัดการ	_	VERB	VV	_	0	root	_	SpaceAfter=No
+8	กับ	_	ADP	IN	_	10	case	_	_
+9	"	_	PUNCT	``	_	10	punct	_	SpaceAfter=No
+10	เรื่อง	_	NOUN	NN	_	7	obl	_	SpaceAfter=No
+11	ร้อน	_	ADJ	JJ	_	10	amod	_	SpaceAfter=No
+12	ๆ	_	SYM	SYM	_	11	dep	_	SpaceAfter=No
+13	"	_	PUNCT	''	_	10	punct	_	_
+14	อื่น	_	ADJ	JJ	_	10	amod	_	SpaceAfter=No
+15	ๆ	_	SYM	SYM	_	14	dep	_	_
+16	อีก	_	ADV	RB	_	7	advmod	_	_
+
+# sent_id = n05003006
+# text = รัฐมนตรีว่าการกระทรวงกลาโหมได้อนุญาตให้เธอดำรงตำแหน่งเลขาธิการพรรคในขณะนี้
+# text_en = The Minister of Defense has allowed her to remain General Secretary of the party for now.
+1	รัฐมนตรี	_	NOUN	NN	_	7	nsubj	_	SpaceAfter=No
+2	ว่า	_	VERB	VV	_	1	acl	_	SpaceAfter=No
+3	การ	_	NOUN	NN	_	2	obj	_	SpaceAfter=No
+4	กระทรวง	_	NOUN	NN	_	1	compound	_	Proper=True|SpaceAfter=No
+5	กลาโหม	_	NOUN	NN	_	4	flat:name	_	Proper=True|SpaceAfter=No
+6	ได้	_	PART	AS	Aspect=Perf	7	aux	_	SpaceAfter=No
+7	อนุญาต	_	VERB	VV	_	0	root	_	SpaceAfter=No
+8	ให้	_	VERB	VV	_	7	xcomp	_	SpaceAfter=No
+9	เธอ	_	PRON	PRP	Person=3	8	obj	_	SpaceAfter=No
+10	ดำรง	_	VERB	VV	_	8	xcomp	_	SpaceAfter=No
+11	ตำแหน่ง	_	NOUN	NN	_	10	obj	_	SpaceAfter=No
+12	เลขาธิการ	_	NOUN	NN	_	11	compound	_	SpaceAfter=No
+13	พรรค	_	NOUN	NN	_	11	compound	_	SpaceAfter=No
+14	ใน	_	ADP	IN	_	15	case	_	SpaceAfter=No
+15	ขณะ	_	NOUN	NN	_	10	obl	_	SpaceAfter=No
+16	นี้	_	DET	DT	_	15	det	_	_
+
+# sent_id = n05003010
+# text = แหล่งข่าวที่เป็นที่ปรึกษาได้กล่าวว่ามันคือ "คอสพีดัล 100%"
+# text_en = The consulted sources have said that it is "100% Cospedal".
+1	แหล่ง	_	NOUN	NN	_	8	nsubj	_	SpaceAfter=No
+2	ข่าว	_	NOUN	NN	_	1	compound	_	SpaceAfter=No
+3	ที่	_	DET	WDT	_	5	nsubj	_	SpaceAfter=No
+4	เป็น	_	AUX	VC	_	5	cop	_	SpaceAfter=No
+5	ที่	_	NOUN	NN	_	1	acl:relcl	_	SpaceAfter=No
+6	ปรึกษา	_	VERB	VV	_	5	acl	_	SpaceAfter=No
+7	ได้	_	PART	AS	Aspect=Perf	8	aux	_	SpaceAfter=No
+8	กล่าว	_	VERB	VV	_	0	root	_	SpaceAfter=No
+9	ว่า	_	ADP	IN	_	13	mark	_	SpaceAfter=No
+10	มัน	_	PRON	PRP	Person=3	13	nsubj	_	SpaceAfter=No
+11	คือ	_	AUX	VC	_	13	cop	_	_
+12	"	_	PUNCT	``	_	13	punct	_	SpaceAfter=No
+13	คอสพีดัล	_	PROPN	NNP	_	8	ccomp	_	_
+14	100	_	NUM	CD	_	15	nummod	_	SpaceAfter=No
+15	%	_	SYM	SYM	_	13	clf	_	SpaceAfter=No
+16	"	_	PUNCT	''	_	13	punct	_	_
+
+# sent_id = n05003019
+# text = นอกจากพวกเขาแล้ว ไม่ใช่ทุกคนในพรรคที่จะเข้าใจสารที่หัวหน้าพรรคพยายามสื่อกับพวกเขาเมื่อวาน
+# text_en = In spite of them, not everyone in the party understood the messages that the president tried to send to them yesterday.
+1	นอก	_	ADP	IN	_	3	case	_	SpaceAfter=No
+2	จาก	_	ADP	IN	_	1	fixed	_	SpaceAfter=No
+3	พวก	_	NOUN	NN	_	9	nmod	_	SpaceAfter=No|ToDo=nmod
+4	เขา	_	PRON	PRP	Person=3	3	compound	_	SpaceAfter=No
+5	แล้ว	_	ADV	RB	_	3	advmod	_	ToDo=ex-adp-child
+6	ไม่	_	PART	NEG	Polarity=Neg	9	advmod	_	SpaceAfter=No
+7	ใช่	_	AUX	VC	_	9	cop	_	SpaceAfter=No
+8	ทุก	_	DET	DT	_	9	det	_	SpaceAfter=No
+9	คน	_	NOUN	NNB	_	0	root	_	SpaceAfter=No
+10	ใน	_	ADP	IN	_	11	case	_	SpaceAfter=No
+11	พรรค	_	NOUN	NN	_	9	nmod	_	SpaceAfter=No|ToDo=nmod
+12	ที่	_	DET	WDT	_	14	nsubj	_	SpaceAfter=No
+13	จะ	_	VERB	MD	_	14	aux	_	SpaceAfter=No
+14	เข้าใจ	_	VERB	VV	_	9	acl:relcl	_	SpaceAfter=No
+15	สาร	_	NOUN	NN	_	14	obj	_	SpaceAfter=No
+16	ที่	_	DET	WDT	_	19	obj	_	SpaceAfter=No
+17	หัวหน้า	_	NOUN	NN	_	19	nsubj	_	SpaceAfter=No
+18	พรรค	_	NOUN	NN	_	17	compound	_	SpaceAfter=No
+19	พยายาม	_	VERB	VV	_	15	acl:relcl	_	SpaceAfter=No
+20	สื่อ	_	VERB	VV	_	19	xcomp	_	SpaceAfter=No
+21	กับ	_	ADP	IN	_	22	case	_	SpaceAfter=No
+22	พวก	_	NOUN	NN	_	20	obl	_	SpaceAfter=No
+23	เขา	_	PRON	PRP	Person=3	22	compound	_	SpaceAfter=No
+24	เมื่อ	_	ADP	IN	_	25	case	_	SpaceAfter=No
+25	วาน	_	NOUN	NN	_	19	obl	_	_
+
+# sent_id = n05003022
+# text = บารอน เด กลาเร็ตเป็นคนเดียวในรัฐบาลที่มีฐานันดรศักดิ์
+# text_en = Barón de Claret, the only one in Government with a noble title.
+1	บารอน	_	PROPN	NNP	_	5	nsubj	_	_
+2	เด	_	PROPN	NNP	_	1	flat:name	_	_
+3	กลาเร็ต	_	PROPN	NNP	_	1	flat:name	_	SpaceAfter=No
+4	เป็น	_	AUX	VC	_	5	cop	_	SpaceAfter=No
+5	คน	_	NOUN	NN	_	0	root	_	SpaceAfter=No
+6	เดียว	_	ADJ	JJ	_	5	amod	_	SpaceAfter=No
+7	ใน	_	ADP	IN	_	8	case	_	SpaceAfter=No
+8	รัฐบาล	_	NOUN	NN	_	5	nmod	_	SpaceAfter=No|ToDo=nmod
+9	ที่	_	DET	WDT	_	10	nsubj	_	SpaceAfter=No
+10	มี	_	VERB	VV	_	5	acl:relcl	_	SpaceAfter=No
+11	ฐานันดรศักดิ์	_	NOUN	NN	_	10	obj	_	_
+
+# sent_id = n05004020
+# text = เช่นเดียวกับนักสังคมนิยมอีกหลายคน เปโดร ซานเชส กล่าวในรายการ Évole ว่าสเปนเป็นชาติของประชาชาติ
+# text_en = Pedro Sánchez, like many other socialists, said in the programme Évole that Spain is a nation of nations.
+1	เช่น	_	NOUN	NN	_	11	advmod	_	SpaceAfter=No
+2	เดียว	_	ADJ	JJ	_	1	amod	_	SpaceAfter=No
+3	กับ	_	ADP	IN	_	4	case	_	SpaceAfter=No
+4	นัก	_	NOUN	NN	_	1	nmod	_	SpaceAfter=No
+5	สังคมนิยม	_	NOUN	NN	_	4	compound	_	SpaceAfter=No
+6	อีก	_	DET	DT	_	8	det:predet	_	SpaceAfter=No
+7	หลาย	_	DET	DT	_	8	det	_	SpaceAfter=No
+8	คน	_	NOUN	NNB	_	4	clf	_	_
+9	เปโดร	_	PROPN	NNP	_	11	nsubj	_	_
+10	ซานเชส	_	PROPN	NNP	_	9	flat:name	_	_
+11	กล่าว	_	VERB	VV	_	0	root	_	SpaceAfter=No
+12	ใน	_	ADP	IN	_	13	case	_	SpaceAfter=No
+13	รายการ	_	NOUN	NN	_	11	obl	_	_
+14	Évole	_	PROPN	NNP	_	13	appos	_	_
+15	ว่า	_	ADP	IN	_	18	mark	_	SpaceAfter=No
+16	สเปน	_	PROPN	NNP	_	18	nsubj	_	SpaceAfter=No
+17	เป็น	_	AUX	VC	_	18	cop	_	SpaceAfter=No
+18	ชาติ	_	NOUN	NN	_	11	ccomp	_	SpaceAfter=No
+19	ของ	_	ADP	IN	_	20	case	_	SpaceAfter=No
+20	ประชาชาติ	_	NOUN	NN	_	18	nmod:poss	_	_
+
+# sent_id = n05004025
+# text = แล้วสิ่งที่เกี่ยวกับพรรคเรื่องอะไรนะ เรื่องสิทธิทางประวัติศาสตร์เหรอ
+# text_en = And what about the parties in what, in historical rights?
+1	แล้ว	_	CCONJ	CC	_	2	cc	_	SpaceAfter=No
+2	สิ่ง	_	NOUN	NN	_	0	root	_	SpaceAfter=No
+3	ที่	_	DET	WDT	_	4	nsubj	_	SpaceAfter=No
+4	เกี่ยว	_	VERB	VV	_	2	acl:relcl	_	SpaceAfter=No
+5	กับ	_	ADP	IN	_	6	case	_	SpaceAfter=No
+6	พรรค	_	NOUN	NN	_	4	obl	_	SpaceAfter=No
+7	เรื่อง	_	NOUN	NN	_	2	compound	_	SpaceAfter=No
+8	อะไร	_	DET	WDT	PronType=Int	7	det	_	SpaceAfter=No
+9	นะ	_	PART	EP	_	7	discourse	_	_
+10	เรื่อง	_	NOUN	NN	_	7	compound	_	SpaceAfter=No
+11	สิทธิ	_	NOUN	NN	_	10	compound	_	SpaceAfter=No
+12	ทาง	_	ADP	IN	_	13	case	_	SpaceAfter=No
+13	ประวัติศาสตร์	_	NOUN	NN	_	11	nmod	_	SpaceAfter=No
+14	เหรอ	_	PART	EP	PronType=Int	10	discourse	_	_
+
+# sent_id = n05005002
+# text = เฟเดริโก เฟลลินีกล่าวไว้ครั้งหนึ่งว่า "ตัวตลกอยู่คู่กับมนุษยชาติเฉกเช่นเดียวกับเงาอยู่คู่กับมนุษย์”
+# text_en = Federico Fellini once said: "The clown is to humanity as the shadow is to man".
+1	เฟเดริโก	_	PROPN	NNP	_	3	nsubj	_	_
+2	เฟลลินี	_	PROPN	NNP	_	1	flat:name	_	SpaceAfter=No
+3	กล่าว	_	VERB	VV	_	0	root	_	SpaceAfter=No
+4	ไว้	_	ADV	RB	_	3	advmod	_	SpaceAfter=No
+5	ครั้ง	_	NOUN	NN	_	3	advmod	_	SpaceAfter=No
+6	หนึ่ง	_	NUM	CD	_	5	nummod	_	SpaceAfter=No
+7	ว่า	_	ADP	IN	_	11	mark	_	_
+8	"	_	PUNCT	``	_	7	punct	_	SpaceAfter=No
+9	ตัว	_	NOUN	NN	_	11	nsubj	_	SpaceAfter=No
+10	ตลก	_	ADJ	JJ	_	9	amod	_	SpaceAfter=No
+11	อยู่	_	VERB	VV	_	3	ccomp	_	SpaceAfter=No
+12	คู่	_	VERB	VV	_	11	xcomp	_	SpaceAfter=No
+13	กับ	_	ADP	IN	_	14	case	_	SpaceAfter=No
+14	มนุษยชาติ	_	NOUN	NN	_	12	obl	_	SpaceAfter=No
+15	เฉกเช่น	_	NOUN	NN	_	19	mark	_	SpaceAfter=No
+16	เดียว	_	ADJ	JJ	_	15	fixed	_	SpaceAfter=No
+17	กับ	_	ADP	IN	_	15	fixed	_	SpaceAfter=No
+18	เงา	_	NOUN	NN	_	19	nsubj	_	SpaceAfter=No
+19	อยู่	_	VERB	VV	_	11	advcl	_	SpaceAfter=No
+20	คู่	_	VERB	VV	_	19	xcomp	_	SpaceAfter=No
+21	กับ	_	ADP	IN	_	22	case	_	SpaceAfter=No
+22	มนุษย์	_	NOUN	NN	_	20	obl	_	SpaceAfter=No
+23	”	_	PUNCT	''	_	11	punct	_	_
+
+# sent_id = n05005016
+# text = เขายืนอยู่คนเดียวต่อหน้าผู้ฟัง และท้ายที่สุดแล้วเขาก็แสดงสิ่งที่ดีที่สุดที่ตัวเองมีเพื่อที่จะทำให้ผู้ชมหัวเราะ
+# text_en = He stands alone in front of the audience and, ultimately, he has to bring out the best of himself in order to make the audience laugh.
+1	เขา	_	PRON	PRP	Person=3	2	nsubj	_	SpaceAfter=No
+2	ยืน	_	VERB	VV	_	0	root	_	SpaceAfter=No
+3	อยู่	_	PART	AS	Aspect=Prog	2	aux	_	SpaceAfter=No
+4	คน	_	NOUN	NN	_	2	advmod	_	SpaceAfter=No
+5	เดียว	_	ADJ	JJ	_	4	amod	_	SpaceAfter=No
+6	ต่อ	_	ADP	IN	_	7	case	_	SpaceAfter=No
+7	หน้า	_	NOUN	NN	_	2	obl	_	SpaceAfter=No
+8	ผู้	_	NOUN	NN	_	7	compound	_	SpaceAfter=No
+9	ฟัง	_	VERB	VV	_	8	acl	_	_
+10	และ	_	CCONJ	CC	_	16	cc	_	SpaceAfter=No
+11	ท้าย	_	NOUN	NN	_	16	advmod	_	SpaceAfter=No
+12	ที่สุด	_	ADJ	JJ	_	11	amod	_	SpaceAfter=No
+13	แล้ว	_	ADV	RB	_	12	advmod	_	SpaceAfter=No
+14	เขา	_	PRON	PRP	Person=3	16	nsubj	_	SpaceAfter=No
+15	ก็	_	ADV	RB	_	16	advmod	_	SpaceAfter=No
+16	แสดง	_	VERB	VV	_	2	conj	_	SpaceAfter=No
+17	สิ่ง	_	NOUN	NN	_	16	obj	_	SpaceAfter=No
+18	ที่	_	DET	WDT	_	19	nsubj	_	SpaceAfter=No
+19	ดี	_	ADJ	JJ	_	17	acl:relcl	_	SpaceAfter=No
+20	ที่สุด	_	ADV	RB	_	19	advmod	_	SpaceAfter=No
+21	ที่	_	DET	WDT	_	23	obj	_	SpaceAfter=No
+22	ตัวเอง	_	PRON	PRP	Person=3	23	nsubj	_	SpaceAfter=No
+23	มี	_	VERB	VV	_	17	acl:relcl	_	SpaceAfter=No
+24	เพื่อ	_	ADP	IN	_	27	mark	_	SpaceAfter=No
+25	ที่	_	ADP	IN	_	24	fixed	_	SpaceAfter=No
+26	จะ	_	VERB	MD	_	27	aux	_	SpaceAfter=No
+27	ทำให้	_	VERB	VV	_	16	advcl	_	SpaceAfter=No
+28	ผู้	_	NOUN	NN	_	27	obj	_	SpaceAfter=No
+29	ชม	_	VERB	VV	_	28	acl	_	SpaceAfter=No
+30	หัวเราะ	_	VERB	VV	_	27	xcomp	_	_
+
+# sent_id = n05006002
+# text = ในภาพยนตร์สงครามหรือภาพยนตร์คาวบอยกับอินเดียนแดง การสู้รบและปะทะกันเป็นเรื่องหลุดโลก
+# text_en = In the war films or cowboy and Indian films the battles, fights and beatings were out of this world.
+1	ใน	_	ADP	IN	_	2	case	_	SpaceAfter=No
+2	ภาพยนตร์	_	NOUN	NN	_	15	nmod	_	SpaceAfter=No|ToDo=nmod
+3	สงคราม	_	NOUN	NN	_	2	compound	_	SpaceAfter=No
+4	หรือ	_	CCONJ	CC	_	5	cc	_	SpaceAfter=No
+5	ภาพยนตร์	_	NOUN	NN	_	2	conj	_	SpaceAfter=No
+6	คาวบอย	_	NOUN	NN	_	5	compound	_	SpaceAfter=No
+7	กับ	_	CCONJ	CC	_	8	cc	_	SpaceAfter=No
+8	อินเดียน	_	PROPN	NNP	_	6	conj	_	SpaceAfter=No
+9	แดง	_	ADJ	JJ	_	8	amod	_	Proper=True
+10	การสู้รบ	_	VERB	VV	_	15	nsubj	_	SpaceAfter=No
+11	และ	_	CCONJ	CC	_	12	cc	_	SpaceAfter=No
+12	ปะทะ	_	VERB	VV	_	10	conj	_	SpaceAfter=No
+13	กัน	_	PRON	PRP	_	12	obj	_	SpaceAfter=No
+14	เป็น	_	AUX	VC	_	15	cop	_	SpaceAfter=No
+15	เรื่อง	_	NOUN	NN	_	0	root	_	SpaceAfter=No
+16	หลุด	_	VERB	VV	_	15	acl	_	SpaceAfter=No
+17	โลก	_	NOUN	NN	_	16	obj	_	_
+
+# sent_id = n05006013
+# text = การเน้นถ้อยคำ การเย้ยหยันอย่างแยบยล คำประชดทื่อๆ และเครื่องมือทางคำพูดอื่นๆ ที่นำมาใช้อย่างพอดีนั้นเหมาะกับการปราศรัยในรัฐสภา แต่ตลกแบบเจ็บตัวหรือเอาถาดตีหัวมิได้เป็นเช่นนั้น
+# text_en = Emphasis, fine irony, blunt innuendos and other well used verbal devices fit into parliamentary oratory, but flicking at each other and slapstick comedy do not.
+1	การเน้น	_	VERB	VV	_	22	csubj	_	SpaceAfter=No
+2	ถ้อยคำ	_	NOUN	NN	_	1	obj	_	_
+3	การเย้ยหยัน	_	VERB	VV	_	1	conj	_	SpaceAfter=No
+4	อย่างแยบยล	_	ADJ	JJ	_	3	advmod	_	_
+5	คำ	_	NOUN	NN	_	1	conj	_	SpaceAfter=No
+6	ประชด	_	VERB	VV	_	5	acl	_	SpaceAfter=No
+7	ทื่อ	_	ADJ	JJ	_	5	amod	_	SpaceAfter=No
+8	ๆ	_	SYM	SYM	_	7	dep	_	_
+9	และ	_	CCONJ	CC	_	10	cc	_	SpaceAfter=No
+10	เครื่องมือ	_	NOUN	NN	_	1	conj	_	SpaceAfter=No
+11	ทาง	_	ADP	IN	_	12	case	_	SpaceAfter=No
+12	คำ	_	NOUN	NN	_	10	nmod	_	SpaceAfter=No
+13	พูด	_	VERB	VV	_	12	acl	_	SpaceAfter=No
+14	อื่น	_	ADJ	JJ	_	10	amod	_	SpaceAfter=No
+15	ๆ	_	SYM	SYM	_	14	dep	_	_
+16	ที่	_	DET	WDT	_	17	obj	_	SpaceAfter=No
+17	นำ	_	VERB	VV	_	10	acl:relcl	_	SpaceAfter=No
+18	มา	_	PART	RP	_	17	compound:prt	_	SpaceAfter=No
+19	ใช้	_	VERB	VV	_	17	xcomp	_	SpaceAfter=No
+20	อย่างพอดี	_	ADV	RB	_	19	advmod	_	SpaceAfter=No
+21	นั้น	_	DET	DT	_	1	det	_	SpaceAfter=No
+22	เหมาะ	_	ADJ	JJ	_	0	root	_	SpaceAfter=No
+23	กับ	_	ADP	IN	_	24	case	_	SpaceAfter=No
+24	การปราศรัย	_	VERB	VV	_	22	obl	_	SpaceAfter=No
+25	ใน	_	ADP	IN	_	26	case	_	SpaceAfter=No
+26	รัฐสภา	_	NOUN	NN	_	24	obl	_	_
+27	แต่	_	CCONJ	CC	_	39	cc	_	SpaceAfter=No
+28	ตลก	_	NOUN	NN	_	39	nsubj	_	SpaceAfter=No
+29	แบบ	_	NOUN	NN	_	28	compound	_	SpaceAfter=No
+30	เจ็บ	_	VERB	VV	_	29	acl	_	SpaceAfter=No
+31	ตัว	_	NOUN	NN	_	30	obj	_	SpaceAfter=No
+32	หรือ	_	CCONJ	CC	_	33	cc	_	SpaceAfter=No
+33	เอา	_	VERB	VV	_	30	conj	_	SpaceAfter=No
+34	ถาด	_	NOUN	NN	_	33	obj	_	SpaceAfter=No
+35	ตี	_	VERB	VV	_	33	xcomp	_	SpaceAfter=No
+36	หัว	_	NOUN	NN	_	35	obj	_	SpaceAfter=No
+37	มิ	_	PART	NEG	Polarity=Neg	38	advmod	_	SpaceAfter=No
+38	ได้	_	PART	AS	Aspect=Perf	39	aux	_	SpaceAfter=No
+39	เป็น	_	VERB	VC	_	22	conj	_	SpaceAfter=No
+40	เช่น	_	ADP	IN	_	41	case	_	SpaceAfter=No
+41	นั้น	_	PRON	PRD	_	39	obl	_	_
+
+# sent_id = n05007006
+# text = เขาเชื่อว่าไม่มีใครที่รอเราอยู่กำลังรอเราอยู่จริง
+# text_en = He believes that nobody waiting for us waits for us.
+1	เขา	_	PRON	PRP	Person=3	2	nsubj	_	SpaceAfter=No
+2	เชื่อ	_	VERB	VV	_	0	root	_	SpaceAfter=No
+3	ว่า	_	ADP	IN	_	5	mark	_	SpaceAfter=No
+4	ไม่	_	PART	NEG	Polarity=Neg	5	advmod	_	SpaceAfter=No
+5	มี	_	VERB	VV	_	2	ccomp	_	SpaceAfter=No
+6	ใคร	_	PRON	WP	_	5	obj	_	SpaceAfter=No
+7	ที่	_	DET	WDT	_	8	nsubj	_	SpaceAfter=No
+8	รอ	_	VERB	VV	_	6	acl:relcl	_	SpaceAfter=No
+9	เรา	_	PRON	PRP	Person=1	8	obj	_	SpaceAfter=No
+10	อยู่	_	PART	AS	Aspect=Prog	8	aux	_	SpaceAfter=No
+11	กำลัง	_	PART	AS	Aspect=Prog	12	aux	_	SpaceAfter=No
+12	รอ	_	VERB	VV	_	8	conj	_	SpaceAfter=No
+13	เรา	_	PRON	PRP	Person=1	12	obj	_	SpaceAfter=No
+14	อยู่	_	PART	AS	Aspect=Prog	12	aux	_	SpaceAfter=No
+15	จริง	_	ADV	RB	_	5	advmod	_	_
+
+# sent_id = n05007014
+# text = บางทีนั่นอาจเป็นเหตุผลที่ทำให้น้ำตาเอ่อจนดวงตาของเขาพร่ามัวเมื่อห้วงเวลาทำให้เห็นพืชผลงอกเงยขึ้นมาและทำให้ความลับของเขาจำนนอยู่ในสายน้ำนิ่ง
+# text_en = Perhaps that's why a surge of tears clouds his pupils while the syllable of time unearths his crop and surrenders his mystery to the bound waters.
+1	บาง	_	DET	DT	_	2	det	_	SpaceAfter=No
+2	ที	_	NOUN	NNB	_	6	advmod	_	SpaceAfter=No
+3	นั่น	_	PRON	PRD	_	6	nsubj	_	SpaceAfter=No
+4	อาจ	_	VERB	MD	_	6	aux	_	SpaceAfter=No
+5	เป็น	_	AUX	VC	_	6	cop	_	SpaceAfter=No
+6	เหตุผล	_	NOUN	NN	_	0	root	_	SpaceAfter=No
+7	ที่	_	DET	WDT	_	8	nsubj	_	SpaceAfter=No
+8	ทำให้	_	VERB	VV	_	6	acl:relcl	_	SpaceAfter=No
+9	น้ำตา	_	NOUN	NN	_	8	obj	_	SpaceAfter=No
+10	เอ่อ	_	VERB	VV	_	8	xcomp	_	SpaceAfter=No
+11	จน	_	ADP	IN	_	16	mark	_	SpaceAfter=No
+12	ดวง	_	NOUN	NN	_	16	nsubj	_	SpaceAfter=No
+13	ตา	_	NOUN	NN	_	12	compound	_	SpaceAfter=No
+14	ของ	_	ADP	IN	_	15	case	_	SpaceAfter=No
+15	เขา	_	PRON	PRP	Person=3	12	nmod:poss	_	SpaceAfter=No
+16	พร่ามัว	_	ADJ	JJ	_	10	advcl	_	SpaceAfter=No
+17	เมื่อ	_	ADP	IN	_	20	mark	_	SpaceAfter=No
+18	ห้วง	_	NOUN	NN	_	20	nsubj	_	SpaceAfter=No
+19	เวลา	_	NOUN	NN	_	18	compound	_	SpaceAfter=No
+20	ทำให้	_	VERB	VV	_	6	advcl	_	SpaceAfter=No
+21	เห็น	_	VERB	VV	_	20	xcomp	_	SpaceAfter=No
+22	พืชผล	_	NOUN	NN	_	21	obj	_	SpaceAfter=No
+23	งอกเงย	_	VERB	VV	_	21	xcomp	_	SpaceAfter=No
+24	ขึ้น	_	PART	RP	_	23	compound:prt	_	SpaceAfter=No
+25	มา	_	PART	RP	_	23	compound:prt	_	SpaceAfter=No
+26	และ	_	CCONJ	CC	_	27	cc	_	SpaceAfter=No
+27	ทำให้	_	VERB	VV	_	20	conj	_	SpaceAfter=No
+28	ความลับ	_	ADJ	JJ	_	27	obj	_	SpaceAfter=No
+29	ของ	_	ADP	IN	_	30	case	_	SpaceAfter=No
+30	เขา	_	PRON	PRP	Person=3	28	nmod:poss	_	SpaceAfter=No
+31	จำนน	_	VERB	VV	_	27	xcomp	_	SpaceAfter=No
+32	อยู่	_	PART	AS	Aspect=Prog	31	aux	_	SpaceAfter=No
+33	ใน	_	ADP	IN	_	34	case	_	SpaceAfter=No
+34	สาย	_	NOUN	NN	_	31	obl	_	SpaceAfter=No
+35	น้ำ	_	NOUN	NN	_	34	compound	_	SpaceAfter=No
+36	นิ่ง	_	VERB	VV	_	34	acl	_	_
+
+# sent_id = n05007025
+# text = และพวกเขาต้องได้รับการทักทายจากจิตวิญญาณที่เปิดกว้างกับความคิดที่ปลอดโปร่ง เพราะพวกเขาสร้างสายพันธุ์ความงามและความหวังรุ่นใหม่
+# text_en = And they must be greeted with an open spirit and clear mind because they form the new generation of beauty and hope.
+1	และ	_	CCONJ	CC	_	6	cc	_	SpaceAfter=No
+2	พวก	_	NOUN	NN	_	6	nsubj	_	SpaceAfter=No
+3	เขา	_	PRON	PRP	Person=3	2	compound	_	SpaceAfter=No
+4	ต้อง	_	VERB	MD	_	6	aux	_	SpaceAfter=No
+5	ได้	_	PART	AS	Aspect=Perf	6	aux	_	SpaceAfter=No
+6	รับ	_	VERB	VV	_	0	root	_	SpaceAfter=No
+7	การทักทาย	_	VERB	VV	_	6	obj	_	SpaceAfter=No
+8	จาก	_	ADP	IN	_	9	case	_	SpaceAfter=No
+9	จิตวิญญาณ	_	NOUN	NN	_	7	obl	_	SpaceAfter=No
+10	ที่	_	DET	WDT	_	11	nsubj	_	SpaceAfter=No
+11	เปิด	_	VERB	VV	_	9	acl:relcl	_	SpaceAfter=No
+12	กว้าง	_	ADV	RB	_	11	advmod	_	SpaceAfter=No
+13	กับ	_	CCONJ	CC	_	14	cc	_	SpaceAfter=No
+14	ความคิด	_	VERB	VV	_	9	conj	_	SpaceAfter=No
+15	ที่	_	DET	WDT	_	16	nsubj	_	SpaceAfter=No
+16	ปลอดโปร่ง	_	ADJ	JJ	_	14	acl:relcl	_	_
+17	เพราะ	_	ADP	IN	_	20	mark	_	SpaceAfter=No
+18	พวก	_	NOUN	NN	_	20	nsubj	_	SpaceAfter=No
+19	เขา	_	PRON	PRP	Person=3	18	compound	_	SpaceAfter=No
+20	สร้าง	_	VERB	VV	_	6	advcl	_	SpaceAfter=No
+21	สายพันธุ์	_	NOUN	NN	_	20	obj	_	SpaceAfter=No
+22	ความงาม	_	ADJ	JJ	_	21	compound	_	SpaceAfter=No
+23	และ	_	CCONJ	CC	_	24	cc	_	SpaceAfter=No
+24	ความหวัง	_	VERB	VV	_	22	conj	_	SpaceAfter=No
+25	รุ่น	_	NOUN	NNB	_	22	clf	_	SpaceAfter=No
+26	ใหม่	_	ADJ	JJ	_	25	amod	_	_
+
+# sent_id = n05008012
+# text = ด้วยเหตุนี้ ทรัมป์จึงไม่ได้วิตกกังวลเกี่ยวกับผลโหวตของชาวละตินอเมริกันในระดับชาติ
+# text_en = As a result, Trump isn't very worried about the Latin American vote at a national level.
+1	ด้วย	_	ADP	IN	_	2	case	_	SpaceAfter=No
+2	เหตุ	_	NOUN	NN	_	8	obl	_	SpaceAfter=No
+3	นี้	_	DET	DT	_	2	det	_	_
+4	ทรัมป์	_	PROPN	NNP	_	8	nsubj	_	SpaceAfter=No
+5	จึง	_	ADV	RB	_	8	advmod	_	SpaceAfter=No
+6	ไม่	_	PART	NEG	Polarity=Neg	7	advmod	_	SpaceAfter=No
+7	ได้	_	PART	AS	Aspect=Perf	8	aux	_	SpaceAfter=No
+8	วิตกกังวล	_	VERB	VV	_	0	root	_	SpaceAfter=No
+9	เกี่ยว	_	VERB	VV	_	11	case	_	SpaceAfter=No
+10	กับ	_	ADP	IN	_	9	fixed	_	SpaceAfter=No
+11	ผล	_	NOUN	NN	_	8	obl	_	SpaceAfter=No
+12	โหวต	_	VERB	VV	_	11	acl	_	SpaceAfter=No
+13	ของ	_	ADP	IN	_	14	case	_	SpaceAfter=No
+14	ชาว	_	NOUN	NN	_	11	nmod:poss	_	SpaceAfter=No
+15	ละตินอเมริกัน	_	PROPN	NNP	_	14	compound	_	SpaceAfter=No
+16	ใน	_	ADP	IN	_	17	case	_	SpaceAfter=No
+17	ระดับ	_	NOUN	NN	_	11	nmod	_	SpaceAfter=No
+18	ชาติ	_	NOUN	NN	_	17	compound	_	_
+
+# sent_id = n05008018
+# text = การลงคะแนนล่วงหน้าได้ชี้ให้เห็นว่าในเวลานี้ชาวละตินอเมริกันจะออกมาลงคะแนนเสียงมากขึ้น แต่ก็ยังไม่เป็นที่แน่ชัดว่าการเพิ่มขึ้นนี้จะส่งผลใดๆ หรือไม่
+# text_en = The early voting suggests that this time the Latin Americans will come out to vote in greater numbers, but it is unclear whether the increase will have an impact.
+1	การลง	_	VERB	VV	_	5	csubj	_	SpaceAfter=No
+2	คะแนน	_	NOUN	NN	_	1	obj	_	SpaceAfter=No
+3	ล่วงหน้า	_	ADV	RB	_	1	advmod	_	SpaceAfter=No
+4	ได้	_	PART	AS	Aspect=Perf	5	aux	_	SpaceAfter=No
+5	ชี้	_	VERB	VV	_	0	root	_	SpaceAfter=No
+6	ให้	_	VERB	VV	_	5	xcomp	_	SpaceAfter=No
+7	เห็น	_	VERB	VV	_	6	xcomp	_	SpaceAfter=No
+8	ว่า	_	ADP	IN	_	15	mark	_	SpaceAfter=No
+9	ใน	_	ADP	IN	_	10	case	_	SpaceAfter=No
+10	เวลา	_	NOUN	NN	_	15	obl	_	SpaceAfter=No
+11	นี้	_	DET	DT	_	10	det	_	SpaceAfter=No
+12	ชาว	_	NOUN	NN	_	15	nsubj	_	SpaceAfter=No
+13	ละตินอเมริกัน	_	PROPN	NNP	_	12	compound	_	SpaceAfter=No
+14	จะ	_	VERB	MD	_	15	aux	_	SpaceAfter=No
+15	ออก	_	VERB	VV	_	7	ccomp	_	SpaceAfter=No
+16	มา	_	PART	RP	_	15	compound:prt	_	SpaceAfter=No
+17	ลง	_	VERB	VV	_	15	acl	_	SpaceAfter=No
+18	คะแนน	_	NOUN	NN	_	17	obj	_	SpaceAfter=No
+19	เสียง	_	NOUN	NN	_	18	compound	_	SpaceAfter=No
+20	มาก	_	ADV	RB	_	15	advmod	_	SpaceAfter=No
+21	ขึ้น	_	ADV	RB	_	20	advmod	_	_
+22	แต่	_	CCONJ	CC	_	27	cc	_	SpaceAfter=No
+23	ก็	_	ADV	RB	_	27	advmod	_	SpaceAfter=No
+24	ยัง	_	PART	AS	Aspect=Prog	27	aux	_	SpaceAfter=No
+25	ไม่	_	PART	NEG	Polarity=Neg	27	advmod	_	SpaceAfter=No
+26	เป็น	_	AUX	VC	_	27	cop	_	SpaceAfter=No
+27	ที่	_	PRON	PRP	_	15	conj	_	SpaceAfter=No
+28	แน่ชัด	_	ADJ	JJ	_	27	amod	_	SpaceAfter=No
+29	ว่า	_	ADP	IN	_	34	mark	_	SpaceAfter=No
+30	การเพิ่ม	_	VERB	VV	_	34	nsubj	_	SpaceAfter=No
+31	ขึ้น	_	PART	RP	_	30	compound:prt	_	SpaceAfter=No
+32	นี้	_	DET	DT	_	30	det	_	SpaceAfter=No
+33	จะ	_	VERB	MD	_	34	aux	_	SpaceAfter=No
+34	ส่ง	_	VERB	VV	_	27	ccomp	_	SpaceAfter=No
+35	ผล	_	NOUN	NN	_	34	obj	_	SpaceAfter=No
+36	ใด	_	DET	WDT	_	35	det	_	SpaceAfter=No
+37	ๆ	_	SYM	SYM	_	36	dep	_	_
+38	หรือไม่	_	PART	EP	_	34	discourse	_	_
+
+# sent_id = n05009025
+# text = “จะมีการประท้วงและการกระทำอื่นๆ ซึ่งได้วางแผนไว้หมดแล้ว” ฝ่ายตรงข้ามได้กล่าวกับเอล มุนโด
+# text_en = "There will be protests and other things, it's all already planned," the opposition told El Mundo.
+1	“	_	PUNCT	``	_	3	punct	_	SpaceAfter=No
+2	จะ	_	VERB	MD	_	3	aux	_	SpaceAfter=No
+3	มี	_	VERB	VV	_	19	ccomp	_	SpaceAfter=No
+4	การประท้วง	_	VERB	VV	_	3	obj	_	SpaceAfter=No
+5	และ	_	CCONJ	CC	_	6	cc	_	SpaceAfter=No
+6	การกระทำ	_	VERB	VV	_	4	conj	_	SpaceAfter=No
+7	อื่น	_	ADJ	JJ	_	6	amod	_	SpaceAfter=No
+8	ๆ	_	SYM	SYM	_	7	dep	_	_
+9	ซึ่ง	_	DET	WDT	_	11	obj	_	SpaceAfter=No
+10	ได้	_	PART	AS	Aspect=Perf	11	aux	_	SpaceAfter=No
+11	วางแผน	_	VERB	VV	_	4	acl:relcl	_	SpaceAfter=No
+12	ไว้	_	ADV	RB	_	11	advmod	_	SpaceAfter=No
+13	หมด	_	ADV	RB	_	11	advmod	_	SpaceAfter=No
+14	แล้ว	_	PART	AS	Aspect=Perf	11	aux	_	SpaceAfter=No
+15	”	_	PUNCT	''	_	3	punct	_	_
+16	ฝ่าย	_	NOUN	NN	_	19	nsubj	_	SpaceAfter=No
+17	ตรงข้าม	_	ADJ	JJ	_	16	amod	_	SpaceAfter=No
+18	ได้	_	PART	AS	Aspect=Perf	19	aux	_	SpaceAfter=No
+19	กล่าว	_	VERB	VV	_	0	root	_	SpaceAfter=No
+20	กับ	_	ADP	IN	_	21	case	_	SpaceAfter=No
+21	เอล	_	PROPN	NNP	_	19	obl	_	_
+22	มุนโด	_	PROPN	NNP	_	21	flat:name	_	_
+
+# sent_id = n05009030
+# text = ผู้ติดตาม FSLN มากมายกำลังเฉลิมฉลองชัยชนะที่พลาซา เด ลาส วิกตอเรีย
+# text_en = Dozens of FSLN followers are already celebrating the victory in the Plaza de las Victorias.
+1	ผู้	_	NOUN	NN	_	6	nsubj	_	SpaceAfter=No
+2	ติดตาม	_	VERB	VV	_	1	acl	_	_
+3	FSLN	_	PROPN	NNP	_	2	obj	_	_
+4	มากมาย	_	ADJ	JJ	_	1	amod	_	SpaceAfter=No
+5	กำลัง	_	PART	AS	Aspect=Prog	6	aux	_	SpaceAfter=No
+6	เฉลิมฉลอง	_	VERB	VV	_	0	root	_	SpaceAfter=No
+7	ชัยชนะ	_	NOUN	NN	_	6	obj	_	SpaceAfter=No
+8	ที่	_	ADP	IN	_	9	case	_	SpaceAfter=No
+9	พลาซา	_	PROPN	NNP	_	6	obl	_	_
+10	เด	_	PROPN	NNP	_	9	flat:name	_	_
+11	ลาส	_	PROPN	NNP	_	9	flat:name	_	_
+12	วิกตอเรีย	_	PROPN	NNP	_	9	flat:name	_	_
+
+# sent_id = n05010004
+# text = เมย์ได้รับการวิจารณ์อย่างใหญ่หลวงจากการที่หลีกเลี่ยงและไม่ตอบอย่างเปิดเผยต่อสื่อหลังจากมีคำวินิจฉัยชี้ขาดจากศาลเรื่อง Brexit
+# text_en = May has received great criticism for avoiding and not responding openly to the media after the judicial ruling on Brexit.
+1	เมย์	_	PROPN	NNP	_	3	nsubj	_	SpaceAfter=No
+2	ได้	_	PART	AS	Aspect=Perf	3	aux	_	SpaceAfter=No
+3	รับ	_	VERB	VV	_	0	root	_	SpaceAfter=No
+4	การวิจารณ์	_	VERB	VV	_	3	obj	_	SpaceAfter=No
+5	อย่างใหญ่หลวง	_	ADJ	JJ	_	4	advmod	_	SpaceAfter=No
+6	จาก	_	ADP	IN	_	7	case	_	SpaceAfter=No
+7	การ	_	NOUN	NN	_	3	obl	_	SpaceAfter=No
+8	ที่	_	DET	WDT	_	9	nsubj	_	SpaceAfter=No
+9	หลีกเลี่ยง	_	VERB	VV	_	7	acl:relcl	_	SpaceAfter=No
+10	และ	_	CCONJ	CC	_	12	cc	_	SpaceAfter=No
+11	ไม่	_	PART	NEG	Polarity=Neg	12	advmod	_	SpaceAfter=No
+12	ตอบ	_	VERB	VV	_	9	conj	_	SpaceAfter=No
+13	อย่างเปิดเผย	_	VERB	VV	_	12	advmod	_	SpaceAfter=No
+14	ต่อ	_	ADP	IN	_	15	case	_	SpaceAfter=No
+15	สื่อ	_	NOUN	NN	_	12	obl	_	SpaceAfter=No
+16	หลัง	_	ADP	IN	_	18	mark	_	SpaceAfter=No
+17	จาก	_	ADP	IN	_	16	fixed	_	SpaceAfter=No
+18	มี	_	VERB	VV	_	3	advcl	_	SpaceAfter=No
+19	คำ	_	NOUN	NN	_	18	obj	_	SpaceAfter=No
+20	วินิจฉัย	_	VERB	VV	_	19	acl	_	SpaceAfter=No
+21	ชี้ขาด	_	VERB	VV	_	20	xcomp	_	SpaceAfter=No
+22	จาก	_	ADP	IN	_	23	case	_	SpaceAfter=No
+23	ศาล	_	NOUN	NN	_	19	nmod	_	SpaceAfter=No
+24	เรื่อง	_	NOUN	NN	_	19	compound	_	_
+25	Brexit	_	PROPN	NNP	_	24	compound	_	_
+
+# sent_id = w02001041
+# text = ก่อตั้งในปี 1925 เพื่อเป็นการละเล่นสำหรับทุกคน โรงละครเปิดโล่งบนบันไดขนาดใหญ่หน้าโบสถ์เซนต์ไมเคิลยังคงดึงดูดผู้คนจากทุกสารทิศ
+# text_en = Founded in 1925 as games for everyman, the open air theater on the great steps in front of St. Michael still attracts a diverse public.
+1	ก่อตั้ง	_	VERB	VV	_	0	root	_	SpaceAfter=No
+2	ใน	_	ADP	IN	_	3	case	_	SpaceAfter=No
+3	ปี	_	NOUN	NN	_	1	obl	_	_
+4	1925	_	NUM	CD	_	3	appos	_	_
+5	เพื่อ	_	ADP	IN	_	7	mark	_	SpaceAfter=No
+6	เป็น	_	AUX	VC	_	7	cop	_	SpaceAfter=No
+7	การละเล่น	_	VERB	VV	_	1	advcl	_	SpaceAfter=No
+8	สำหรับ	_	ADP	IN	_	10	case	_	SpaceAfter=No
+9	ทุก	_	DET	DT	_	10	det	_	SpaceAfter=No
+10	คน	_	NOUN	NNB	_	7	obl	_	_
+11	โรง	_	NOUN	NN	_	24	nsubj	_	SpaceAfter=No
+12	ละคร	_	NOUN	NN	_	11	compound	_	SpaceAfter=No
+13	เปิด	_	VERB	VV	_	11	acl	_	SpaceAfter=No
+14	โล่ง	_	ADV	RB	_	13	advmod	_	SpaceAfter=No
+15	บน	_	ADP	IN	_	16	case	_	SpaceAfter=No
+16	บันได	_	NOUN	NN	_	11	nmod	_	SpaceAfter=No
+17	ขนาด	_	NOUN	NN	_	16	compound	_	SpaceAfter=No
+18	ใหญ่	_	ADJ	JJ	_	17	amod	_	SpaceAfter=No
+19	หน้า	_	ADP	IN	_	20	case	_	SpaceAfter=No
+20	โบสถ์	_	NOUN	NN	_	16	nmod	_	SpaceAfter=No
+21	เซนต์	_	PROPN	NNP	_	20	compound	_	SpaceAfter=No
+22	ไมเคิล	_	PROPN	NNP	_	21	appos	_	SpaceAfter=No
+23	ยังคง	_	PART	AS	Aspect=Prog	24	aux	_	SpaceAfter=No
+24	ดึงดูด	_	VERB	VV	_	1	acl	_	SpaceAfter=No
+25	ผู้คน	_	NOUN	NN	_	24	obj	_	SpaceAfter=No
+26	จาก	_	ADP	IN	_	28	case	_	SpaceAfter=No
+27	ทุก	_	DET	DT	_	28	det	_	SpaceAfter=No
+28	สารทิศ	_	NOUN	NNB	_	25	nmod	_	_
+
+# sent_id = w02001069
+# text = เทศกาลอุทิศตนเกิดขึ้นเมื่อวันที่ 30 เมษายน 1955
+# text_en = The festive dedication took place on April 30, 1955.
+1	เทศกาล	_	NOUN	NN	_	4	nsubj	_	SpaceAfter=No
+2	อุทิศ	_	VERB	VV	_	1	acl	_	SpaceAfter=No
+3	ตน	_	NOUN	NN	_	2	obj	_	SpaceAfter=No
+4	เกิด	_	VERB	VV	_	0	root	_	SpaceAfter=No
+5	ขึ้น	_	PART	RP	_	4	compound:prt	_	SpaceAfter=No
+6	เมื่อ	_	ADP	IN	_	7	case	_	SpaceAfter=No
+7	วันที่	_	NOUN	NN	_	4	obl	_	_
+8	30	_	NUM	CD	_	7	appos	_	_
+9	เมษายน	_	NOUN	NN	_	7	obl:tmod	_	_
+10	1955	_	NUM	CD	_	9	obl:tmod	_	_
+
+# sent_id = w02002032
+# text = ในปี 1882 มีการนำระบบโทรเลขติดสัญญาณเตือนไฟไหม้ 34 ตัวมาใช้งาน
+# text_en = In 1882, a telegraphic system equipped with 34 fire alarm signals was put in operation.
+1	ใน	_	ADP	IN	_	2	case	_	SpaceAfter=No
+2	ปี	_	NOUN	NN	_	4	obl	_	_
+3	1882	_	NUM	CD	_	2	appos	_	_
+4	มี	_	VERB	VV	_	0	root	_	SpaceAfter=No
+5	การนำ	_	VERB	VV	_	4	obj	_	SpaceAfter=No
+6	ระบบ	_	NOUN	NN	_	5	obj	_	SpaceAfter=No
+7	โทรเลข	_	NOUN	NN	_	6	compound	_	SpaceAfter=No
+8	ติด	_	VERB	VV	_	6	acl	_	SpaceAfter=No
+9	สัญญาณ	_	NOUN	NN	_	8	obj	_	SpaceAfter=No
+10	เตือน	_	VERB	VV	_	9	acl	_	SpaceAfter=No
+11	ไฟ	_	NOUN	NN	_	10	advmod	_	SpaceAfter=No
+12	ไหม้	_	VERB	VV	_	11	acl	_	_
+13	34	_	NUM	CD	_	14	nummod	_	_
+14	ตัว	_	NOUN	NNB	_	9	clf	_	SpaceAfter=No
+15	มา	_	PART	RP	_	5	compound:prt	_	SpaceAfter=No
+16	ใช้	_	VERB	VV	_	5	acl	_	SpaceAfter=No
+17	งาน	_	NOUN	NN	_	16	obj	_	_
+
+# sent_id = w02002093
+# text = ในปี 1992 พื้นที่บริเวณโรงละครหุ่นกระบอกเก่าซึ่งได้ถูกทิ้งให้ชุมชนมีการรับช่วงต่อโดยผู้เล่นและลูกจ้าง
+# text_en = In 1992, grounds of the former puppet theater, which had been left to the commune, were taken over by players and employees.
+1	ใน	_	ADP	IN	_	2	case	_	SpaceAfter=No
+2	ปี	_	NOUN	NN	_	17	obl	_	_
+3	1992	_	NUM	CD	_	2	appos	_	_
+4	พื้นที่	_	NOUN	NN	_	17	nsubj	_	SpaceAfter=No
+5	บริเวณ	_	NOUN	NN	_	4	compound	_	SpaceAfter=No
+6	โรง	_	NOUN	NN	_	4	compound	_	SpaceAfter=No
+7	ละคร	_	NOUN	NN	_	6	compound	_	SpaceAfter=No
+8	หุ่น	_	NOUN	NN	_	6	compound	_	SpaceAfter=No
+9	กระบอก	_	NOUN	NN	_	6	compound	_	SpaceAfter=No
+10	เก่า	_	ADJ	JJ	_	6	amod	_	SpaceAfter=No
+11	ซึ่ง	_	DET	WDT	_	14	nsubj:pass	_	SpaceAfter=No
+12	ได้	_	PART	AS	Aspect=Perf	14	aux	_	SpaceAfter=No
+13	ถูก	_	VERB	MD	Voice=Pass	14	aux:pass	_	SpaceAfter=No
+14	ทิ้ง	_	VERB	VV	_	4	acl:relcl	_	SpaceAfter=No
+15	ให้	_	VERB	VV	_	14	xcomp	_	SpaceAfter=No
+16	ชุมชน	_	NOUN	NN	_	15	obj	_	SpaceAfter=No
+17	มี	_	VERB	VV	_	0	root	_	SpaceAfter=No
+18	การรับ	_	VERB	VV	_	17	obj	_	SpaceAfter=No
+19	ช่วง	_	NOUN	NN	_	18	obj	_	SpaceAfter=No
+20	ต่อ	_	ADV	RB	_	18	advmod	_	SpaceAfter=No
+21	โดย	_	ADP	IN	_	22	case	_	SpaceAfter=No
+22	ผู้	_	NOUN	NN	_	18	obl	_	SpaceAfter=No
+23	เล่น	_	VERB	VV	_	22	acl	_	SpaceAfter=No
+24	และ	_	CCONJ	CC	_	25	cc	_	SpaceAfter=No
+25	ลูกจ้าง	_	NOUN	NN	_	22	conj	_	_
+
+# sent_id = w02002120
+# text = นี่เกี่ยวข้องกับหนึ่งในอาคารไม่กี่แห่งใจกลางเมืองที่รอดจากการถูกทำลายก่อนการสิ้นสุดของสงครามโลกครั้งที่สอง
+# text_en = This has to do with one of the few buildings in the city center that was spared from destruction by the end of the Second World War.
+1	นี่	_	PRON	PRD	_	2	nsubj	_	SpaceAfter=No
+2	เกี่ยวข้อง	_	VERB	VV	_	0	root	_	SpaceAfter=No
+3	กับ	_	ADP	IN	_	4	case	_	SpaceAfter=No
+4	หนึ่ง	_	NUM	CD	_	2	obl	_	SpaceAfter=No
+5	ใน	_	ADP	IN	_	6	case	_	SpaceAfter=No
+6	อาคาร	_	NOUN	NN	_	4	nmod	_	SpaceAfter=No
+7	ไม่	_	PART	NEG	Polarity=Neg	8	advmod	_	SpaceAfter=No
+8	กี่	_	ADJ	JJ	_	9	amod	_	SpaceAfter=No
+9	แห่ง	_	NOUN	NNB	_	6	clf	_	SpaceAfter=No
+10	ใจกลาง	_	ADP	IN	_	11	case	_	SpaceAfter=No
+11	เมือง	_	NOUN	NN	_	6	nmod	_	SpaceAfter=No
+12	ที่	_	DET	WDT	_	13	nsubj	_	SpaceAfter=No
+13	รอด	_	VERB	VV	_	11	acl:relcl	_	SpaceAfter=No
+14	จาก	_	ADP	IN	_	16	case	_	SpaceAfter=No
+15	การถูก	_	VERB	MD	Voice=Pass	16	aux:pass	_	SpaceAfter=No
+16	ทำลาย	_	VERB	VV	_	13	obl	_	SpaceAfter=No
+17	ก่อน	_	ADP	IN	_	18	case	_	SpaceAfter=No
+18	การสิ้นสุด	_	VERB	VV	_	16	obl	_	SpaceAfter=No
+19	ของ	_	ADP	IN	_	20	case	_	SpaceAfter=No
+20	สงคราม	_	NOUN	NN	_	18	obl:poss	_	SpaceAfter=No
+21	โลก	_	NOUN	NN	_	20	compound	_	Proper=True|SpaceAfter=No
+22	ครั้ง	_	NOUN	NNB	_	20	clf	_	SpaceAfter=No
+23	ที่	_	NOUN	NN	_	22	compound	_	SpaceAfter=No
+24	สอง	_	NUM	CD	_	23	nummod	_	_
+
+# sent_id = w02003037
+# text = ในปี 1832 อารามเก่าถูกขายให้กับเจ้าของโรงงาน จอร์จ ไรเคนบาค โดยรัฐเวือร์ทเทมแบร์ก พร้อมข้อตกลงที่จะสร้างโรงงานผ้าฝ้ายขึ้นที่นั่น
+# text_en = In 1832, the former cloister was sold to the manufacturer Georg Reichenbach by the state of Württemberg with the stipulation to establish a cotton factory there.
+1	ใน	_	ADP	IN	_	2	case	_	SpaceAfter=No
+2	ปี	_	NOUN	NN	_	7	obl	_	_
+3	1832	_	NUM	CD	_	2	appos	_	_
+4	อาราม	_	NOUN	NN	_	7	nsubj:pass	_	SpaceAfter=No
+5	เก่า	_	ADJ	JJ	_	4	amod	_	SpaceAfter=No
+6	ถูก	_	VERB	MD	Voice=Pass	7	aux:pass	_	SpaceAfter=No
+7	ขาย	_	VERB	VV	_	0	root	_	SpaceAfter=No
+8	ให้	_	VERB	VV	_	7	xcomp	_	SpaceAfter=No
+9	กับ	_	ADP	IN	_	10	case	_	SpaceAfter=No
+10	เจ้า	_	NOUN	NN	_	8	obl	_	SpaceAfter=No
+11	ของ	_	NOUN	NN	_	10	compound	_	SpaceAfter=No
+12	โรง	_	NOUN	NN	_	10	compound	_	SpaceAfter=No
+13	งาน	_	NOUN	NN	_	12	compound	_	_
+14	จอร์จ	_	PROPN	NNP	_	10	appos	_	_
+15	ไรเคนบาค	_	PROPN	NNP	_	10	flat:name	_	_
+16	โดย	_	ADP	IN	_	17	case	_	SpaceAfter=No
+17	รัฐ	_	NOUN	NN	_	7	obl	_	Proper=True|SpaceAfter=No
+18	เวือร์ทเทมแบร์ก	_	PROPN	NNP	_	17	flat:name	_	_
+19	พร้อม	_	CCONJ	CC	_	20	cc	_	SpaceAfter=No
+20	ข้อ	_	NOUN	NN	_	7	conj	_	SpaceAfter=No
+21	ตกลง	_	VERB	VV	_	20	acl	_	SpaceAfter=No
+22	ที่	_	ADP	IN	_	24	advmod	_	SpaceAfter=No
+23	จะ	_	VERB	MD	_	24	aux	_	SpaceAfter=No
+24	สร้าง	_	VERB	VV	_	20	acl:relcl	_	SpaceAfter=No
+25	โรง	_	NOUN	NN	_	24	obj	_	SpaceAfter=No
+26	งาน	_	NOUN	NN	_	25	compound	_	SpaceAfter=No
+27	ผ้า	_	NOUN	NN	_	25	compound	_	SpaceAfter=No
+28	ฝ้าย	_	NOUN	NN	_	25	compound	_	SpaceAfter=No
+29	ขึ้น	_	PART	RP	_	24	compound:prt	_	SpaceAfter=No
+30	ที่	_	ADP	IN	_	31	case	_	SpaceAfter=No
+31	นั่น	_	PRON	PRD	_	24	obl	_	_
+
+# sent_id = w02003070
+# text = พลเมืองอิสลามที่ตั้งรกรากมาตั้งแต่ต้นยุค 1960 อพยพมาจากตุรกีเป็นส่วนใหญ่
+# text_en = The Islamic citizens who have settled since the beginning of the 1960s emigrated primarily from Turkey.
+1	พลเมือง	_	NOUN	NN	_	12	nsubj	_	SpaceAfter=No
+2	อิสลาม	_	PROPN	NNP	_	1	compound	_	SpaceAfter=No
+3	ที่	_	DET	WDT	_	4	nsubj	_	SpaceAfter=No
+4	ตั้ง	_	VERB	VV	_	1	acl:relcl	_	SpaceAfter=No
+5	รกราก	_	NOUN	NN	_	4	obj	_	SpaceAfter=No
+6	มา	_	PART	RP	_	4	compound:prt	_	SpaceAfter=No
+7	ตั้ง	_	VERB	VV	_	9	case	_	SpaceAfter=No
+8	แต่	_	ADP	IN	_	7	fixed	_	SpaceAfter=No
+9	ต้น	_	NOUN	NN	_	4	obl	_	SpaceAfter=No
+10	ยุค	_	NOUN	NN	_	9	compound	_	_
+11	1960	_	NUM	CD	_	10	appos	_	_
+12	อพยพ	_	VERB	VV	_	0	root	_	SpaceAfter=No
+13	มา	_	PART	RP	_	12	compound:prt	_	SpaceAfter=No
+14	จาก	_	ADP	IN	_	15	case	_	SpaceAfter=No
+15	ตุรกี	_	PROPN	NNP	_	12	obl	_	SpaceAfter=No
+16	เป็น	_	AUX	VC	_	17	cop	_	SpaceAfter=No
+17	ส่วน	_	NOUN	NN	_	12	acl	_	SpaceAfter=No
+18	ใหญ่	_	ADJ	JJ	_	17	amod	_	_
+
+# sent_id = w02004008
+# text = ในจำนวนนั้นเป็นอารามเก่าจากโบสถ์เซนต์ปีเตอร์และเซนต์ปอล
+# text_en = Among them is the former cloister from the abbey church of St. Peter and Paul.
+1	ใน	_	ADP	IN	_	2	case	_	SpaceAfter=No
+2	จำนวน	_	NOUN	NN	_	5	nmod	_	SpaceAfter=No|ToDo=nmod
+3	นั้น	_	DET	DT	_	2	det	_	SpaceAfter=No
+4	เป็น	_	AUX	VC	_	5	cop	_	SpaceAfter=No
+5	อาราม	_	NOUN	NN	_	0	root	_	SpaceAfter=No
+6	เก่า	_	ADJ	JJ	_	5	amod	_	SpaceAfter=No
+7	จาก	_	ADP	IN	_	8	case	_	SpaceAfter=No
+8	โบสถ์	_	NOUN	NN	_	5	nmod	_	Proper=True|SpaceAfter=No|ToDo=nmod
+9	เซนต์	_	NOUN	NN	_	8	flat:name	_	Proper=True|SpaceAfter=No
+10	ปีเตอร์	_	PROPN	NNP	_	9	appos	_	SpaceAfter=No
+11	และ	_	CCONJ	CC	_	12	cc	_	SpaceAfter=No
+12	เซนต์	_	NOUN	NN	_	9	conj	_	Proper=True|SpaceAfter=No
+13	ปอล	_	PROPN	NNP	_	12	appos	_	_
+
+# sent_id = w02004021
+# text = ศาลากลางเชิงประวัติศาสตร์ในโอเบอร์มาร์สเบิร์กสร้างขึ้นตั้งแต่ศตวรรษที่ 13 และได้รับการตกแต่งใหม่หลังสงครามสามสิบปี
+# text_en = The historical city hall in Obermarsberg originates from the 13th century and was refurbished after the Thirty Years' War.
+1	ศาลา	_	NOUN	NN	_	7	nsubj	_	SpaceAfter=No
+2	กลาง	_	NOUN	NN	_	1	compound	_	SpaceAfter=No
+3	เชิง	_	NOUN	NN	_	1	compound	_	SpaceAfter=No
+4	ประวัติศาสตร์	_	NOUN	NN	_	1	compound	_	SpaceAfter=No
+5	ใน	_	ADP	IN	_	6	case	_	SpaceAfter=No
+6	โอเบอร์มาร์สเบิร์ก	_	PROPN	NNP	_	1	nmod	_	SpaceAfter=No
+7	สร้าง	_	VERB	VV	_	0	root	_	SpaceAfter=No
+8	ขึ้น	_	PART	RP	_	7	compound:prt	_	SpaceAfter=No
+9	ตั้ง	_	VERB	VV	_	11	case	_	SpaceAfter=No
+10	แต่	_	ADP	IN	_	9	fixed	_	SpaceAfter=No
+11	ศตวรรษ	_	NOUN	NN	_	7	obl	_	SpaceAfter=No
+12	ที่	_	NOUN	NN	_	11	compound	_	_
+13	13	_	NUM	CD	_	12	nummod	_	_
+14	และ	_	CCONJ	CC	_	16	cc	_	SpaceAfter=No
+15	ได้	_	PART	AS	Aspect=Perf	16	aux	_	SpaceAfter=No
+16	รับ	_	VERB	VV	_	7	conj	_	SpaceAfter=No
+17	การตกแต่ง	_	VERB	VV	_	16	obj	_	SpaceAfter=No
+18	ใหม่	_	ADJ	JJ	_	17	amod	_	SpaceAfter=No
+19	หลัง	_	ADP	IN	_	20	case	_	SpaceAfter=No
+20	สงคราม	_	NOUN	NN	_	16	obl	_	Proper=True|SpaceAfter=No
+21	สาม	_	NUM	CD	_	22	nummod	_	Proper=True|SpaceAfter=No
+22	สิบ	_	NUM	CD	_	23	nummod	_	Proper=True|SpaceAfter=No
+23	ปี	_	PROPN	NNB	_	20	obl:tmod	_	Proper=True
+
+# sent_id = w02004065
+# text = มีทฤษฎีที่แตกต่างกันเกี่ยวกับเหตุผลในการละทิ้งถิ่นฐาน
+# text_en = There are different theories about the reasons for leaving the place.
+1	มี	_	VERB	VV	_	0	root	_	SpaceAfter=No
+2	ทฤษฎี	_	NOUN	NN	_	1	obj	_	SpaceAfter=No
+3	ที่	_	DET	WDT	_	4	nsubj	_	SpaceAfter=No
+4	แตกต่าง	_	VERB	VV	_	2	acl:relcl	_	SpaceAfter=No
+5	กัน	_	PRON	PRP	_	4	advmod	_	SpaceAfter=No
+6	เกี่ยว	_	VERB	VV	_	8	case	_	SpaceAfter=No
+7	กับ	_	ADP	IN	_	6	fixed	_	SpaceAfter=No
+8	เหตุผล	_	NOUN	NN	_	2	nmod	_	SpaceAfter=No
+9	ใน	_	NOUN	NN	_	8	compound	_	SpaceAfter=No
+10	การละทิ้ง	_	VERB	VV	_	9	acl	_	SpaceAfter=No
+11	ถิ่นฐาน	_	NOUN	NN	_	10	obj	_	_
+
+# sent_id = w02005026
+# text = สวนสาธารณะโกลเด้นเกตซึ่งมีความยาวมากกว่าสี่กิโลเมตร มีทั้งสวนพฤกษศาสตร์ ท้องฟ้าจำลอง สวนญี่ปุ่น และพิพิธภัณฑ์สัตว์น้ำ
+# text_en = Golden Gate Park, which is over four kilometers in length, offers a botanical garden, planetarium, Japanese garden and an aquarium.
+1	สวน	_	NOUN	NN	_	12	nsubj	_	SpaceAfter=No
+2	สาธารณะ	_	ADJ	JJ	_	1	amod	_	SpaceAfter=No
+3	โกลเด้น	_	ADJ	JJ	_	4	amod	_	Proper=True|SpaceAfter=No
+4	เกต	_	NOUN	NN	_	1	compound	_	Proper=True|SpaceAfter=No
+5	ซึ่ง	_	DET	WDT	_	6	nsubj	_	SpaceAfter=No
+6	มี	_	VERB	VV	_	1	acl:relcl	_	SpaceAfter=No
+7	ความยาว	_	ADJ	JJ	_	6	obj	_	SpaceAfter=No
+8	มาก	_	ADV	RB	_	6	advmod	_	SpaceAfter=No
+9	กว่า	_	ADP	IN	_	11	case	_	SpaceAfter=No
+10	สี่	_	NUM	CD	_	11	nummod	_	SpaceAfter=No
+11	กิโลเมตร	_	NOUN	NNB	_	8	obl	_	_
+12	มี	_	VERB	VV	_	0	root	_	SpaceAfter=No
+13	ทั้ง	_	DET	DT	_	14	cc:preconj	_	SpaceAfter=No
+14	สวน	_	NOUN	NN	_	12	obj	_	SpaceAfter=No
+15	พฤกษศาสตร์	_	NOUN	NN	_	14	compound	_	_
+16	ท้องฟ้า	_	NOUN	NN	_	14	conj	_	SpaceAfter=No
+17	จำลอง	_	ADJ	JJ	_	16	amod	_	_
+18	สวน	_	NOUN	NN	_	14	conj	_	SpaceAfter=No
+19	ญี่ปุ่น	_	PROPN	NNP	_	18	compound	_	_
+20	และ	_	CCONJ	CC	_	21	cc	_	SpaceAfter=No
+21	พิพิธภัณฑ์	_	NOUN	NN	_	14	conj	_	SpaceAfter=No
+22	สัตว์	_	NOUN	NN	_	21	compound	_	SpaceAfter=No
+23	น้ำ	_	NOUN	NN	_	21	compound	_	_
+
+# sent_id = w02005027
+# text = ให้บริการเป็นสถานที่ท้องถิ่นสำหรับการพักผ่อนหย่อนใจสำหรับชาวซานฟรานซิสโก
+# text_en = It serves as a local place of rest and relaxation for San Franciscans.
+1	ให้	_	VERB	VV	_	0	root	_	SpaceAfter=No
+2	บริการ	_	NOUN	NN	_	1	obj	_	SpaceAfter=No
+3	เป็น	_	AUX	VC	_	4	cop	_	SpaceAfter=No
+4	สถานที่	_	NOUN	NN	_	1	acl	_	SpaceAfter=No
+5	ท้องถิ่น	_	NOUN	NN	_	4	compound	_	SpaceAfter=No
+6	สำหรับ	_	ADP	IN	_	7	case	_	SpaceAfter=No
+7	การพักผ่อน	_	VERB	VV	_	4	nmod	_	SpaceAfter=No|ToDo=nmod
+8	หย่อนใจ	_	VERB	VV	_	7	acl	_	SpaceAfter=No
+9	สำหรับ	_	ADP	IN	_	10	case	_	SpaceAfter=No
+10	ชาว	_	NOUN	NN	_	4	nmod	_	SpaceAfter=No|ToDo=nmod
+11	ซานฟรานซิสโก	_	PROPN	NNP	_	10	compound	_	_
+
+# sent_id = w02005028
+# text = สวนเยร์บาบวยนาสร้างขึ้นในช่วงต้นยุค 1900 ทางเหนือของศูนย์ประชุมมอสโคนีเหนือ
+# text_en = The Yerba Buena Garden was built at the beginning of the 1990s on the roof of the Moscone North Convention Center.
+1	สวน	_	NOUN	NN	_	3	obj	_	SpaceAfter=No
+2	เยร์บาบวยนา	_	PROPN	NNP	_	1	compound	_	SpaceAfter=No
+3	สร้าง	_	VERB	VV	_	0	root	_	SpaceAfter=No
+4	ขึ้น	_	PART	RP	_	3	compound:prt	_	SpaceAfter=No
+5	ใน	_	ADP	IN	_	6	case	_	SpaceAfter=No
+6	ช่วง	_	NOUN	NN	_	3	obl	_	SpaceAfter=No
+7	ต้น	_	NOUN	NN	_	6	compound	_	SpaceAfter=No
+8	ยุค	_	NOUN	NN	_	6	compound	_	_
+9	1900	_	NUM	CD	_	8	appos	_	_
+10	ทาง	_	ADP	IN	_	11	case	_	SpaceAfter=No
+11	เหนือ	_	NOUN	NN	_	6	nmod	_	SpaceAfter=No
+12	ของ	_	ADP	IN	_	13	case	_	SpaceAfter=No
+13	ศูนย์	_	NOUN	NN	_	11	nmod:poss	_	SpaceAfter=No|ToDo=ex-adp-child
+14	ประชุม	_	VERB	VV	_	13	acl	_	Proper=True|SpaceAfter=No
+15	มอสโคนี	_	PROPN	NNP	_	14	compound	_	SpaceAfter=No
+16	เหนือ	_	NOUN	NN	_	15	compound	_	_
+
+# sent_id = w02005029
+# text = มีอนุสาวรีย์มาร์ติน ลูเธอร์ คิง จูเนียร์อยู่
+# text_en = It contains a monument to Martin Luther King, Jr.
+1	มี	_	VERB	VV	_	0	root	_	SpaceAfter=No
+2	อนุสาวรีย์	_	NOUN	NN	_	1	obj	_	SpaceAfter=No
+3	มาร์ติน	_	PROPN	NNP	_	2	compound	_	_
+4	ลูเธอร์	_	PROPN	NNP	_	3	flat:name	_	_
+5	คิง	_	PROPN	NNP	_	3	flat:name	_	_
+6	จูเนียร์	_	PROPN	NNP	_	3	flat:name	_	SpaceAfter=No
+7	อยู่	_	PART	AS	Aspect=Prog	1	aux	_	_
+
+# sent_id = w02006036
+# text = ตั้งแต่ยุค 1960 เศรษฐกิจของเมืองก็อยู่ในสภาวะตกลงฮวบฮาบ
+# text_en = Since the 1960s, the city's economy has been in steep decline.
+1	ตั้ง	_	VERB	VV	_	3	case	_	SpaceAfter=No
+2	แต่	_	ADP	IN	_	1	fixed	_	SpaceAfter=No
+3	ยุค	_	NOUN	NN	_	9	obl	_	_
+4	1960	_	NUM	CD	_	3	obl:tmod	_	_
+5	เศรษฐกิจ	_	NOUN	NN	_	9	nsubj	_	SpaceAfter=No
+6	ของ	_	ADP	IN	_	7	case	_	SpaceAfter=No
+7	เมือง	_	NOUN	NN	_	5	nmod:poss	_	SpaceAfter=No
+8	ก็	_	ADV	RB	_	9	advmod	_	SpaceAfter=No
+9	อยู่	_	VERB	VV	_	0	root	_	SpaceAfter=No
+10	ใน	_	ADP	IN	_	11	case	_	SpaceAfter=No
+11	สภาวะ	_	NOUN	NN	_	9	obl	_	SpaceAfter=No
+12	ตก	_	VERB	VV	_	11	acl	_	SpaceAfter=No
+13	ลง	_	PART	RP	_	12	compound:prt	_	SpaceAfter=No
+14	ฮวบฮาบ	_	ADV	RB	_	12	advmod	_	_
+
+# sent_id = w02006081
+# text = ช่วงเลือกตั้งทั่วไปปี 2010 พรรคแรงงานสามารถเอาชนะได้ทั้ง 7 เขตเลือกตั้ง
+# text_en = During the 2010 general election, the Labor Party was able to win all seven voting districts.
+1	ช่วง	_	NOUN	NN	_	9	advmod	_	SpaceAfter=No
+2	เลือกตั้ง	_	VERB	VV	_	1	acl	_	SpaceAfter=No
+3	ทั่วไป	_	ADV	RB	_	2	advmod	_	SpaceAfter=No
+4	ปี	_	NOUN	NN	_	2	obl:tmod	_	_
+5	2010	_	NUM	CD	_	4	appos	_	_
+6	พรรค	_	NOUN	NN	_	9	nsubj	_	Proper=True|SpaceAfter=No
+7	แรงงาน	_	NOUN	NN	_	6	flat:name	_	Proper=True|SpaceAfter=No
+8	สามารถ	_	VERB	MD	_	9	aux	_	SpaceAfter=No
+9	เอาชนะ	_	VERB	VV	_	0	root	_	SpaceAfter=No
+10	ได้	_	VERB	MD	_	9	aux	_	SpaceAfter=No
+11	ทั้ง	_	DET	DT	_	13	det	_	_
+12	7	_	NUM	CD	_	13	nummod	_	_
+13	เขต	_	NOUN	NNB	_	9	advmod	_	SpaceAfter=No
+14	เลือกตั้ง	_	VERB	VV	_	13	acl	_	_
+
+# sent_id = w02007008
+# text = ทั้งเวลาและลำดับเหตุการณ์ของสถานการณ์นี้มีการถกเถียงกันอย่างเอาจริงเอาจัง
+# text_en = Both the time and the sequence of events of this incident were vigorously discussed.
+1	ทั้ง	_	DET	DT	_	2	cc:preconj	_	SpaceAfter=No
+2	เวลา	_	NOUN	NN	_	9	nsubj	_	SpaceAfter=No
+3	และ	_	CCONJ	CC	_	4	cc	_	SpaceAfter=No
+4	ลำดับ	_	NOUN	NN	_	2	conj	_	SpaceAfter=No
+5	เหตุการณ์	_	NOUN	NN	_	4	compound	_	SpaceAfter=No
+6	ของ	_	ADP	IN	_	7	case	_	SpaceAfter=No
+7	สถานการณ์	_	NOUN	NN	_	2	nmod:poss	_	SpaceAfter=No
+8	นี้	_	DET	DT	_	7	det	_	SpaceAfter=No
+9	มี	_	VERB	VV	_	0	root	_	SpaceAfter=No
+10	การถกเถียง	_	VERB	VV	_	9	obj	_	SpaceAfter=No
+11	กัน	_	PRON	PRP	_	10	advmod	_	SpaceAfter=No
+12	อย่างเอาจริงเอาจัง	_	ADJ	JJ	_	10	advmod	_	_
+
+# sent_id = w02007032
+# text = ในเดือนเมษายน 2012 เอร์โดอาน ประธานาธิบดีของตุรกีได้ประกาศแผนรัฐบาลของเขาที่จะปรับปรุงบอสฟอรัสโดยสร้างคลองอิสตันบูลขนานไปกับมัน
+# text_en = In April 2012, the Turkish Minister President Erdogan announced his government's plans to free Bosphorus by building the Istanbul Canal parallel to it.
+1	ใน	_	ADP	IN	_	2	case	_	SpaceAfter=No
+2	เดือน	_	NOUN	NN	_	10	obl	_	SpaceAfter=No
+3	เมษายน	_	NOUN	NN	_	2	appos	_	_
+4	2012	_	NUM	CD	_	2	obl:tmod	_	_
+5	เอร์โดอาน	_	PROPN	NNP	_	10	nsubj	_	_
+6	ประธานาธิบดี	_	NOUN	NN	_	5	appos	_	SpaceAfter=No
+7	ของ	_	ADP	IN	_	8	case	_	SpaceAfter=No
+8	ตุรกี	_	PROPN	NNP	_	6	nmod:poss	_	SpaceAfter=No
+9	ได้	_	PART	AS	Aspect=Perf	10	aux	_	SpaceAfter=No
+10	ประกาศ	_	VERB	VV	_	0	root	_	SpaceAfter=No
+11	แผน	_	NOUN	NN	_	10	obj	_	SpaceAfter=No
+12	รัฐบาล	_	NOUN	NN	_	11	compound	_	SpaceAfter=No
+13	ของ	_	ADP	IN	_	14	case	_	SpaceAfter=No
+14	เขา	_	PRON	PRP	Person=3	11	nmod:poss	_	SpaceAfter=No
+15	ที่	_	DET	WDT	_	17	nsubj	_	SpaceAfter=No
+16	จะ	_	VERB	MD	_	17	aux	_	SpaceAfter=No
+17	ปรับปรุง	_	VERB	VV	_	11	acl:relcl	_	SpaceAfter=No
+18	บอสฟอรัส	_	PROPN	NNP	_	17	obj	_	SpaceAfter=No
+19	โดย	_	ADP	IN	_	20	mark	_	SpaceAfter=No
+20	สร้าง	_	VERB	VV	_	17	advcl	_	SpaceAfter=No
+21	คลอง	_	NOUN	NN	_	20	obj	_	Proper=True|SpaceAfter=No
+22	อิสตันบูล	_	PROPN	NNP	_	21	flat:name	_	SpaceAfter=No
+23	ขนาน	_	VERB	VV	_	20	acl	_	SpaceAfter=No
+24	ไป	_	PART	RP	_	23	compound:prt	_	SpaceAfter=No
+25	กับ	_	ADP	IN	_	26	case	_	SpaceAfter=No
+26	มัน	_	PRON	PRP	Person=3	23	obl	_	_
+
+# sent_id = w02007061
+# text = ชาวออตโตมันต้องการยับยั้งไม่ให้ธัญพืชถูกส่งต่อออกไปอีกเพราะพวกเขามีความต้องการสูงมาก
+# text_en = The Ottomans wanted to prevent grain from being further transported because they had a great need for it.
+1	ชาว	_	NOUN	NN	_	3	nsubj	_	SpaceAfter=No
+2	ออตโตมัน	_	PROPN	NNP	_	1	compound	_	SpaceAfter=No
+3	ต้องการ	_	VERB	VV	_	0	root	_	SpaceAfter=No
+4	ยับยั้ง	_	VERB	VV	_	3	xcomp	_	SpaceAfter=No
+5	ไม่	_	PART	NEG	Polarity=Neg	6	advmod	_	SpaceAfter=No
+6	ให้	_	VERB	VV	_	4	xcomp	_	SpaceAfter=No
+7	ธัญพืช	_	NOUN	NN	_	6	obj	_	SpaceAfter=No
+8	ถูก	_	VERB	MD	Voice=Pass	9	aux:pass	_	SpaceAfter=No
+9	ส่ง	_	VERB	VV	_	6	xcomp	_	SpaceAfter=No
+10	ต่อ	_	ADV	RB	_	9	advmod	_	SpaceAfter=No
+11	ออก	_	PART	RP	_	9	compound:prt	_	SpaceAfter=No
+12	ไป	_	PART	RP	_	9	compound:prt	_	SpaceAfter=No
+13	อีก	_	ADV	RB	_	9	advmod	_	SpaceAfter=No
+14	เพราะ	_	ADP	IN	_	17	mark	_	SpaceAfter=No
+15	พวก	_	NOUN	NN	_	17	nsubj	_	SpaceAfter=No
+16	เขา	_	PRON	PRP	Person=3	15	compound	_	SpaceAfter=No
+17	มี	_	VERB	VV	_	3	advcl	_	SpaceAfter=No
+18	ความต้องการ	_	VERB	VV	_	17	obj	_	SpaceAfter=No
+19	สูง	_	ADJ	JJ	_	17	advmod	_	SpaceAfter=No
+20	มาก	_	ADV	RB	_	19	advmod	_	_
+
+# sent_id = w02007074
+# text = จักรวรรดิออตโตมันและรัสเซียไม่ได้รับอนุญาตให้แล่นเรือรบเดินสมุทรของพวกเขาในทะเลดำ
+# text_en = The Ottoman Empire and Russia were denied permission to keep their war fleet in the Black Sea.
+1	จักรวรรดิ	_	NOUN	NN	_	7	nsubj:pass	_	Proper=True|SpaceAfter=No
+2	ออตโตมัน	_	PROPN	NNP	_	1	flat:name	_	SpaceAfter=No
+3	และ	_	CCONJ	CC	_	4	cc	_	SpaceAfter=No
+4	รัสเซีย	_	PROPN	NNP	_	1	conj	_	SpaceAfter=No
+5	ไม่	_	PART	NEG	Polarity=Neg	6	advmod	_	SpaceAfter=No
+6	ได้รับ	_	VERB	MD	Voice=Pass	7	aux	_	SpaceAfter=No
+7	อนุญาต	_	VERB	VV	_	0	root	_	SpaceAfter=No
+8	ให้	_	VERB	VV	_	7	xcomp	_	SpaceAfter=No
+9	แล่น	_	VERB	VV	_	8	xcomp	_	SpaceAfter=No
+10	เรือ	_	NOUN	NN	_	9	obj	_	SpaceAfter=No
+11	รบ	_	VERB	VV	_	10	acl	_	SpaceAfter=No
+12	เดิน	_	VERB	VV	_	10	acl	_	SpaceAfter=No
+13	สมุทร	_	NOUN	NN	_	12	obj	_	SpaceAfter=No
+14	ของ	_	ADP	IN	_	15	case	_	SpaceAfter=No
+15	พวก	_	NOUN	NN	_	10	nmod:poss	_	SpaceAfter=No
+16	เขา	_	PRON	PRP	Person=3	15	compound	_	SpaceAfter=No
+17	ใน	_	ADP	IN	_	18	case	_	SpaceAfter=No
+18	ทะเล	_	NOUN	NN	_	9	obl	_	SpaceAfter=No
+19	ดำ	_	PROPN	NNP	_	18	compound	_	_
+
+# sent_id = w02008010
+# text = ในมุมมองพวกเขานั้น มันป็นวัฒนธรรมที่แผ่ไปไกลมากที่สุดในเวลานั้น ซึ่งรู้จักกันในพื้นที่หลายแห่ง
+# text_en = In its scope it belongs to the most far-reaching cultures of the time, in which many sites are known.
+1	ใน	_	ADP	IN	_	2	case	_	SpaceAfter=No
+2	มุมมอง	_	NOUN	NN	_	8	nmod	_	SpaceAfter=No|ToDo=nmod
+3	พวก	_	NOUN	NN	_	2	compound	_	SpaceAfter=No
+4	เขา	_	PRON	PRP	Person=3	3	compound	_	SpaceAfter=No
+5	นั้น	_	DET	DT	_	2	det	_	_
+6	มัน	_	PRON	PRP	Person=3	8	nsubj	_	SpaceAfter=No
+7	ป็น	_	AUX	VC	_	8	cop	_	SpaceAfter=No
+8	วัฒนธรรม	_	NOUN	NN	_	0	root	_	SpaceAfter=No
+9	ที่	_	DET	WDT	_	10	nsubj	_	SpaceAfter=No
+10	แผ่	_	VERB	VV	_	8	acl:relcl	_	SpaceAfter=No
+11	ไป	_	PART	RP	_	10	compound:prt	_	SpaceAfter=No
+12	ไกล	_	ADV	RB	_	10	advmod	_	SpaceAfter=No
+13	มาก	_	ADV	RB	_	12	advmod	_	SpaceAfter=No
+14	ที่สุด	_	ADV	RB	_	13	advmod	_	SpaceAfter=No
+15	ใน	_	ADP	IN	_	16	case	_	SpaceAfter=No
+16	เวลา	_	NOUN	NN	_	10	obl	_	SpaceAfter=No
+17	นั้น	_	DET	DT	_	16	det	_	_
+18	ซึ่ง	_	DET	WDT	_	19	nsubj	_	SpaceAfter=No
+19	รู้จัก	_	VERB	VV	_	8	acl:relcl	_	SpaceAfter=No
+20	กัน	_	PRON	PRP	_	19	obj	_	SpaceAfter=No
+21	ใน	_	ADP	IN	_	22	case	_	SpaceAfter=No
+22	พื้นที่	_	NOUN	NN	_	19	obl	_	SpaceAfter=No
+23	หลาย	_	DET	DT	_	24	det	_	SpaceAfter=No
+24	แห่ง	_	NOUN	NNB	_	22	clf	_	_
+
+# sent_id = w02008028
+# text = เช่นเดียวกับพื้นที่ส่วนใหญ่ในยุโรปตอนใต้ การค้นหาย้อนไปในช่วงต้นศตวรรษที่ 5 ก่อนคริสตกาล
+# text_en = Like the majority of sites in southern Europe, the finding dates back to the early 5th century BC.
+1	เช่น	_	NOUN	NN	_	12	advmod	_	SpaceAfter=No
+2	เดียว	_	ADJ	JJ	_	1	amod	_	SpaceAfter=No
+3	กับ	_	ADP	IN	_	4	case	_	SpaceAfter=No
+4	พื้นที่	_	NOUN	NN	_	1	nmod	_	SpaceAfter=No
+5	ส่วน	_	NOUN	NN	_	4	compound	_	SpaceAfter=No
+6	ใหญ่	_	ADJ	JJ	_	5	amod	_	SpaceAfter=No
+7	ใน	_	ADP	IN	_	8	case	_	SpaceAfter=No
+8	ยุโรป	_	PROPN	NNP	_	4	nmod	_	SpaceAfter=No
+9	ตอน	_	NOUN	NN	_	8	compound	_	SpaceAfter=No
+10	ใต้	_	NOUN	NN	_	9	compound	_	_
+11	การค้นหา	_	VERB	VV	_	12	nsubj	_	SpaceAfter=No
+12	ย้อน	_	VERB	VV	_	0	root	_	SpaceAfter=No
+13	ไป	_	PART	RP	_	12	compound:prt	_	SpaceAfter=No
+14	ใน	_	ADP	IN	_	15	case	_	SpaceAfter=No
+15	ช่วง	_	NOUN	NN	_	12	obl	_	SpaceAfter=No
+16	ต้น	_	NOUN	NN	_	15	compound	_	SpaceAfter=No
+17	ศตวรรษ	_	NOUN	NN	_	15	compound	_	SpaceAfter=No
+18	ที่	_	NOUN	NN	_	15	compound	_	_
+19	5	_	NUM	CD	_	18	nummod	_	_
+20	ก่อน	_	ADP	IN	_	21	case	_	SpaceAfter=No
+21	คริสตกาล	_	NOUN	NN	_	15	nmod	_	_
+
+# sent_id = w02008038
+# text = เป็นไปได้ว่ามนุษย์ที่เป็นที่รู้จักที่สุดจากยุคทองแดงคือเอิตซี มัมมี่แช่แข็งที่มีชีวิตอยู่ในช่วง 3300 ปีก่อนคริสตกาล
+# text_en = Likely the most well-known person from the Copper Age is Ötzi, the frozen mummy who lived during 3300 BC.
+1	เป็นไป	_	VERB	VV	_	0	root	_	SpaceAfter=No
+2	ได้	_	VERB	MD	_	1	aux	_	SpaceAfter=No
+3	ว่า	_	ADP	IN	_	14	mark	_	SpaceAfter=No
+4	มนุษย์	_	NOUN	NN	_	14	nsubj	_	SpaceAfter=No
+5	ที่	_	DET	WDT	_	7	nsubj	_	SpaceAfter=No
+6	เป็น	_	AUX	VC	_	7	cop	_	SpaceAfter=No
+7	ที่	_	PRON	PRP	_	4	acl:relcl	_	SpaceAfter=No
+8	รู้จัก	_	VERB	VV	_	7	acl	_	SpaceAfter=No
+9	ที่สุด	_	ADV	RB	_	7	advmod	_	SpaceAfter=No
+10	จาก	_	ADP	IN	_	11	case	_	SpaceAfter=No
+11	ยุค	_	NOUN	NN	_	4	nmod	_	Proper=True|SpaceAfter=No
+12	ทองแดง	_	NOUN	NN	_	11	flat:name	_	Proper=True|SpaceAfter=No
+13	คือ	_	AUX	VC	_	14	cop	_	SpaceAfter=No
+14	เอิตซี	_	PROPN	NNP	_	1	ccomp	_	_
+15	มัมมี่	_	NOUN	NN	_	14	appos	_	SpaceAfter=No
+16	แช่	_	VERB	VV	_	15	acl	_	SpaceAfter=No
+17	แข็ง	_	ADV	RB	_	16	advmod	_	SpaceAfter=No
+18	ที่	_	DET	WDT	_	19	nsubj	_	SpaceAfter=No
+19	มี	_	VERB	VV	_	15	acl:relcl	_	SpaceAfter=No
+20	ชีวิต	_	NOUN	NN	_	19	obj	_	SpaceAfter=No
+21	อยู่	_	VERB	VV	_	19	xcomp	_	SpaceAfter=No
+22	ใน	_	ADP	IN	_	23	case	_	SpaceAfter=No
+23	ช่วง	_	NOUN	NN	_	21	obl	_	_
+24	3300	_	NUM	CD	_	25	nummod	_	_
+25	ปี	_	NOUN	NNB	_	23	compound	_	SpaceAfter=No
+26	ก่อน	_	ADP	IN	_	27	case	_	SpaceAfter=No
+27	คริสตกาล	_	NOUN	NN	_	23	nmod	_	_
+
+# sent_id = w02008055
+# text = ส่วนใหญ่พวกเขาอยู่บนเนินเขา
+# text_en = They were primarily on hills.
+1	ส่วน	_	NOUN	NN	_	5	advmod	_	SpaceAfter=No
+2	ใหญ่	_	ADJ	JJ	_	1	amod	_	SpaceAfter=No
+3	พวก	_	NOUN	NN	_	5	nsubj	_	SpaceAfter=No
+4	เขา	_	PRON	PRP	Person=3	3	compound	_	SpaceAfter=No
+5	อยู่	_	VERB	VV	_	0	root	_	SpaceAfter=No
+6	บน	_	ADP	IN	_	7	case	_	SpaceAfter=No
+7	เนิน	_	NOUN	NN	_	5	obl	_	SpaceAfter=No
+8	เขา	_	PRON	PRP	Person=3	7	compound	_	_
+
+# sent_id = w02008065
+# text = นอกจากนี้ กระบวนการในการชุบทองแดงก็เป็นที่น่าสังเกตในทางเทคโนโลยี
+# text_en = In addition, its process of gilding copper is technologically noteworthy.
+1	นอก	_	CCONJ	CC	_	10	cc	_	SpaceAfter=No
+2	จาก	_	ADP	IN	_	1	fixed	_	SpaceAfter=No
+3	นี้	_	PRON	PRD	_	1	fixed	_	_
+4	กระบวนการ	_	NOUN	NN	_	10	nsubj	_	SpaceAfter=No
+5	ใน	_	ADP	IN	_	6	case	_	SpaceAfter=No
+6	การชุบ	_	VERB	VV	_	4	xcomp	_	SpaceAfter=No
+7	ทองแดง	_	NOUN	NN	_	6	obj	_	SpaceAfter=No
+8	ก็	_	ADV	RB	_	10	advmod	_	SpaceAfter=No
+9	เป็น	_	AUX	VC	_	10	cop	_	SpaceAfter=No
+10	ที่	_	PRON	PRP	_	0	root	_	SpaceAfter=No
+11	น่าสังเกต	_	VERB	VV	_	10	amod	_	SpaceAfter=No
+12	ใน	_	ADP	IN	_	10	case	_	SpaceAfter=No
+13	ทาง	_	ADP	IN	_	14	case	_	SpaceAfter=No
+14	เทคโนโลยี	_	NOUN	NN	_	12	nmod	_	ToDo=nmod
+
