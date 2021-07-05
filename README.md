@@ -3,6 +3,7 @@ A PyTorch reimplementation from [daandouwe](https://github.com/daandouwe/biaffin
 1. [Deep Biaffine Attention for Neural Dependency Parsing](https://arxiv.org/abs/1611.01734)
 2. [Parsing Thai Social Data: A New Challenge for Thai NLP](https://ieeexplore.ieee.org/abstract/document/9045639)
 3. [KITTHAI: Thai Elementary Discourse Unit Segmentation](https://aiforthai.in.th/)
+4. [Thai Dependency Parsing with Character Embedding](https://ieeexplore.ieee.org/document/8930002)
 
 ## Data
 You can train on the Penn Treebank, converted to [Stanford Dependencies](https://nlp.stanford.edu/software/stanford-dependencies.shtml). We assume you have the PTB in standard train/dev/test splits in conll-format, stored somewhere in one directory, and that they are named `train.conll`, `dev.conll`, `test.conll`.
@@ -153,4 +154,14 @@ numpy
   number={},
   pages={1-7},
   doi={10.1109/iSAI-NLP48611.2019.9045639}}
+  
+@INPROCEEDINGS{8930002,
+  author={Singkul, Sattaya and Woraratpanya, Kuntpong},
+  booktitle={2019 11th International Conference on Information Technology and Electrical Engineering (ICITEE)}, 
+  title={Thai Dependency Parsing with Character Embedding}, 
+  year={2019},
+  volume={},
+  number={},
+  pages={1-5},
+  doi={10.1109/ICITEED.2019.8930002}}
 ```
