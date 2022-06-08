@@ -136,15 +136,6 @@ numpy
 
 ## Citation
 ```
-@misc{dozat2017deep,
-      title={Deep Biaffine Attention for Neural Dependency Parsing}, 
-      author={Timothy Dozat and Christopher D. Manning},
-      year={2017},
-      eprint={1611.01734},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
-}
-
 @INPROCEEDINGS{9045639,
   author={Singkul, Sattaya and Khampingyot, Borirat and Maharattamalai, Nattasit and Taerungruang, Supawat and Chalothorn, Tawunrat},
   booktitle={2019 14th International Joint Symposium on Artificial Intelligence and Natural Language Processing (iSAI-NLP)}, 
@@ -164,4 +155,13 @@ numpy
   number={},
   pages={1-5},
   doi={10.1109/ICITEED.2019.8930002}}
+
+@misc{dozat2017deep,
+      title={Deep Biaffine Attention for Neural Dependency Parsing}, 
+      author={Timothy Dozat and Christopher D. Manning},
+      year={2017},
+      eprint={1611.01734},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
 ```
